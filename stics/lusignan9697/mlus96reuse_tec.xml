@@ -1,0 +1,617 @@
+<fichiertec>
+<formalisme nom="supply of organic residus">
+    <ta nb_interventions="0" nom="interventions">
+        <ta_entete nb_colonnes="7">
+                <colonne nom="julres" />
+                <colonne nom="coderes" />
+                <colonne nom="qres" />
+                <colonne nom="Crespc" />
+                <colonne nom="CsurNres" />
+                <colonne nom="Nminres" />
+                <colonne nom="eaures" />
+            </ta_entete>
+        </ta>
+    </formalisme>
+    <formalisme nom="soil tillage">
+    <ta nb_interventions="0" nom="interventions">
+        <ta_entete nb_colonnes="3">
+                <colonne nom="jultrav" />
+                <colonne nom="profres" />
+                <colonne nom="proftrav" />
+            </ta_entete>
+        </ta>
+    </formalisme>
+    <formalisme nom="sowing">
+    <param format="integer" max="731" min="1" nom="iplt0">116</param>
+        <param format="real" max="10.0" min="1.0E-4" nom="profsem">5.00000</param>
+        <param format="real" max="2000.0" min="0.05" nom="densitesem">9.50000</param>
+        <param format="integer" max="200" min="0" nom="variete">4</param>
+        <option choix="2" nom="planting structure (if radiative transfer)" nomParam="codetradtec">
+        <choix code="1" nom="yes">
+            <param format="real" max="10.0" min="1.0E-4" nom="interrang">0.00000</param>
+                <param format="real" max="3.14" min="1.0E-4" nom="orientrang">0.00000</param>
+            </choix>
+            <choix code="2" nom="no" />
+        </option>
+        <option choix="2" nom="rules to prescribe the sowing date" nomParam="codedecisemis">
+        <choix code="1" nom="yes">
+            <param format="integer" max="90" min="0" nom="nbjmaxapressemis">30</param>
+                <param format="integer" max="60" min="1" nom="nbjseuiltempref">15</param>
+            </choix>
+            <choix code="2" nom="no" />
+        </option>
+    </formalisme>
+    <formalisme nom="phenological stages">
+    <option choix="2" nom="forcing" nomParam="codestade">
+        <choix code="1" nom="yes">
+            <param format="integer" max="731" min="1" nom="ilev">999</param>
+                <param format="integer" max="731" min="1" nom="iamf">999</param>
+                <param format="integer" max="731" min="1" nom="ilax">999</param>
+                <param format="integer" max="731" min="1" nom="isen">999</param>
+                <param format="integer" max="731" min="1" nom="ilan">999</param>
+                <param format="integer" max="731" min="1" nom="iflo">999</param>
+                <param format="integer" max="731" min="1" nom="idrp">999</param>
+                <param format="integer" max="731" min="1" nom="imat">999</param>
+                <param format="integer" max="731" min="1" nom="irec">999</param>
+            </choix>
+            <choix code="2" nom="no" />
+        </option>
+        <param format="integer" max="731" min="1" nom="irecbutoir">360</param>
+    </formalisme>
+    <formalisme nom="irrigation">
+    <param format="real" max="1.0" min="1.0E-4" nom="effirr">1.00000</param>
+        <option choix="2" nom="automatic calculation of irrigations" nomParam="codecalirrig">
+        <choix code="1" nom="yes">
+            <param format="real" max="1.0" min="1.0E-4" nom="ratiol">0.00000</param>
+                <param format="real" max="500.0" min="10.0" nom="dosimx">40.00000</param>
+                <param format="real" max="500.0" min="1.0E-4" nom="doseirrigmin">20.00000</param>
+            </choix>
+            <choix code="2" nom="no">
+            <option choix="2" nom="date of irrigation" nomParam="codedateappH2O">
+                <choix code="1" nom="in sum of upvt" />
+                    <choix code="2" nom="in julian days" />
+                </option>
+                <ta nb_interventions="66" nom="water inputs">
+                <ta_entete nb_colonnes="2">
+                        <colonne nom="julapI_or_sum_upvt" />
+                        <colonne nom="amount" />
+                    </ta_entete>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapI_or_sum_upvt">177</colonne>
+                      <colonne nom="amount">2.2</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapI_or_sum_upvt">178</colonne>
+                      <colonne nom="amount">3.8</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapI_or_sum_upvt">179</colonne>
+                      <colonne nom="amount">4.2</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapI_or_sum_upvt">180</colonne>
+                      <colonne nom="amount">5.2</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapI_or_sum_upvt">181</colonne>
+                      <colonne nom="amount">4.8</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapI_or_sum_upvt">182</colonne>
+                      <colonne nom="amount">4.6</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapI_or_sum_upvt">183</colonne>
+                      <colonne nom="amount">2.4</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapI_or_sum_upvt">184</colonne>
+                      <colonne nom="amount">2.8</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapI_or_sum_upvt">195</colonne>
+                      <colonne nom="amount">5.2</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapI_or_sum_upvt">196</colonne>
+                      <colonne nom="amount">7.6</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapI_or_sum_upvt">197</colonne>
+                      <colonne nom="amount">8.4</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapI_or_sum_upvt">198</colonne>
+                      <colonne nom="amount">9.2</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapI_or_sum_upvt">199</colonne>
+                      <colonne nom="amount">10.0</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapI_or_sum_upvt">200</colonne>
+                      <colonne nom="amount">10.0</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapI_or_sum_upvt">201</colonne>
+                      <colonne nom="amount">10.0</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapI_or_sum_upvt">202</colonne>
+                      <colonne nom="amount">10.0</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapI_or_sum_upvt">203</colonne>
+                      <colonne nom="amount">10.0</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapI_or_sum_upvt">204</colonne>
+                      <colonne nom="amount">10.0</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapI_or_sum_upvt">205</colonne>
+                      <colonne nom="amount">9.0</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapI_or_sum_upvt">206</colonne>
+                      <colonne nom="amount">6.2</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapI_or_sum_upvt">207</colonne>
+                      <colonne nom="amount">8.2</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapI_or_sum_upvt">208</colonne>
+                      <colonne nom="amount">10.0</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapI_or_sum_upvt">209</colonne>
+                      <colonne nom="amount">10.0</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapI_or_sum_upvt">210</colonne>
+                      <colonne nom="amount">6.2</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapI_or_sum_upvt">211</colonne>
+                      <colonne nom="amount">4.4</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapI_or_sum_upvt">212</colonne>
+                      <colonne nom="amount">5.0</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapI_or_sum_upvt">213</colonne>
+                      <colonne nom="amount">5.0</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapI_or_sum_upvt">214</colonne>
+                      <colonne nom="amount">4.6</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapI_or_sum_upvt">215</colonne>
+                      <colonne nom="amount">6.0</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapI_or_sum_upvt">216</colonne>
+                      <colonne nom="amount">6.0</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapI_or_sum_upvt">217</colonne>
+                      <colonne nom="amount">6.0</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapI_or_sum_upvt">218</colonne>
+                      <colonne nom="amount">1.6</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapI_or_sum_upvt">219</colonne>
+                      <colonne nom="amount">1.4</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapI_or_sum_upvt">221</colonne>
+                      <colonne nom="amount">7.2</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapI_or_sum_upvt">222</colonne>
+                      <colonne nom="amount">3.2</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapI_or_sum_upvt">228</colonne>
+                      <colonne nom="amount">4.6</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapI_or_sum_upvt">229</colonne>
+                      <colonne nom="amount">7.4</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapI_or_sum_upvt">230</colonne>
+                      <colonne nom="amount">7.6</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapI_or_sum_upvt">231</colonne>
+                      <colonne nom="amount">8.2</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapI_or_sum_upvt">232</colonne>
+                      <colonne nom="amount">6.2</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapI_or_sum_upvt">233</colonne>
+                      <colonne nom="amount">3.2</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapI_or_sum_upvt">237</colonne>
+                      <colonne nom="amount">0.2</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapI_or_sum_upvt">238</colonne>
+                      <colonne nom="amount">2.8</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapI_or_sum_upvt">239</colonne>
+                      <colonne nom="amount">4.0</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapI_or_sum_upvt">240</colonne>
+                      <colonne nom="amount">4.6</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapI_or_sum_upvt">241</colonne>
+                      <colonne nom="amount">3.0</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapI_or_sum_upvt">242</colonne>
+                      <colonne nom="amount">2.0</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapI_or_sum_upvt">243</colonne>
+                      <colonne nom="amount">3.4</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapI_or_sum_upvt">244</colonne>
+                      <colonne nom="amount">4.2</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapI_or_sum_upvt">245</colonne>
+                      <colonne nom="amount">5.4</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapI_or_sum_upvt">246</colonne>
+                      <colonne nom="amount">5.8</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapI_or_sum_upvt">247</colonne>
+                      <colonne nom="amount">5.4</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapI_or_sum_upvt">248</colonne>
+                      <colonne nom="amount">5.4</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapI_or_sum_upvt">249</colonne>
+                      <colonne nom="amount">5.8</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapI_or_sum_upvt">250</colonne>
+                      <colonne nom="amount">4.4</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapI_or_sum_upvt">251</colonne>
+                      <colonne nom="amount">4.6</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapI_or_sum_upvt">252</colonne>
+                      <colonne nom="amount">5.2</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapI_or_sum_upvt">253</colonne>
+                      <colonne nom="amount">4.6</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapI_or_sum_upvt">276</colonne>
+                      <colonne nom="amount">6.0</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapI_or_sum_upvt">277</colonne>
+                      <colonne nom="amount">1.6</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapI_or_sum_upvt">280</colonne>
+                      <colonne nom="amount">2.0</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapI_or_sum_upvt">281</colonne>
+                      <colonne nom="amount">1.8</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapI_or_sum_upvt">282</colonne>
+                      <colonne nom="amount">0.8</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapI_or_sum_upvt">283</colonne>
+                      <colonne nom="amount">1.8</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapI_or_sum_upvt">284</colonne>
+                      <colonne nom="amount">1.6</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapI_or_sum_upvt">285</colonne>
+                      <colonne nom="amount">1.8</colonne></intervention>
+                    </ta>
+            </choix>
+        </option>
+        <option choix="1" nom="location of irrigation" nomParam="codlocirrig">
+        <choix code="1" nom="above foliage" />
+            <choix code="2" nom="under foliage" />
+            <choix code="3" nom="in the soil">
+            <param format="integer" max="30" min="0" nom="locirrig">0</param>
+            </choix>
+        </option>
+        <param format="real" max="1000.0" min="10.0" nom="profmes">117</param>
+    </formalisme>
+    <formalisme nom="fertilisation">
+    <param format="integer" max="8" min="0" nom="engrais">8</param>
+        <param format="real" max="0.2" min="1.0E-4" nom="concirr">0.11060</param>
+        <option choix="2" nom="date of fertilisation" nomParam="codedateappN">
+        <choix code="1" nom="sum of upvt" />
+            <choix code="2" nom="julian days" />
+        </option>
+        <option choix="1" nom="splitting fertilisation" nomParam="codefracappN">
+        <choix code="1" nom="amounts in absolute value" />
+            <choix code="2" nom="amounts in % of the total value">
+            <param format="integer" max="200" min="0" nom="Qtot_N">100</param>
+            </choix>
+        </option>
+        <ta nb_interventions="41" nom="mineral nitrogen inputs">
+        <ta_entete nb_colonnes="2">
+                <colonne nom="julapN_or_sum_upvt" />
+                <colonne nom="absolute_value/%" />
+            </ta_entete>
+            <intervention nb_colonnes="2">
+                      <colonne nom="julapN_or_sum_upvt">180</colonne>
+                      <colonne nom="absolute_value/%">2.428571428571429</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapN_or_sum_upvt">181</colonne>
+                      <colonne nom="absolute_value/%">2.428571428571429</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapN_or_sum_upvt">182</colonne>
+                      <colonne nom="absolute_value/%">2.142857142857143</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapN_or_sum_upvt">183</colonne>
+                      <colonne nom="absolute_value/%">1.7142857142857144</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapN_or_sum_upvt">184</colonne>
+                      <colonne nom="absolute_value/%">2.0000000000000004</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapN_or_sum_upvt">197</colonne>
+                      <colonne nom="absolute_value/%">3.714285714285715</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapN_or_sum_upvt">198</colonne>
+                      <colonne nom="absolute_value/%">4.714285714285714</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapN_or_sum_upvt">199</colonne>
+                      <colonne nom="absolute_value/%">5.142857142857142</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapN_or_sum_upvt">200</colonne>
+                      <colonne nom="absolute_value/%">5.428571428571429</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapN_or_sum_upvt">201</colonne>
+                      <colonne nom="absolute_value/%">5.142857142857142</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapN_or_sum_upvt">202</colonne>
+                      <colonne nom="absolute_value/%">4.857142857142858</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapN_or_sum_upvt">203</colonne>
+                      <colonne nom="absolute_value/%">5.0</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapN_or_sum_upvt">204</colonne>
+                      <colonne nom="absolute_value/%">4.857142857142858</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapN_or_sum_upvt">205</colonne>
+                      <colonne nom="absolute_value/%">3.8571428571428577</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapN_or_sum_upvt">206</colonne>
+                      <colonne nom="absolute_value/%">3.0000000000000004</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapN_or_sum_upvt">207</colonne>
+                      <colonne nom="absolute_value/%">4.142857142857143</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapN_or_sum_upvt">208</colonne>
+                      <colonne nom="absolute_value/%">5.142857142857142</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapN_or_sum_upvt">209</colonne>
+                      <colonne nom="absolute_value/%">4.714285714285715</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapN_or_sum_upvt">210</colonne>
+                      <colonne nom="absolute_value/%">2.857142857142857</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapN_or_sum_upvt">211</colonne>
+                      <colonne nom="absolute_value/%">2.142857142857143</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapN_or_sum_upvt">212</colonne>
+                      <colonne nom="absolute_value/%">2.571428571428571</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapN_or_sum_upvt">213</colonne>
+                      <colonne nom="absolute_value/%">2.428571428571429</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapN_or_sum_upvt">214</colonne>
+                      <colonne nom="absolute_value/%">2.285714285714286</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapN_or_sum_upvt">215</colonne>
+                      <colonne nom="absolute_value/%">2.9999999999999996</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapN_or_sum_upvt">216</colonne>
+                      <colonne nom="absolute_value/%">4.285714285714286</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapN_or_sum_upvt">217</colonne>
+                      <colonne nom="absolute_value/%">4.285714285714286</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapN_or_sum_upvt">218</colonne>
+                      <colonne nom="absolute_value/%">1.142857142857143</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapN_or_sum_upvt">219</colonne>
+                      <colonne nom="absolute_value/%">1.0000000000000002</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapN_or_sum_upvt">221</colonne>
+                      <colonne nom="absolute_value/%">5.142857142857142</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapN_or_sum_upvt">222</colonne>
+                      <colonne nom="absolute_value/%">2.285714285714286</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapN_or_sum_upvt">228</colonne>
+                      <colonne nom="absolute_value/%">3.2857142857142856</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapN_or_sum_upvt">229</colonne>
+                      <colonne nom="absolute_value/%">3.1428571428571432</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapN_or_sum_upvt">233</colonne>
+                      <colonne nom="absolute_value/%">1.8571428571428574</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapN_or_sum_upvt">246</colonne>
+                      <colonne nom="absolute_value/%">2.857142857142857</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapN_or_sum_upvt">247</colonne>
+                      <colonne nom="absolute_value/%">2.571428571428572</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapN_or_sum_upvt">248</colonne>
+                      <colonne nom="absolute_value/%">2.714285714285714</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapN_or_sum_upvt">249</colonne>
+                      <colonne nom="absolute_value/%">2.857142857142857</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapN_or_sum_upvt">250</colonne>
+                      <colonne nom="absolute_value/%">3.1428571428571432</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapN_or_sum_upvt">251</colonne>
+                      <colonne nom="absolute_value/%">3.2857142857142856</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapN_or_sum_upvt">252</colonne>
+                      <colonne nom="absolute_value/%">3.714285714285715</colonne></intervention>
+                    <intervention nb_colonnes="2">
+                      <colonne nom="julapN_or_sum_upvt">253</colonne>
+                      <colonne nom="absolute_value/%">3.2857142857142856</colonne></intervention>
+                    </ta>
+        <option choix="1" nom="location of mineral nitrogen inputs" nomParam="codlocferti">
+        <choix code="1" nom="at soil surface" />
+            <choix code="2" nom="below soil surface">
+            <param format="integer" max="30" min="0" nom="locferti">0</param>
+            </choix>
+        </option>
+        <param format="character" max="0" min="0" nom="ressuite">pailles</param>
+    </formalisme>
+    <formalisme nom="harvest">
+    <option choix="1" nom="method of harvest" nomParam="codceuille">
+        <choix code="1" nom="cutting" />
+            <choix code="2" nom="picking">
+            <option choix="1" nom="number of pickings" nomParam="nbceuille">
+                <choix code="1" nom="one at the end" />
+                    <choix code="2" nom="many during the cycle">
+                    <param format="integer" max="30" min="1" nom="cadencerec">7</param>
+                    </choix>
+                </option>
+            </choix>
+        </option>
+        <option choix="1" nom="harvest decision" nomParam="codrecolte">
+        <choix code="1" nom="physiological maturity" />
+            <choix code="2" nom="water content">
+            <option choix="2" nom="minimum.or.maximum" nomParam="codeaumin">
+                <choix code="1" nom="minimum">
+                    <param format="real" max="1.0" min="0.05" nom="h2ograinmin">0.80000</param>
+                    </choix>
+                    <choix code="2" nom="maximum">
+                    <param format="real" max="1.0" min="0.05" nom="h2ograinmax">0.20000</param>
+                    </choix>
+                </option>
+            </choix>
+            <choix code="3" nom="sugar content">
+            <param format="real" max="0.5" min="1.0E-4" nom="sucrerec">0.25000</param>
+            </choix>
+            <choix code="4" nom="nitrogen content">
+            <param format="real" max="1.0" min="1.0E-4" nom="CNgrainrec">0.02000</param>
+            </choix>
+            <choix code="5" nom="oil content">
+            <param format="real" max="1.0" min="0.1" nom="huilerec">0.25000</param>
+            </choix>
+        </option>
+        <option choix="2" nom="Decision of harvest for associated crops" nomParam="coderecolteassoc">
+        <choix code="1" nom="Maturity of the earliest" />
+            <choix code="2" nom="Maturity of the both (2 dates)" />
+        </option>
+        <option choix="2" nom="rules of harvest/moisture status of the soil" nomParam="codedecirecolte">
+        <choix code="1" nom="yes">
+            <param format="integer" max="90" min="0" nom="nbjmaxapresrecolte">15</param>
+            </choix>
+            <choix code="2" nom="no" />
+        </option>
+    </formalisme>
+    <formalisme nom="special techniques">
+    <option choix="2" nom="cut crop" nomParam="codefauche">
+        <choix code="1" nom="yes">
+            <param format="real" max="10.0" min="1.0E-4" nom="mscoupemini">0.00000</param>
+                <option choix="1" nom="Method.of.cutting" nomParam="codemodfauche">
+                <choix code="1" nom="automatic">
+                    <param format="real" max="0.5" min="0.01" nom="hautcoupedefaut">0.00000</param>
+                        <param format="character" max="0" min="0" nom="stadecoupedf">rec</param>
+                    </choix>
+                    <choix code="2" nom="calendar in days">
+                    <ta nb_interventions="0" nom="cutting management">
+                        <ta_entete nb_colonnes="5">
+                                <colonne nom="julfauche" />
+                                <colonne nom="hautcoupe" />
+                                <colonne nom="lairesiduel" />
+                                <colonne nom="msresiduel" />
+                                <colonne nom="anitcoupe" />
+                            </ta_entete>
+                        </ta>
+                    </choix>
+                    <choix code="3" nom="calendar in degree days">
+                    <ta nb_interventions="0" nom="cutting management">
+                        <ta_entete nb_colonnes="5">
+                                <colonne nom="tempfauche" />
+                                <colonne nom="hautcoupe" />
+                                <colonne nom="lairesiduel" />
+                                <colonne nom="msresiduel" />
+                                <colonne nom="anitcoupe" />
+                            </ta_entete>
+                        </ta>
+                    </choix>
+                </option>
+            </choix>
+            <choix code="2" nom="no" />
+        </option>
+        <option choix="1" nom="mulch" nomParam="codepaillage">
+        <choix code="1" nom="no" />
+            <choix code="2" nom="plastic mulch">
+            <param format="real" max="1.0" min="1.0E-4" nom="couvermulchplastique">0.00000</param>
+                <param format="real" max="0.8" min="0.05" nom="albedomulchplastique">0.00000</param>
+            </choix>
+        </option>
+        <option choix="1" nom="topping" nomParam="codrognage">
+        <choix code="1" nom="no" />
+            <choix code="2" nom="yes">
+            <param format="real" max="2.0" min="1.0E-4" nom="largrogne">0.00000</param>
+                <param format="real" max="2.0" min="1.0E-4" nom="hautrogne">0.00000</param>
+                <param format="real" max="10.0" min="1.0E-4" nom="biorognem">0.00000</param>
+                <option choix="1" nom="topping calendar" nomParam="codcalrogne">
+                <choix code="1" nom="fixed date">
+                    <param format="integer" max="731" min="1" nom="julrogne">0</param>
+                    </choix>
+                    <choix code="2" nom="automatic calculation">
+                    <param format="real" max="1.0" min="0.01" nom="margerogne">0.00000</param>
+                    </choix>
+                </option>
+            </choix>
+        </option>
+        <option choix="1" nom="thinning" nomParam="codeclaircie">
+        <choix code="1" nom="no" />
+            <choix code="2" nom="yes">
+            <param format="integer" max="731" min="1" nom="juleclair">0</param>
+                <param format="real" max="10.0" min="1.0" nom="nbinfloecl">0.00000</param>
+            </choix>
+        </option>
+        <option choix="1" nom="leaf removal" nomParam="codeffeuil">
+        <choix code="1" nom="no" />
+            <choix code="2" nom="yes">
+            <option choix="1" nom="location of leaf removal" nomParam="codhauteff">
+                <choix code="1" nom="bottom of the canopy" />
+                    <choix code="2" nom="top of the canopy" />
+                </option>
+                <option choix="1" nom="leaf.removal.calculation" nomParam="codcaleffeuil">
+                <choix code="1" nom="automatic calculation">
+                    <param format="real" max="10.0" min="1.0" nom="laidebeff">0.00000</param>
+                        <param format="real" max="1.0" min="1.0E-4" nom="effeuil">0.00000</param>
+                    </choix>
+                    <choix code="2" nom="fixed date">
+                    <param format="integer" max="731" min="1" nom="juleffeuil">0</param>
+                        <param format="real" max="10.0" min="0.05" nom="laieffeuil">0.00000</param>
+                    </choix>
+                </option>
+            </choix>
+        </option>
+        <option choix="1" nom="pruning" nomParam="codetaille">
+        <choix code="1" nom="no" />
+            <choix code="2" nom="yes">
+            <param format="integer" max="731" min="1" nom="jultaille">0</param>
+            </choix>
+        </option>
+        <option choix="1" nom="trellis system" nomParam="codepalissage">
+        <choix code="1" nom="no" />
+            <choix code="2" nom="yes">
+            <param format="real" max="3.0" min="0.5" nom="hautmaxtec">0.00000</param>
+                <param format="real" max="1.0" min="0.1" nom="largtec">0.50000</param>
+            </choix>
+        </option>
+        <option choix="1" nom="greenhouse crop" nomParam="codabri">
+        <choix code="1" nom="no" />
+            <choix code="2" nom="yes">
+            <param format="real" max="0.9" min="0.3" nom="transplastic">0.70000</param>
+                <param format="real" max="0.8" min="0.1" nom="surfouvre1">0.00000</param>
+                <param format="integer" max="731" min="1" nom="julouvre2">0</param>
+                <param format="real" max="0.8" min="0.1" nom="surfouvre2">0.00000</param>
+                <param format="integer" max="731" min="1" nom="julouvre3">0</param>
+                <param format="real" max="0.8" min="0.1" nom="surfouvre3">0.00000</param>
+            </choix>
+        </option>
+    </formalisme>
+    <formalisme nom="soil modification by techniques (compaction-fragmentation)">
+    <option choix="2" nom="activation fragmentation" nomParam="codeDST">
+        <choix code="1" nom="yes">
+            <param format="real" max="2.0" min="0.8" nom="dachisel">1.10000</param>
+                <param format="real" max="2.0" min="0.8" nom="dalabour">1.30000</param>
+                <param format="real" max="0.2" min="0.01" nom="rugochisel">0.00500</param>
+                <param format="real" max="0.2" min="0.01" nom="rugolabour">0.05000</param>
+            </choix>
+            <choix code="2" nom="no" />
+        </option>
+        <option choix="2" nom="activation compaction sowing/harvest" nomParam="codeDSTtass">
+        <choix code="1" nom="yes">
+            <param format="real" max="100.0" min="1.0E-4" nom="profhumsemoir">30.00000</param>
+                <param format="real" max="2.0" min="0.8" nom="dasemis">1.60000</param>
+                <param format="real" max="100.0" min="1.0E-4" nom="profhumrecolteuse">30.00000</param>
+                <param format="real" max="2.0" min="0.8" nom="darecolte">1.60000</param>
+            </choix>
+            <choix code="2" nom="no" />
+        </option>
+        <option choix="2" nom="nb of layers affected by the compaction" nomParam="codeDSTnbcouche">
+        <choix code="1" nom="1" />
+            <choix code="2" nom="2" />
+        </option>
+    </formalisme>
+</fichiertec>

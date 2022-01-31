@@ -1,0 +1,401 @@
+  Balance of the STICS simulation 9.1_r2388_2019-07-22                              , model culture     
+************************************************
+ 1. INPUT DATA
+ *******************
+   Weather file            :                                              sitej
+   Cultural practices file :                                maize_reuse_tec.xml
+   Plant file                :                                       corn_plt.xml      Variety : DK300     
+     variety group : 10
+   Initialisations file :                                      maize_ini.xml
+   Initial soil values      : Sol_RU280   
+      Z (cm)      Water (%)      NO3 (kg/ha)    NH4 (kg/ha)
+        30.        25.0          20.0           0.0
+        30.        30.0          15.0           0.0
+        30.        28.0          15.0           0.0
+        50.        23.0          10.0           0.0
+
+   Start of simulation : 31-mar-2013      day  90
+   End of simulation   : 26-nov-2013      day 330   (or 330)
+   Irrigation read 
+   Fertilisation read
+   Method of PET calculation                                               Penman reading
+
+   Irrigation
+     date of irrigation        amount (mm)
+     ---------------            ---------
+        8-may-2013                  10.0
+        9-may-2013                  10.0
+       10-may-2013                  10.0
+       11-may-2013                  10.0
+       12-may-2013                  10.0
+       13-may-2013                  10.0
+       14-may-2013                  10.0
+       15-may-2013                  10.0
+       16-may-2013                  10.0
+       17-may-2013                  10.0
+       18-may-2013                  10.0
+       19-may-2013                  10.0
+       20-may-2013                  10.0
+       21-may-2013                  10.0
+       22-may-2013                   2.0
+       23-may-2013                   0.2
+       24-may-2013                   0.2
+       25-may-2013                   0.2
+       26-may-2013                   0.2
+       27-may-2013                   0.4
+       28-may-2013                   0.2
+       29-may-2013                   0.2
+       30-may-2013                   0.2
+       31-may-2013                   0.4
+        1-jun-2013                   0.2
+        2-jun-2013                   0.4
+        3-jun-2013                   0.6
+        4-jun-2013                   0.8
+        5-jun-2013                   1.0
+        6-jun-2013                   0.4
+        7-jun-2013                   1.0
+        8-jun-2013                   0.6
+        9-jun-2013                   0.4
+       10-jun-2013                   1.6
+       11-jun-2013                   0.8
+       12-jun-2013                   8.0
+       13-jun-2013                   1.2
+       14-jun-2013                   0.2
+       15-jun-2013                   2.8
+       16-jun-2013                   1.0
+       17-jun-2013                   3.0
+       18-jun-2013                   1.4
+       19-jun-2013                   0.4
+       20-jun-2013                  10.0
+       21-jun-2013                   1.8
+       22-jun-2013                   2.4
+       23-jun-2013                   3.0
+       24-jun-2013                   3.0
+       25-jun-2013                   3.6
+       26-jun-2013                   3.6
+       27-jun-2013                   3.8
+       28-jun-2013                   4.0
+       29-jun-2013                   3.0
+       30-jun-2013                   3.8
+        1-jul-2013                   4.4
+        2-jul-2013                   4.8
+        3-jul-2013                   3.8
+        4-jul-2013                   3.8
+        5-jul-2013                   4.6
+        6-jul-2013                   4.2
+        7-jul-2013                   4.2
+        8-jul-2013                   5.0
+        9-jul-2013                   3.6
+       10-jul-2013                   3.4
+       11-jul-2013                   4.4
+       12-jul-2013                   3.0
+       13-jul-2013                   4.2
+       14-jul-2013                   3.2
+       15-jul-2013                   4.2
+       16-jul-2013                   4.6
+       17-jul-2013                   2.8
+       18-jul-2013                   4.4
+       19-jul-2013                   4.2
+       20-jul-2013                   4.2
+       21-jul-2013                   1.8
+       22-jul-2013                   1.6
+       23-jul-2013                   3.0
+       24-jul-2013                   3.6
+       25-jul-2013                   3.6
+       31-jul-2013                   0.8
+        1-aug-2013                   2.0
+        2-aug-2013                   0.8
+        3-aug-2013                   3.0
+        4-aug-2013                   2.4
+        5-aug-2013                   3.6
+        6-aug-2013                   0.8
+       10-aug-2013                   0.6
+       11-aug-2013                   4.0
+       12-aug-2013                   4.4
+       13-aug-2013                   4.4
+       14-aug-2013                   4.8
+       15-aug-2013                   3.0
+       16-aug-2013                   4.4
+       17-aug-2013                   4.8
+       18-aug-2013                   3.8
+       19-aug-2013                   4.4
+       20-aug-2013                   5.2
+       21-aug-2013                   5.4
+       22-aug-2013                   5.8
+       23-aug-2013                   5.2
+       24-aug-2013                   3.4
+       25-aug-2013                   4.8
+       26-aug-2013                   5.8
+       27-aug-2013                   6.0
+       28-aug-2013                   4.2
+       29-aug-2013                   4.0
+       30-aug-2013                   4.8
+       31-aug-2013                   4.4
+        1-sep-2013                   5.4
+     Number of irrigations: 109
+     Total quantity applied:   423.0 mm
+
+   Fertilisation
+
+   Fertilisation:        Number of applications =**
+   date of application N       amount (kg N/ha)       type of fertilizer
+     ---------------            --------------          --------------
+        8-may-2013                   7.                          8
+        9-may-2013                   7.                          8
+       10-may-2013                   7.                          8
+       11-may-2013                   7.                          8
+       12-may-2013                   7.                          8
+       13-may-2013                   7.                          8
+       14-may-2013                   7.                          8
+       15-may-2013                   7.                          8
+       16-may-2013                   7.                          8
+       17-may-2013                   7.                          8
+       18-may-2013                   7.                          8
+       19-may-2013                   7.                          8
+       20-may-2013                   7.                          8
+       21-may-2013                   7.                          8
+       22-may-2013                   1.                          8
+       23-may-2013                   0.                          8
+       24-may-2013                   0.                          8
+       25-may-2013                   0.                          8
+       26-may-2013                   0.                          8
+       27-may-2013                   0.                          8
+       28-may-2013                   0.                          8
+       29-may-2013                   0.                          8
+       30-may-2013                   0.                          8
+       31-may-2013                   0.                          8
+        1-jun-2013                   0.                          8
+        2-jun-2013                   0.                          8
+        3-jun-2013                   0.                          8
+        4-jun-2013                   1.                          8
+        5-jun-2013                   1.                          8
+        6-jun-2013                   0.                          8
+        7-jun-2013                   1.                          8
+        8-jun-2013                   0.                          8
+        9-jun-2013                   0.                          8
+       10-jun-2013                   1.                          8
+       11-jun-2013                   1.                          8
+       12-jun-2013                   6.                          8
+       13-jun-2013                   1.                          8
+       14-jun-2013                   0.                          8
+       15-jun-2013                   2.                          8
+       16-jun-2013                   1.                          8
+       17-jun-2013                   2.                          8
+       18-jun-2013                   1.                          8
+       19-jun-2013                   0.                          8
+       20-jun-2013                   7.                          8
+       21-jun-2013                   1.                          8
+       22-jun-2013                   2.                          8
+       23-jun-2013                   2.                          8
+       24-jun-2013                   2.                          8
+       25-jun-2013                   3.                          8
+       26-jun-2013                   3.                          8
+       27-jun-2013                   3.                          8
+       28-jun-2013                   3.                          8
+       29-jun-2013                   2.                          8
+       30-jun-2013                   3.                          8
+        1-jul-2013                   3.                          8
+        2-jul-2013                   3.                          8
+        3-jul-2013                   3.                          8
+        4-jul-2013                   3.                          8
+        5-jul-2013                   3.                          8
+        6-jul-2013                   3.                          8
+        7-jul-2013                   3.                          8
+        8-jul-2013                   4.                          8
+        9-jul-2013                   3.                          8
+       10-jul-2013                   2.                          8
+       11-jul-2013                   3.                          8
+       12-jul-2013                   2.                          8
+       13-jul-2013                   3.                          8
+       14-jul-2013                   2.                          8
+       15-jul-2013                   3.                          8
+       16-jul-2013                   3.                          8
+       17-jul-2013                   2.                          8
+       18-jul-2013                   3.                          8
+       19-jul-2013                   3.                          8
+       20-jul-2013                   3.                          8
+       21-jul-2013                   1.                          8
+       22-jul-2013                   1.                          8
+       23-jul-2013                   2.                          8
+       24-jul-2013                   3.                          8
+       25-jul-2013                   3.                          8
+       31-jul-2013                   1.                          8
+        1-aug-2013                   1.                          8
+        2-aug-2013                   1.                          8
+        3-aug-2013                   2.                          8
+        4-aug-2013                   2.                          8
+        5-aug-2013                   3.                          8
+        6-aug-2013                   1.                          8
+       12-aug-2013                   2.                          8
+       13-aug-2013                   2.                          8
+       14-aug-2013                   2.                          8
+       15-aug-2013                   2.                          8
+       16-aug-2013                   2.                          8
+       17-aug-2013                   2.                          8
+       18-aug-2013                   2.                          8
+       19-aug-2013                   2.                          8
+       20-aug-2013                   2.                          8
+       21-aug-2013                   2.                          8
+       22-aug-2013                   3.                          8
+       23-aug-2013                   2.                          8
+       24-aug-2013                   2.                          8
+       25-aug-2013                   1.                          8
+       26-aug-2013                   4.                          8
+       27-aug-2013                   3.                          8
+       28-aug-2013                   2.                          8
+       29-aug-2013                   2.                          8
+       30-aug-2013                   3.                          8
+       31-aug-2013                   1.                          8
+        1-sep-2013                   0.                          8
+                           total   272.
+
+   Organic residues and/or soil tillage
+         No application, no tillage
+
+
+ 2. CROP DEVELOPMENT
+ ******************************
+     development unit : thermic
+     temperature used : air temperature
+
+        stage                                    date           units     cumulative units     lai
+     -----------                            -----------         ------     ---------------     ---
+     sowing   (stage BBCH =          00 )       22-apr-2013            0.            0.
+   Vegetative stages
+     ger calculated (stage BBCH =    05 )       29-apr-2013           40.           40.            0.0
+     lev calculated (stage BBCH =    09 )        8-may-2013           41.           81.            0.0
+     amf calculated (stage BBCH =    35 )        2-jun-2013          262.          343.            0.3
+     lax calculated (stage BBCH =    55 )        7-jul-2013          513.          856.            3.8
+     lan calculated (stage BBCH =               16-nov-2013            0.          856.            0.0
+   Reproductive stages
+     flo calculated (stage BBCH =    65 )       11-jul-2013          933.          933.
+     drp calculated (stage BBCH =    71 )       25-jul-2013          241.         1174.            3.8
+     mat calculated (stage BBCH =    89 )        4-sep-2013          655.         1829.            1.8
+     rec calculated (stage BBCH =    99 )        4-sep-2013            0.         1829.            1.8
+     debdes calculated (stage BBCH = 75 )        4-sep-2013            0.         1829.            1.8
+
+    Length of cycle : 135 days
+   Method of harvest : all plant harvest
+   Harvest at physiological maturity
+
+
+ 3. GROWTH AND COMPONENTS OF YIELD
+ *****************************************
+      4-sep-2013
+   Aerial biomass at harvest (0% water)  =   21.25 t/ha
+   Yield grain or fruit   (0% water)       =   13.31 t/ha
+   Yield grain or fruit (40.% water)       =   22.19 t/ha
+
+   Number of grains or fruits              =   4134. /m2
+   Plant density                         =     8.0 /m2
+   Weight of grain, fruit (40.% water)   =     0.537 g
+   Growth rate (lag phase)           =    26.3 mg/m2/j
+
+   Number of emerged leaves              =    10
+   Number of hot      or cold days       =     1
+   Senescent aerial biomass (0% water)   =   0.66 t/ha
+
+   Quantity of N in the crop             =    248. kg/ha
+   Quantity of N in the grain and fruit  =    104. kg/ha
+
+   N content of entire plant             =  1.17 % DM
+   N content of grain, fruit             =  0.78 % DM
+   Protein content of grain, fruit       =   4.4 % DM
+
+   Nitrogen fertiliser efficiency        = 0.70
+
+   Harvest index                         = 0.63
+
+  Composition of the dry matter of grain/fruit
+   Dry matter content                    =   60. % FW
+   Nitrogen content                      =  0.47 % FW
+
+
+
+4. WATER and NITROGEN BALANCE over the crop life
+************************************************
+                             Sum of Maximal ET (eos+eop) =  553. mm
+                             Sum of AET =  553. mm
+                             Sum of Soil Ev. =  208. mm
+                             Sum of TRansp.  =  346. mm
+                             Sum of Rain + Irrigation   =  668. mm
+
+     Maximum water reserve used by plant  =  133. mm
+     Maximum rooting depth     =   99. cm
+
+  Mean STRESS indices :                swfac   turfac   inns   tcult-tair  exofac    etr/etm    etm/etr
+   vegetative phase    (lev-drp)       1.00      1.00      0.89      0.37      0.00      1.00      1.00
+   reproductive phase  (drp-mat)       1.00      1.00      1.00      0.00      0.00      1.00      1.00
+
+
+5. WATER, NITROGEN, CARBON BALANCE over the whole simulation period  (241 days)
+*******************************************************************************
+   Normalised days at 15.degrees C :    Humus = 367.      Residues =   0.
+   Potential mineralisation rate = 0.38 kg N/ha/day   or 4.05% per year
+WATER BALANCE  (mm)
+     initial water content    525.        final water content      498.
+     rain                     430.        evaporation              314.
+     irrigation               423.        transpiration            346.
+     capillary rise            -0.        runoff                     0.
+                                          deep infiltration        220.
+                                          mole drainage              0.
+                                          leaf interception          0.
+                                          mulch interception         0.
+                                          ineffective irrigation     0.
+     -----------------------------        -----------------------------
+     TOTAL INPUTS            1378.        TOTAL OUTPUTS           1378.
+
+MINERAL NITROGEN BALANCE (kg N/ha)
+     initial plant N            0.        final plant N               0.
+                                          N uptake exported         194.
+                                          N uptake returned          54.
+     initial soil NH4           0.        final soil NH4              0.
+     initial soil NO3          60.        final soil NO3            124.
+     rain                       9.        leaching                   15.
+     irrigation                 0.        leaching in mole drains     0.
+     fertiliser               272.        fertiliser N immobilis.    54.
+     symbiotic fixation         0.        fertiliser N volatilis.    14.
+     humus mineralisation     140.        manure N volatilis.         0.
+     residue mineralisation   -12.        N2 and N2O losses          14.
+     -----------------------------        -----------------------------
+     TOTAL INPUTS             468.        TOTAL OUTPUTS            468.
+
+ORGANIC NITROGEN BALANCE (kg N/ha)
+     Active humified pool       1218.                                1165.
+     Inert humified pool        2262.                                2262.
+     Zymogeneous biomass pool      0.                                  34.
+     Soil residues pool            0.                                   0.
+     Mulch residues pool           0.                                   0.
+     Fertiliser Immobilised       54.
+     Added organic fertil.         0.
+     Added Crop residues           0.
+     Added Roots                  54.
+     Added Fallen leaves           0.        Priming (PE)               0.
+     Added Trimmed leaves          0.        Mineralisation - PE      127.
+     -------------------------------        -----------------------------
+     TOTAL INITIAL              3589.        TOTAL FINAL             3589.
+
+ORGANIC CARBON BALANCE   (kg C/ha)
+     Active humified pool      11600.                               10621.
+     Inert humified pool       21543.                               21543.
+     Zymogeneous biomass pool      0.                                 444.
+     Soil residues pool            0.                                   0.
+     Mulch residues pool           0.                                   0.
+     Fertiliser Immobilised        0.
+     Added organic fertil.         0.
+     Added Crop residues           0.
+     Added Roots                1856.
+     Added Fallen leaves           0.        Priming (PE)               0.
+     Added Trimmed leaves          0.        Mineralisation - PE     2391.
+     -------------------------------        -----------------------------
+     TOTAL INITIAL             34999.        TOTAL FINAL            34999.
+
+Heterotrophic Respiration (kg C/ha): Residues = 1102.
+                                     Humus    = 1288.
+                                     Total    = 2391.
+
+Cumulative N2O emissions  (kg N/ha): nitrification      =  0.00
+                                     denitrification    =  0.00
+                                     Total              =  0.00
+
+CROP RESIDUES returned to soil: roots                DM =  4.9 t/ha     C/N = 34.

@@ -1,0 +1,28 @@
+### fitted to bjir
+Z  700
+ET0mean 3.547
+ET0ref 4.67
+#
+Ssat 0.5
+Sfc 0.2207
+Sstar 0.1621
+Sw  0.1035
+Sh  0.0602
+ksat  200
+d  1
+phi  1
+#
+Kcb 1.3
+Kce  1.1
+#
+etaC  0.04
+aN 0.3
+#
+c0 0.013
+rG  0.636
+cMax 0.925
+exLai  0.6
+tsen  115
+gamma  0.001
+#
+Wstar  27.61

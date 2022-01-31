@@ -1,0 +1,13 @@
+# Starting point file.
+# This file contains the values of the initial points
+# for variable Cn
+
+# Type of initialization :
+linear
+
+# Number of interpolation points :
+2
+
+# Interpolation points for the starting point :
+0 0
+0.998696219035202 0.472207792207792

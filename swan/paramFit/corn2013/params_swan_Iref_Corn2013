@@ -1,0 +1,28 @@
+### fitted to corn2013 with Iref, swan model
+Z  1000
+ET0mean 4.09
+ET0ref 4.595
+#
+Ssat 0.5
+Sfc 0.375
+Sstar 0.2446
+Sw  0.17475
+Sh  0.0602
+d  1.0
+ksat 200
+phi  1
+#
+Kcb  1.2
+Kce  1.1
+#
+etaC  0.033
+aN 0.3
+#
+c0 0.0082
+rG  0.948
+cMax 0.94
+exLai  0.6
+tsen  90
+gamma  0.0012
+#
+Wstar  25.56

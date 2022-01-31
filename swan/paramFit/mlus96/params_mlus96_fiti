@@ -1,0 +1,28 @@
+### fitted to mlus96i
+Z  1170
+ET0mean 3.157
+ET0ref 4.595
+#
+Ssat 0.5
+Sfc 0.29
+Sstar 0.205
+Sw  0.122
+Sh  0.0602
+ksat  200
+d  1
+phi  1
+#
+Kcb 1.2
+Kce  1.1
+#
+etaC  0.035
+aN 0.3
+#
+c0 0.01
+rG 0.773
+cMax 0.965
+exLai  0.6
+tsen  150
+gamma  0.0005
+#
+Wstar  28.12

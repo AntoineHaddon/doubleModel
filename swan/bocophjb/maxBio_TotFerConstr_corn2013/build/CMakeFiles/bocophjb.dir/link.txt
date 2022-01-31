@@ -1,0 +1,1 @@
+g++  -O -DNDEBUG -w -DOPENMP -fopenmp -std=c++11  -rdynamic CMakeFiles/bocophjb.dir/core/main.cpp.o  -o /home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/bocophjb /home/ahaddon/Programs/bocop/BocopHJB-1.1.0-Linux/core/lib/libbocophjbcore.a -lm -ldl -lpthread 

@@ -1,0 +1,62 @@
+# This file defines all dimensions and parameters
+# values for your problem :
+
+# Initial and final time :
+time.free string none
+time.initial double 128
+time.final double 246
+
+# Dimensions :
+state.dimension integer 5
+control.dimension integer 2
+algebraic.dimension integer 0
+parameter.dimension integer 0
+constant.dimension integer 1
+boundarycond.dimension integer 6
+constraint.dimension integer 0
+
+# Discretization :
+discretization.steps integer 200
+discretization.method string euler_imp
+
+# Optimization :
+optimization.type string single
+batch.type integer 0
+batch.index integer 0
+batch.nrange integer 1
+batch.lowerbound double 0
+batch.upperbound double 0
+batch.directory string none
+
+# Initialization :
+initialization.type string from_init_file
+initialization.file string none
+
+# Parameter identification :
+paramid.type string false
+paramid.separator string ,
+paramid.file string no_directory
+paramid.dimension integer 0
+
+# Names :
+state.0 string c
+state.1 string s
+state.2 string n
+state.3 string b
+state.4 string ntot
+control.0 string i
+control.1 string Cn
+boundarycond.0 string c0
+boundarycond.1 string s0
+boundarycond.2 string n0
+boundarycond.3 string b0
+boundarycond.4 string ntot0
+boundarycond.5 string ntotF
+constant.0 string cnMax
+
+# Solution file :
+solution.file string problem.sol
+
+# Iteration output frequency :
+iteration.output.frequency integer 0
+

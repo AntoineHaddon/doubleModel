@@ -1,0 +1,58 @@
+# This file defines all dimensions and parameters
+# values for your problem :
+
+# Initial and final time :
+time.free string none
+time.initial double 0
+time.final double 50
+
+# Dimensions :
+state.dimension integer 4
+control.dimension integer 2
+algebraic.dimension integer 0
+parameter.dimension integer 0
+constant.dimension integer 0
+boundarycond.dimension integer 4
+constraint.dimension integer 0
+
+# Discretization :
+discretization.steps integer 100
+discretization.method string midpoint
+
+# Optimization :
+optimization.type string single
+batch.type integer 0
+batch.index integer 0
+batch.nrange integer 1
+batch.lowerbound double 0
+batch.upperbound double 0
+batch.directory string none
+
+# Initialization :
+initialization.type string from_init_file
+initialization.file string none
+
+# Parameter identification :
+paramid.type string false
+paramid.separator string ,
+paramid.file string no_directory
+paramid.dimension integer 0
+
+# Names :
+state.0 string canopy
+state.1 string soilMoisture
+state.2 string nitrogen
+state.3 string biomass
+control.0 string irrigation
+control.1 string nitroIrrig
+boundarycond.0 string c(0)
+boundarycond.1 string s(0)
+boundarycond.2 string n(0)
+boundarycond.3 string b(0)
+
+# Solution file :
+solution.file string swan.sol
+
+# Iteration output frequency :
+iteration.output.frequency integer 0
+

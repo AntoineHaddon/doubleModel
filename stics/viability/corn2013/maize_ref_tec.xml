@@ -81,25 +81,25 @@
                       <colonne nom="amount">20</colonne></intervention>
                     <intervention nb_colonnes="2">
                       <colonne nom="julapI_or_sum_upvt">180</colonne>
-                      <colonne nom="amount">40</colonne></intervention>
+                      <colonne nom="amount">10</colonne></intervention>
                     <intervention nb_colonnes="2">
                       <colonne nom="julapI_or_sum_upvt">192</colonne>
-                      <colonne nom="amount">40</colonne></intervention>
+                      <colonne nom="amount">10</colonne></intervention>
                     <intervention nb_colonnes="2">
                       <colonne nom="julapI_or_sum_upvt">203</colonne>
-                      <colonne nom="amount">40</colonne></intervention>
+                      <colonne nom="amount">10</colonne></intervention>
                     <intervention nb_colonnes="2">
                       <colonne nom="julapI_or_sum_upvt">210</colonne>
-                      <colonne nom="amount">40</colonne></intervention>
+                      <colonne nom="amount">10</colonne></intervention>
                     <intervention nb_colonnes="2">
                       <colonne nom="julapI_or_sum_upvt">223</colonne>
-                      <colonne nom="amount">40</colonne></intervention>
+                      <colonne nom="amount">10</colonne></intervention>
                     <intervention nb_colonnes="2">
                       <colonne nom="julapI_or_sum_upvt">232</colonne>
-                      <colonne nom="amount">40</colonne></intervention>
+                      <colonne nom="amount">10</colonne></intervention>
                     <intervention nb_colonnes="2">
                       <colonne nom="julapI_or_sum_upvt">242</colonne>
-                      <colonne nom="amount">40</colonne></intervention>
+                      <colonne nom="amount">10</colonne></intervention>
                     </ta>
             </choix>
         </option>

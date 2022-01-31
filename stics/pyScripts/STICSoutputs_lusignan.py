@@ -2,10 +2,14 @@ import numpy as np
 import matplotlib.pyplot as plt
 import datetime as dt
 import sys
-sys.path.append('/home/ahaddon/bin')
+sys.path.append('../../utils')
 import readValsFromFile as rdvl
 
 import sticsIOutils as sticsIO
+
+import os
+cwd = os.getcwd()
+
 
 
 ####################
@@ -13,7 +17,7 @@ import sticsIOutils as sticsIO
 ####################
 
 ## stics files
-sticsIO.dirStics = '/home/ahaddon/Dropbox/Work/ReUse/code/stics/lusignan9697/'
+sticsIO.dirStics = cwd+ '/../lusignan9697/'
 
 # usm = "mlu96n0"
 # usm = "mlu96n6"

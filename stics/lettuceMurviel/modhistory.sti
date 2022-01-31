@@ -1,6 +1,6 @@
  -----------------------------------------------------------------------------------------
- Stics history file            Creation date: 2021/03/04-15:58:53
- STICS Version: 9.2_r2773_2021-01-19                              
+ Stics history file            Creation date: 2022/01/31-17:31:04
+ STICS Version: 9.1_r2388_2019-07-22                              
  -----------------------------------------------------------------------------------------
  
  
@@ -159,11 +159,8 @@
  P_codephot            2
  P_codeperenne            1
  annual
- germination or latency = yes 
- P_tgmin    3.50000000    
- P_stpltger    0.00000000    
  plantlet growth = planting 
- P_laiplantule    2.99999993E-02
+ P_laiplantule    1.00000005E-03
  P_nbfeuilplant            2
  P_masecplantule   0.500000000    
  P_zracplantule    2.00000000    
@@ -174,7 +171,7 @@
  P_hautmax   0.200000003    
  P_tcxstop    100.000000    
  leaf dynamics = ground cover 
- P_tauxrecouvmax   0.119999997    
+ P_tauxrecouvmax    7.19999969E-02
  P_tauxrecouvkmax    1.00000000    
  P_pentrecouv    4.50000000    
  P_infrecouv  0.850000024    
@@ -187,7 +184,7 @@
  P_temax    40.0000000    
  P_teopt    10.0000000    
  P_teoptbis    14.0000000    
- P_efcroijuv    1.00000000    
+ P_efcroijuv   0.949999988    
  P_efcroiveg    2.79999995    
  P_efcroirepro    3.50000000    
  P_coefmshaut    0.00000000    
@@ -368,5 +365,5 @@
  problem with your profile output dates --> they have been recalculated
  Program end ... 
  -----------------------------------------------------------------------------------------
- Stics history file end            End date: 2021/03/04-15:58:53
+ Stics history file end            End date: 2022/01/31-17:31:05
  -----------------------------------------------------------------------------------------

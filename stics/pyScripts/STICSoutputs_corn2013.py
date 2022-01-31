@@ -2,10 +2,15 @@ import numpy as np
 import matplotlib.pyplot as plt
 import datetime as dt
 import sys
-sys.path.append('/home/ahaddon/bin')
+sys.path.append('../../utils')
 import readValsFromFile as rdvl
 
 import sticsIOutils as sticsIO
+
+import os
+cwd = os.getcwd()
+
+
 
 
 ####################
@@ -13,7 +18,7 @@ import sticsIOutils as sticsIO
 ####################
 
 ## stics files
-sticsIO.dirStics = '/home/ahaddon/Dropbox/Work/ReUse/code/stics/corn/'
+sticsIO.dirStics = cwd+'/../corn/'
 
 sti_corn2013 = sticsIO.dirStics + 'mod_smaize_reuse_2013.sti'
 tec_corn2013 = sticsIO.dirStics + "maize_reuse_tec.xml"

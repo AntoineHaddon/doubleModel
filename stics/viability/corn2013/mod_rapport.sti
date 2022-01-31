@@ -12988,3 +12988,113 @@ maize_ref_2013                          ;                                   site
 maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  245;    1;   10;mai;recphy    ;9.1_r2388_2019-07-22          ;     1.107;
 maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  245;    1;   10;mai;rectec    ;9.1_r2388_2019-07-22          ;     1.107;
 maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  320;    1;   10;mai;sen       ;9.1_r2388_2019-07-22          ;     0.000;
+P_usm;wlieu;ansemis;P_iwater;ancours;ifin;P_ichsl;group;P_codeplante;stade;nomversion;abso(n)
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  112;    1;    0;mai;semis     ;9.1_r2388_2019-07-22          ;     0.000;
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  117;    1;    0;mai;ger       ;9.1_r2388_2019-07-22          ;     0.000;
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  121;    1;    0;mai;lev       ;9.1_r2388_2019-07-22          ;     0.010;
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  150;    1;    0;mai;amf       ;9.1_r2388_2019-07-22          ;     1.037;
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  186;    1;    0;mai;lax       ;9.1_r2388_2019-07-22          ;     1.545;
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  190;    1;    0;mai;flo       ;9.1_r2388_2019-07-22          ;     0.841;
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  245;    1;   10;mai;recphy    ;9.1_r2388_2019-07-22          ;     0.000;
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  245;    1;   10;mai;rectec    ;9.1_r2388_2019-07-22          ;     0.000;
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  320;    1;   10;mai;sen       ;9.1_r2388_2019-07-22          ;     0.000;
+P_usm;wlieu;ansemis;P_iwater;ancours;ifin;P_ichsl;group;P_codeplante;stade;nomversion;abso(n)
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  112;    1;    0;mai;semis     ;9.1_r2388_2019-07-22          ;     0.000;
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  117;    1;    0;mai;ger       ;9.1_r2388_2019-07-22          ;     0.000;
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  121;    1;    0;mai;lev       ;9.1_r2388_2019-07-22          ;     0.010;
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  150;    1;    0;mai;amf       ;9.1_r2388_2019-07-22          ;     1.037;
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  186;    1;    0;mai;lax       ;9.1_r2388_2019-07-22          ;     1.584;
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  190;    1;    0;mai;flo       ;9.1_r2388_2019-07-22          ;     1.050;
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  245;    1;   10;mai;recphy    ;9.1_r2388_2019-07-22          ;     0.081;
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  245;    1;   10;mai;rectec    ;9.1_r2388_2019-07-22          ;     0.081;
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  320;    1;   10;mai;sen       ;9.1_r2388_2019-07-22          ;     0.000;
+P_usm;wlieu;ansemis;P_iwater;ancours;ifin;P_ichsl;group;P_codeplante;stade;nomversion;abso(n)
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  112;    1;    0;mai;semis     ;9.1_r2388_2019-07-22          ;     0.000;
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  117;    1;    0;mai;ger       ;9.1_r2388_2019-07-22          ;     0.000;
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  121;    1;    0;mai;lev       ;9.1_r2388_2019-07-22          ;     0.010;
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  150;    1;    0;mai;amf       ;9.1_r2388_2019-07-22          ;     1.037;
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  186;    1;    0;mai;lax       ;9.1_r2388_2019-07-22          ;     1.657;
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  190;    1;    0;mai;flo       ;9.1_r2388_2019-07-22          ;     1.312;
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  245;    1;   10;mai;recphy    ;9.1_r2388_2019-07-22          ;     0.223;
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  245;    1;   10;mai;rectec    ;9.1_r2388_2019-07-22          ;     0.223;
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  320;    1;   10;mai;sen       ;9.1_r2388_2019-07-22          ;     0.000;
+P_usm;wlieu;ansemis;P_iwater;ancours;ifin;P_ichsl;group;P_codeplante;stade;nomversion;abso(n)
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  112;    1;    0;mai;semis     ;9.1_r2388_2019-07-22          ;     0.000;
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  117;    1;    0;mai;ger       ;9.1_r2388_2019-07-22          ;     0.000;
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  121;    1;    0;mai;lev       ;9.1_r2388_2019-07-22          ;     0.010;
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  150;    1;    0;mai;amf       ;9.1_r2388_2019-07-22          ;     1.037;
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  186;    1;    0;mai;lax       ;9.1_r2388_2019-07-22          ;     1.627;
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  190;    1;    0;mai;flo       ;9.1_r2388_2019-07-22          ;     1.399;
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  245;    1;   10;mai;recphy    ;9.1_r2388_2019-07-22          ;     0.556;
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  245;    1;   10;mai;rectec    ;9.1_r2388_2019-07-22          ;     0.556;
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  320;    1;   10;mai;sen       ;9.1_r2388_2019-07-22          ;     0.000;
+P_usm;wlieu;ansemis;P_iwater;ancours;ifin;P_ichsl;group;P_codeplante;stade;nomversion;abso(n)
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  112;    1;    0;mai;semis     ;9.1_r2388_2019-07-22          ;     0.000;
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  117;    1;    0;mai;ger       ;9.1_r2388_2019-07-22          ;     0.000;
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  121;    1;    0;mai;lev       ;9.1_r2388_2019-07-22          ;     0.010;
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  150;    1;    0;mai;amf       ;9.1_r2388_2019-07-22          ;     1.037;
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  186;    1;    0;mai;lax       ;9.1_r2388_2019-07-22          ;     1.714;
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  190;    1;    0;mai;flo       ;9.1_r2388_2019-07-22          ;     1.536;
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  245;    1;   10;mai;recphy    ;9.1_r2388_2019-07-22          ;     0.699;
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  245;    1;   10;mai;rectec    ;9.1_r2388_2019-07-22          ;     0.699;
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  320;    1;   10;mai;sen       ;9.1_r2388_2019-07-22          ;     0.000;
+P_usm;wlieu;ansemis;P_iwater;ancours;ifin;P_ichsl;group;P_codeplante;stade;nomversion;abso(n)
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  112;    1;    0;mai;semis     ;9.1_r2388_2019-07-22          ;     0.000;
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  117;    1;    0;mai;ger       ;9.1_r2388_2019-07-22          ;     0.000;
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  121;    1;    0;mai;lev       ;9.1_r2388_2019-07-22          ;     0.010;
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  150;    1;    0;mai;amf       ;9.1_r2388_2019-07-22          ;     1.060;
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  186;    1;    0;mai;lax       ;9.1_r2388_2019-07-22          ;     2.088;
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  190;    1;    0;mai;flo       ;9.1_r2388_2019-07-22          ;     1.126;
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  245;    1;   10;mai;recphy    ;9.1_r2388_2019-07-22          ;     0.000;
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  245;    1;   10;mai;rectec    ;9.1_r2388_2019-07-22          ;     0.000;
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  320;    1;   10;mai;sen       ;9.1_r2388_2019-07-22          ;     0.000;
+P_usm;wlieu;ansemis;P_iwater;ancours;ifin;P_ichsl;group;P_codeplante;stade;nomversion;abso(n)
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  112;    1;    0;mai;semis     ;9.1_r2388_2019-07-22          ;     0.000;
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  117;    1;    0;mai;ger       ;9.1_r2388_2019-07-22          ;     0.000;
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  121;    1;    0;mai;lev       ;9.1_r2388_2019-07-22          ;     0.010;
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  150;    1;    0;mai;amf       ;9.1_r2388_2019-07-22          ;     1.060;
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  186;    1;    0;mai;lax       ;9.1_r2388_2019-07-22          ;     2.139;
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  190;    1;    0;mai;flo       ;9.1_r2388_2019-07-22          ;     1.391;
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  245;    1;   10;mai;recphy    ;9.1_r2388_2019-07-22          ;     0.089;
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  245;    1;   10;mai;rectec    ;9.1_r2388_2019-07-22          ;     0.089;
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  320;    1;   10;mai;sen       ;9.1_r2388_2019-07-22          ;     0.000;
+P_usm;wlieu;ansemis;P_iwater;ancours;ifin;P_ichsl;group;P_codeplante;stade;nomversion;abso(n)
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  112;    1;    0;mai;semis     ;9.1_r2388_2019-07-22          ;     0.000;
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  117;    1;    0;mai;ger       ;9.1_r2388_2019-07-22          ;     0.000;
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  121;    1;    0;mai;lev       ;9.1_r2388_2019-07-22          ;     0.010;
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  150;    1;    0;mai;amf       ;9.1_r2388_2019-07-22          ;     1.060;
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  186;    1;    0;mai;lax       ;9.1_r2388_2019-07-22          ;     2.204;
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  190;    1;    0;mai;flo       ;9.1_r2388_2019-07-22          ;     1.661;
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  245;    1;   10;mai;recphy    ;9.1_r2388_2019-07-22          ;     0.237;
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  245;    1;   10;mai;rectec    ;9.1_r2388_2019-07-22          ;     0.237;
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  320;    1;   10;mai;sen       ;9.1_r2388_2019-07-22          ;     0.000;
+P_usm;wlieu;ansemis;P_iwater;ancours;ifin;P_ichsl;group;P_codeplante;stade;nomversion;abso(n)
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  112;    1;    0;mai;semis     ;9.1_r2388_2019-07-22          ;     0.000;
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  117;    1;    0;mai;ger       ;9.1_r2388_2019-07-22          ;     0.000;
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  121;    1;    0;mai;lev       ;9.1_r2388_2019-07-22          ;     0.010;
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  150;    1;    0;mai;amf       ;9.1_r2388_2019-07-22          ;     1.060;
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  186;    1;    0;mai;lax       ;9.1_r2388_2019-07-22          ;     2.173;
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  190;    1;    0;mai;flo       ;9.1_r2388_2019-07-22          ;     1.727;
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  245;    1;   10;mai;recphy    ;9.1_r2388_2019-07-22          ;     0.565;
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  245;    1;   10;mai;rectec    ;9.1_r2388_2019-07-22          ;     0.565;
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  320;    1;   10;mai;sen       ;9.1_r2388_2019-07-22          ;     0.000;
+P_usm;wlieu;ansemis;P_iwater;ancours;ifin;P_ichsl;group;P_codeplante;stade;nomversion;abso(n)
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  112;    1;    0;mai;semis     ;9.1_r2388_2019-07-22          ;     0.000;
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  117;    1;    0;mai;ger       ;9.1_r2388_2019-07-22          ;     0.000;
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  121;    1;    0;mai;lev       ;9.1_r2388_2019-07-22          ;     0.010;
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  150;    1;    0;mai;amf       ;9.1_r2388_2019-07-22          ;     1.060;
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  186;    1;    0;mai;lax       ;9.1_r2388_2019-07-22          ;     2.219;
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  190;    1;    0;mai;flo       ;9.1_r2388_2019-07-22          ;     1.895;
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  245;    1;   10;mai;recphy    ;9.1_r2388_2019-07-22          ;     0.732;
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  245;    1;   10;mai;rectec    ;9.1_r2388_2019-07-22          ;     0.732;
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  320;    1;   10;mai;sen       ;9.1_r2388_2019-07-22          ;     0.000;
+P_usm;wlieu;ansemis;P_iwater;ancours;ifin;P_ichsl;group;P_codeplante;stade;nomversion;abso(n)
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  112;    1;    0;mai;semis     ;9.1_r2388_2019-07-22          ;     0.000;
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  117;    1;    0;mai;ger       ;9.1_r2388_2019-07-22          ;     0.000;
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  121;    1;    0;mai;lev       ;9.1_r2388_2019-07-22          ;     0.010;
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  150;    1;    0;mai;amf       ;9.1_r2388_2019-07-22          ;     1.082;
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  186;    1;    0;mai;lax       ;9.1_r2388_2019-07-22          ;     2.495;
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  190;    1;    0;mai;flo       ;9.1_r2388_2019-07-22          ;     1.409;
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  245;    1;   10;mai;recphy    ;9.1_r2388_2019-07-22          ;     0.000;
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  245;    1;   10;mai;rectec    ;9.1_r2388_2019-07-22          ;     0.000;
+maize_ref_2013                          ;                                   sitej; 2013;   90; 2013;  320;    1;   10;mai;sen       ;9.1_r2388_2019-07-22          ;     0.000;

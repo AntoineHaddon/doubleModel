@@ -41,10 +41,10 @@
 <horizon nh="5">0</horizon>
 </hinit>
 <NO3init>
-<horizon nh="1">45.0</horizon>
-<horizon nh="2">45.0</horizon>
-<horizon nh="3">45.0</horizon>
-<horizon nh="4">45.0</horizon>
+<horizon nh="1">10.0</horizon>
+<horizon nh="2">10.0</horizon>
+<horizon nh="3">10.0</horizon>
+<horizon nh="4">10.0</horizon>
 <horizon nh="5">0</horizon>
 </NO3init>
 <NH4init>

@@ -1,11 +1,11 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import sys
-sys.path.append('/home/ahaddon/bin')
+syspath.append('../../utils')
 import readValsFromFile as rdvl
 
 
-dirStics = '/home/ahaddon/Dropbox/Work/ReUse/code/stics/corn/'
+dirStics = '../corn/'
 
 soilParam = rdvl.readLine(dirStics+'param.sol', 0)
 

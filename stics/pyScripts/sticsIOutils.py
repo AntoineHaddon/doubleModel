@@ -3,11 +3,13 @@ import xml.etree.ElementTree as ET
 import datetime as dt
 
 from sys import path as syspath
-syspath.append('/home/ahaddon/bin')
+syspath.append('../../utils')
 import readValsFromFile as rdvl
 
+from os import getcwd
+
 ## global variable
-dirStics = '/home/ahaddon/Dropbox/Work/ReUse/code/stics/corn/'
+dirStics = getcwd() + '/../corn/'
 
 
 ######################
@@ -79,7 +81,7 @@ def writeIrrigCal(cropmgntFile,irrigCal):
 
 # if __name__ == "__main__":
 #     cropmgntFile_corn2013 = dirStics + "maize_reuse_tec.xml"
-#
+
 #     irrigCal_corn2013 = np.array([ [207,30.0], [226,30.0] ])
 #     writeIrrigCal(cropmgntFile_corn2013,irrigCal_corn2013)
 
@@ -228,16 +230,16 @@ def runUSM(usm):
 
 
 
-# if __name__ == "__main__":
-    # # set irragation calendar
-    # cropmgntFile_corn2013 = dirStics + "maize_reuse_tec.xml"
-    # irrigCal_corn2013 = np.array([ [207,30.0], [226,30.0] ])
-    # # irrigCal_corn2013 = np.array([ range(200,230) , 30*[5.0]]).T
-    # writeIrrigCal(cropmgntFile_corn2013, irrigCal_corn2013)
+if __name__ == "__main__":
+    # set irragation calendar
+    cropmgntFile_corn2013 = dirStics + "maize_reuse_tec.xml"
+    irrigCal_corn2013 = np.array([ [207,30.0], [226,30.0] ])
+    # irrigCal_corn2013 = np.array([ range(200,230) , 30*[5.0]]).T
+    writeIrrigCal(cropmgntFile_corn2013, irrigCal_corn2013)
 
     # rum STICS simulation
-    # usm_corn2013 = "maize_reuse_2013"
-    # print(runUSM(usm_corn2013))
+    usm_corn2013 = "maize_reuse_2013"
+    print(runUSM(usm_corn2013))
 
 
 

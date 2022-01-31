@@ -6,8 +6,11 @@ import scipy.interpolate as interpolate
 
 from sys import path as syspath
 
-syspath.append('/home/ahaddon/Dropbox/Work/ReUse/code/stics/pyScripts')
+syspath.append('../pyScripts')
 import sticsIOutils as stiIO
+
+import os
+cwd = os.getcwd()
 
 
 # load ref max biomass
@@ -18,7 +21,7 @@ with open('Bmax_t.npy', 'rb') as f:
 
 
 ## stics files
-stiIO.dirStics = '/home/ahaddon/Dropbox/Work/ReUse/code/stics/viability/corn2013/'
+stiIO.dirStics = cwd+'/corn2013/'
 sti_file = stiIO.dirStics + 'mod_smaize_ref_2013.sti'
 tec_file = stiIO.dirStics + "maize_ref_tec.xml"
 cli_file = stiIO.dirStics + 'sitej.2013'		

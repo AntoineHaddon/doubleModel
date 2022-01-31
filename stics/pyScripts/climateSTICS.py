@@ -1,12 +1,16 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import sys
-sys.path.append('/home/ahaddon/bin')
+sys.path.append('../../utils')
 import readValsFromFile as rdvl
 import pandas as pd
 import datetime as dt
 
-dirStics = '/home/ahaddon/Dropbox/Work/ReUse/code/stics/corn/'
+
+import os
+cwd = os.getcwd()
+
+dirStics = cwd+'/../corn/'
 filename=dirStics + 'sitej.2013'
 # dirStics = '/home/ahaddon/Dropbox/Work/ReUse/code/stics/corn1996/'
 # filename = dirStics + 'meteo-site1.1996'

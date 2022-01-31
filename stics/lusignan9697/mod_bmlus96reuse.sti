@@ -6,7 +6,7 @@
    Cultural practices file :                                mlus96reuse_tec.xml
    Plant file                :                                       corn_plt.xml      Variety : Furio     
      variety group :  4
-   Initialisations file :                                    mlu96n6_ini.xml
+   Initialisations file :                                mlus96reuse_ini.xml
    Initial soil values      : Lusignan-11 
       Z (cm)      Water (%)      NO3 (kg/ha)    NH4 (kg/ha)
         25.        23.5          32.0           0.0

@@ -1,13 +1,15 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import sys
-sys.path.append('/home/ahaddon/bin')
+sy.spath.append('../../utils')
 import readValsFromFile as rdvl
 
 import sticsIOutils as sticsIO
 
+import os
+cwd = os.getcwd()
 
-sticsIO.dirStics = '/home/ahaddon/Dropbox/Work/ReUse/code/stics/corn/'
+sticsIO.dirStics = cwd+'../corn/'
 sti_corn2013 = sticsIO.dirStics + 'mod_smaize_reuse_2013.sti'
 
 

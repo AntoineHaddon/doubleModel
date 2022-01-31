@@ -61,19 +61,19 @@ nbinterventions
 opp1
 112 20 
 opp1
-180 40 
+180 10 
 opp1
-192 40 
+192 10 
 opp1
-203 40 
+203 10 
 opp1
-210 40 
+210 10 
 opp1
-223 40 
+223 10 
 opp1
-232 40 
+232 10 
 opp1
-242 40 
+242 10 
 codlocirrig
 1
 locirrig

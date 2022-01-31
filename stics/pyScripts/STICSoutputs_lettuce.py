@@ -2,10 +2,13 @@ import numpy as np
 import matplotlib.pyplot as plt
 import datetime as dt
 import sys
-sys.path.append('/home/ahaddon/bin')
+sys.path.append('../../utils')
 import readValsFromFile as rdvl
 
 import sticsIOutils as sticsIO
+
+import os
+cwd = os.getcwd()
 
 
 ####################
@@ -13,7 +16,7 @@ import sticsIOutils as sticsIO
 ####################
 
 ## stics files
-sticsIO.dirStics = '/home/ahaddon/Dropbox/Work/ReUse/code/stics/lettuceMurviel/'
+sticsIO.dirStics = cwd+'/../lettuceMurviel/'
 tec_lettuce = sticsIO.dirStics + "salade_tec.xml"
 
 # usm_lettuce = "lettuce_ref"

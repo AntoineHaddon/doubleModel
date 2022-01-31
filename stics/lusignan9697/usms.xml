@@ -332,7 +332,7 @@
     <usm nom="mlus96reuse">
         <datedebut>107</datedebut>
         <datefin>365</datefin>
-        <finit>mlu96n6_ini.xml</finit>
+        <finit>mlus96reuse_ini.xml</finit>
         <nomsol>Lusignan-11</nomsol>
         <fstation>lusignaj_sta.xml</fstation>
         <fclim1>lusignaj.1996</fclim1>

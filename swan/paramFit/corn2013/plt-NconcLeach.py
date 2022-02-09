@@ -2,27 +2,28 @@ import numpy as np
 import matplotlib.pyplot as plt
 # import scipy.interpolate as interpolate
 
-import sys
-sys.path.append('/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/model')
+from os import getcwd
+cwd = getcwd()
+
+from sys import path as syspath
+syspath.append(cwd+'/../../model')
 import swanModel as mdl
-# import plotPelak as pltPlk
-
-sys.path.append('/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/paramFit')
+import plotSwan as pltSwan
+syspath.append(cwd+'/..')
 import swanFitStics as swanSti
-
-sys.path.append('/home/ahaddon/Dropbox/Work/ReUse/code/stics/pyScripts')
+syspath.append(cwd+'/../../../stics/pyScripts')
 import sticsIOutils as stiIO
 
-sys.path.append('/home/ahaddon/bin')
+
+syspath.append(cwd+'/../../../utils')
 import readValsFromFile as rdvl
 
 
 
 
 
-
 ## stics files
-stiIO.dirStics = '/home/ahaddon/Dropbox/Work/ReUse/code/stics/corn/'
+stiIO.dirStics = cwd+'/../../../stics/corn/'
 sti_corn2013 = stiIO.dirStics + 'mod_smaize_reuse_2013.sti'
 tec_corn2013 = stiIO.dirStics + "maize_reuse_tec.xml"
 cli_corn2013 = stiIO.dirStics + 'sitej.2013'        
@@ -31,11 +32,13 @@ usm_corn2013 = "maize_reuse_2013"
 # set initial conditons file
 stiIO.setIniFile(usm_corn2013,"maize_ini.xml")
 
-  
 
 ### model parameters  irrig ref, 
-paramFile = '/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/paramFit/corn2013/params_swan_Iref_Corn2013'
+paramFile = cwd+'/params_swan_Iref_Corn2013'
 mdl.readParams(paramFile)
+
+
+
 
 
 ##### setup plots
@@ -69,6 +72,9 @@ stiLeak, stiLeach = np.zeros(FN.shape), np.zeros(FN.shape)
 ### ref FN0 -> N0= 12.8...
 ######################################################
 
+Imax=30
+CNmax=3
+
 FN0 = 80
 
 
@@ -77,7 +83,7 @@ for indx in range(len(FN)):
     print('FN = ', FN[indx])
     
     #### Controls from bocop
-    dirBCP = '/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/maxTotFertig/maxFNbar20/'+str(FN[indx])+'/'
+    dirBCP = cwd+'/../../bocophjb/maxBio_TotFerConstr_corn2013/maxTotFertig/maxFNbar20-I'+str(Imax)+'-CN'+str(CNmax)+'/'+str(FN[indx])
     # ref N0
     irrigCal_corn2013 = rdvl.readVals(dirBCP+"/corn2013-bcp-I-Ni12.csv")
     fertiCal_corn2013 = rdvl.readVals(dirBCP+"/corn2013-bcp-Cn-Ni12.csv")
@@ -151,7 +157,7 @@ for indx in range(len(FN)):
     print('FN = ', FN[indx])
     
     #### Controls from bocop
-    dirBCP = '/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/maxTotFertig/maxFNbar20/'+str(FN[indx])+'/'
+    dirBCP = cwd+'/../../bocophjb/maxBio_TotFerConstr_corn2013/maxTotFertig/maxFNbar20-I'+str(Imax)+'-CN'+str(CNmax)+'/'+str(FN[indx])
     # med N0
     irrigCal_corn2013 = rdvl.readVals(dirBCP+"/corn2013-bcp-I-Ni10.csv")
     fertiCal_corn2013 = rdvl.readVals(dirBCP+"/corn2013-bcp-Cn-Ni10.csv")
@@ -237,7 +243,7 @@ for indx in range(len(FN)):
     print('FN = ', FN[indx])
     
     #### Controls from bocop
-    dirBCP = '/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/maxTotFertig/maxFNbar20/'+str(FN[indx])+'/'
+    dirBCP = cwd+'/../../bocophjb/maxBio_TotFerConstr_corn2013/maxTotFertig/maxFNbar20-I'+str(Imax)+'-CN'+str(CNmax)+'/'+str(FN[indx])
     # ref N0
     irrigCal_corn2013 = rdvl.readVals(dirBCP+"/corn2013-bcp-I-Ni7.csv")
     fertiCal_corn2013 = rdvl.readVals(dirBCP+"/corn2013-bcp-Cn-Ni7.csv")
@@ -304,54 +310,54 @@ ax.plot(FN0+swanNtot, stiLeach/stiLeak, 's', color='tab:gray', label="F$_{N0}$ =
 ### ref scenario used for fit
 ######################################################
 
-FN0=80
+# FN0=80
 
-# #####ref scenario : used for fit
-irrigCal_corn2013 = np.array([ [207,30.0], [226,30.0] ])
-fertiCal_corn2013 = np.array([ [120,FN0] ])
+# # #####ref scenario : used for fit
+# irrigCal_corn2013 = np.array([ [207,30.0], [226,30.0] ])
+# fertiCal_corn2013 = np.array([ [120,FN0] ])
 
-### STICS simulation
-# set irragation calendar
-stiIO.writeIrrigCal(tec_corn2013, irrigCal_corn2013)
-# set fertilizer calendar
-stiIO.writeFertiCal(tec_corn2013, fertiCal_corn2013)
-# rum simulation
-stiIO.runUSM(usm_corn2013)
-## load data
-stiData_corn2013 = stiIO.loadData(sti_corn2013)
-tSti, Lsti, Ssti, Nsti, Bsti = swanSti.loadSimu_fromSow(stiData_corn2013, tec_corn2013)
-Csti = swanSti.laiTocanopy(Lsti)
-# N leached (STICS) 
-stiLeach= np.sum(stiIO.Nleach(stiData_corn2013,tJul=tSti)) #kg/ha
-stiLeak= np.sum(stiIO.readOutput("drain", stiData_corn2013,tJul=mdl.times) ) #mm
+# ### STICS simulation
+# # set irragation calendar
+# stiIO.writeIrrigCal(tec_corn2013, irrigCal_corn2013)
+# # set fertilizer calendar
+# stiIO.writeFertiCal(tec_corn2013, fertiCal_corn2013)
+# # rum simulation
+# stiIO.runUSM(usm_corn2013)
+# ## load data
+# stiData_corn2013 = stiIO.loadData(sti_corn2013)
+# tSti, Lsti, Ssti, Nsti, Bsti = swanSti.loadSimu_fromSow(stiData_corn2013, tec_corn2013)
+# Csti = swanSti.laiTocanopy(Lsti)
+# # N leached (STICS) 
+# stiLeach= np.sum(stiIO.Nleach(stiData_corn2013,tJul=tSti)) #kg/ha
+# stiLeak= np.sum(stiIO.readOutput("drain", stiData_corn2013,tJul=mdl.times) ) #mm
 
-### SWAN model simulation
-mdl.t0=tSti[0]
-mdl.tf=tSti[-1]
-mdl.times = tSti
-mdl.s0 = Ssti[0]
-mdl.n0 = Nsti[0]
-# set climate (ET0 and rain)
-# swanSti.pelakClimatFromSTICS(tSti, cli_corn2013)
-## set irragation
-swanSti.pelakIrigFromStics(tSti, stiData_corn2013)
-## set fertigation
-swanSti.pelakFertiFromStics(tSti, stiData_corn2013)
-## run simulation 
-# cSwan, sSwan, nSwan, bSwan =  mdl.simulate()
+# ### SWAN model simulation
+# mdl.t0=tSti[0]
+# mdl.tf=tSti[-1]
+# mdl.times = tSti
+# mdl.s0 = Ssti[0]
+# mdl.n0 = Nsti[0]
+# # set climate (ET0 and rain)
+# # swanSti.pelakClimatFromSTICS(tSti, cli_corn2013)
+# ## set irragation
+# swanSti.pelakIrigFromStics(tSti, stiData_corn2013)
+# ## set fertigation
+# swanSti.pelakFertiFromStics(tSti, stiData_corn2013)
+# ## run simulation 
+# # cSwan, sSwan, nSwan, bSwan =  mdl.simulate()
 
-swanNtot= np.trapz(mdl.Irig(mdl.times)*mdl.Cn(mdl.times), x=mdl.times)*10    # kg/ha
+# swanNtot= np.trapz(mdl.Irig(mdl.times)*mdl.Cn(mdl.times), x=mdl.times)*10    # kg/ha
 
-# swanLeach[indx]= np.trapz(mdl.LeachV(sSwan,nSwan), x=mdl.times) *10
-# swanLeak[indx]= np.trapz(mdl.LeakV(sSwan), x=mdl.times) 
-
-
+# # swanLeach[indx]= np.trapz(mdl.LeachV(sSwan,nSwan), x=mdl.times) *10
+# # swanLeak[indx]= np.trapz(mdl.LeakV(sSwan), x=mdl.times) 
 
 
 
-###### plot N leach conc
-ax.plot(FN0+swanNtot, stiLeach/stiLeak, 'D', color='k', label="Reference", ls='')
-# ax.plot(FN0+swanNtot, swanLeach/swanLeak, 'v', color='tab:orange', label='Control model', ls='')
+
+
+# ###### plot N leach conc
+# ax.plot(FN0+swanNtot, stiLeach/stiLeak, 'D', color='k', label="Reference", ls='')
+# # ax.plot(FN0+swanNtot, swanLeach/swanLeak, 'v', color='tab:orange', label='Control model', ls='')
 
 
 
@@ -361,7 +367,8 @@ ax.plot(FN0+swanNtot, stiLeach/stiLeak, 'D', color='k', label="Reference", ls=''
 
 ################## add limit
 CNcrit = 0.112 # kg/(ha mm)
-ax.plot([0,200], [CNcrit, CNcrit], 'r', label ='$C_{N crit}$')
+start, end = ax.get_xlim()
+ax.plot([start, end], [CNcrit, CNcrit], 'r', label ='$C_{N crit}$')
 
 
 

@@ -35,8 +35,8 @@ vector<double> ET0;
     //read rain data
     int verbose = 1;
 
-    readFileToVector("/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/data/rain_corn2013",Rain,verbose);
-    readFileToVector("/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/data/ET0_corn2013",ET0,verbose);
+    readFileToVector("/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/data/rain_corn2013",Rain,verbose);
+    readFileToVector("/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/data/ET0_corn2013",ET0,verbose);
 
     return 0;
 }

@@ -53,8 +53,10 @@ dates=  pd.date_range( dt.datetime(*[int(i) for i in climateData[it0,jyear:jday]
 print('Means : \n')
 print('ET0 : '+ str(np.mean(climateData[it0:itf,jET0])) )
 
-plt.hist(climateData[it0:itf,jET0], 20 )
-
+plt.hist(climateData[it0:itf,jET0])
+plt.figure()
+plt.hist(climateData[it0:itf,jrain] )
+plt.show()
 
 ##### plots data
 plt.rc('text', usetex=True)
@@ -70,32 +72,32 @@ plt.rc('text', usetex=True)
 
 
 
-fig,ax = plt.subplots(4,1,figsize=(7,2*4))
-ax[0].plot(dates, climateData[it0:itf,jtempMin], 'b', label='Min')
-ax[0].plot(dates, climateData[it0:itf,jtempMax], 'r', label='Max')
-ax[0].set(title='Daily Temperature (°C)')
-ax[0].legend()
+# fig,ax = plt.subplots(4,1,figsize=(7,2*4))
+# ax[0].plot(dates, climateData[it0:itf,jtempMin], 'b', label='Min')
+# ax[0].plot(dates, climateData[it0:itf,jtempMax], 'r', label='Max')
+# ax[0].set(title='Daily Temperature (°C)')
+# ax[0].legend()
 
-ax[1].plot(dates, climateData[it0:itf,jradiation])
-ax[1].set(title="Radiation (MJ m$^{-2}$ d$^{-1}$)")
+# ax[1].plot(dates, climateData[it0:itf,jradiation])
+# ax[1].set(title="Radiation (MJ m$^{-2}$ d$^{-1}$)")
 
-ax[2].plot(dates, climateData[it0:itf,jET0])
-ax[2].set(title="Reference Evapotranspiration (mm d$^{-1}$)")
+# ax[2].plot(dates, climateData[it0:itf,jET0])
+# ax[2].set(title="Reference Evapotranspiration (mm d$^{-1}$)")
 
-ax[3].bar(dates,climateData[it0:itf,jrain])
-ax[3].set(title="Rain (mm d$^{-1}$)")
+# ax[3].bar(dates,climateData[it0:itf,jrain])
+# ax[3].set(title="Rain (mm d$^{-1}$)")
 
 
-# Define the date format
-import matplotlib.dates as mdates
-# from matplotlib.dates import DateFormatter
-date_form = mdates.DateFormatter("%d-%m-%Y")
-for a in ax:
-    a.xaxis.set_major_formatter(date_form)
-    # a.xaxis.set_major_locator(mdates.MonthLocator(interval=1))
+# # Define the date format
+# import matplotlib.dates as mdates
+# # from matplotlib.dates import DateFormatter
+# date_form = mdates.DateFormatter("%d-%m-%Y")
+# for a in ax:
+#     a.xaxis.set_major_formatter(date_form)
+#     # a.xaxis.set_major_locator(mdates.MonthLocator(interval=1))
 
-plt.tight_layout()
-plt.show()
+# plt.tight_layout()
+# plt.show()
 
 
 

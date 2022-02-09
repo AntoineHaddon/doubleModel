@@ -6,65 +6,65 @@
 
 #IncludeRegexTransform: 
 
-/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/constraints.cpp
+/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/constraints.cpp
 header_checkAdmissibleState
-/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/header_checkAdmissibleState
+/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/header_checkAdmissibleState
 header_checkAdmissibleControlState
-/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/header_checkAdmissibleControlState
+/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/header_checkAdmissibleControlState
 header_checkAdmissibleFinalState
-/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/header_checkAdmissibleFinalState
+/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/header_checkAdmissibleFinalState
 
-/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/costFunctions.cpp
+/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/costFunctions.cpp
 dependencies.hpp
-/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/dependencies.hpp
+/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/dependencies.hpp
 header_runningCost
-/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/header_runningCost
+/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/header_runningCost
 header_finalCost
-/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/header_finalCost
+/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/header_finalCost
 header_switchingCost
-/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/header_switchingCost
+/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/header_switchingCost
 
-/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/dependencies.cpp
+/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/dependencies.cpp
 
-/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/dependencies.hpp
+/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/dependencies.hpp
 cmath
 -
 vector
 -
 
-/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/dynamicsHJB.cpp
+/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/dynamicsHJB.cpp
 dependencies.hpp
-/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/dependencies.hpp
+/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/dependencies.hpp
 header_drift
-/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/header_drift
+/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/header_drift
 header_volatility
-/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/header_volatility
+/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/header_volatility
 
-/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/optionalFunctions.cpp
+/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/optionalFunctions.cpp
 header_userOutOfGridValueFunction
-/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/header_userOutOfGridValueFunction
+/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/header_userOutOfGridValueFunction
 header_userControlDiscretization
-/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/header_userControlDiscretization
+/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/header_userControlDiscretization
 header_userControlSet
-/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/header_userControlSet
+/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/header_userControlSet
 header_userControlSetStateDependent
-/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/header_userControlSetStateDependent
+/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/header_userControlSetStateDependent
 header_userAdmissibleTransition
-/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/header_userAdmissibleTransition
+/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/header_userAdmissibleTransition
 header_stateJumpAtSwitching
-/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/header_stateJumpAtSwitching
+/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/header_stateJumpAtSwitching
 
-/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/postProcessing.cpp
+/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/postProcessing.cpp
 header_postProcessing
-/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/header_postProcessing
+/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/header_postProcessing
 
-/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/preProcessing.cpp
+/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/preProcessing.cpp
 publicTools.hpp
-/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/publicTools.hpp
+/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/publicTools.hpp
 dependencies.hpp
-/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/dependencies.hpp
+/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/dependencies.hpp
 header_preProcessing
-/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/header_preProcessing
+/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/header_preProcessing
 
 /home/ahaddon/Programs/bocop/BocopHJB-1.1.0-Linux/core/boost/assert.hpp
 boost/current_function.hpp

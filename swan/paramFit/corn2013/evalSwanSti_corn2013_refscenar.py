@@ -1,24 +1,19 @@
 import numpy as np
 import matplotlib.pyplot as plt
-# import scipy.interpolate as interpolate
-# import scipy.optimize as opt
-# import math as m
+
+from os import getcwd
+cwd = getcwd()
 
 from sys import path as syspath
-syspath.append('/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/model')
-# import pelakModel as mdl
+syspath.append(cwd+'/../../model')
 import swanModel as mdl
-
 import plotSwan as pltSwan
-syspath.append('/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/paramFit')
+syspath.append(cwd+'/..')
 import swanFitStics as swanSti
-
-
-syspath.append('/home/ahaddon/Dropbox/Work/ReUse/code/stics/pyScripts')
+syspath.append(cwd+'/../../../stics/pyScripts')
 import sticsIOutils as stiIO
 
 
-import readValsFromFile as rdvl
 
 
 ########################################
@@ -33,9 +28,9 @@ import readValsFromFile as rdvl
 
 # #####ref scenario : used for fit
 irrigCal_corn2013 = np.array([ [207,30.0], [226,30.0] ])
-# fertiCal_corn2013 = np.array([ [120,80.0] ])
+fertiCal_corn2013 = np.array([ [120,160.0] ])
 # fertiCal_corn2013 = np.array([ [120,40.0] ])
-fertiCal_corn2013 = np.array([ [120,0.0] ])
+# fertiCal_corn2013 = np.array([ [120,0.0] ])
 
 
 ##### ref scenario with  fertigation
@@ -75,7 +70,7 @@ fertiCal_corn2013 = np.array([ [120,0.0] ])
 ####################
 
 ## stics files
-stiIO.dirStics = '/home/ahaddon/Dropbox/Work/ReUse/code/stics/corn/'
+stiIO.dirStics = cwd+'/../../../stics/corn/'
 sti_corn2013 = stiIO.dirStics + 'mod_smaize_reuse_2013.sti'
 tec_corn2013 = stiIO.dirStics + "maize_reuse_tec.xml"
 cli_corn2013 = stiIO.dirStics + 'sitej.2013'		
@@ -118,7 +113,7 @@ print('N leached (STICS) : ', np.sum(stiIO.Nleach(stiData_corn2013,tJul=tSti)), 
 #############################
 
 ### swan model, irrig ref, 
-paramFile = '/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/paramFit/corn2013/params_swan_Iref_Corn2013'
+paramFile = cwd+'/params_swan_Iref_Corn2013'
 mdl.readParams(paramFile)
 
 

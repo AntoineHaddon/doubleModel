@@ -1,16 +1,21 @@
-import scipy.integrate as integrate
+# import scipy.integrate as integrate
 import scipy.interpolate as interpolate
 import numpy as np
 import matplotlib.pyplot as plt
-import scipy.ndimage as filter
+# import scipy.ndimage as filter
 # import scipy.signal as filter
 
-import sys
-sys.path.append('/home/ahaddon/bin')
-import readValsFromFile as rdvl
-sys.path.append('/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/model')
+
+from os import getcwd
+cwd = getcwd()
+
+from sys import path as syspath
+syspath.append(cwd+'/../model')
 import swanModel as mdl
 import plotSwan as pltSwan
+syspath.append(cwd+'/../../utils')
+import readValsFromFile as rdvl
+
 
 
 def readBocopResults(dirname):
@@ -105,7 +110,6 @@ def simPelakBocop(timBcp,Ibcp,CNbcp):
     mdl.Irig=interpolate.interp1d(timBcp, Ibcp,kind='previous' )
     mdl.Cn=interpolate.interp1d(timBcp, CNbcp,kind='previous' )
 
-    # return mdl.simPelak()
     return mdl.simulate()
 
 
@@ -136,7 +140,7 @@ for indx,FN in enumerate(FNs):
 
 
     # # bocop HJB
-    maindir='/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/'
+    maindir=cwd+''
 
     ### mlus
     # # dir='maxBio_TotFerConstr_mlus/maxTotFertig/14/'
@@ -147,13 +151,10 @@ for indx,FN in enumerate(FNs):
     # ET0Bocop('/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_mlus/data/ET0_mlus96')
 
     ### corn2013
-    # dir='maxBio_TotFerConstr_corn2013/maxTotFertig/7/'
-    # dir='maxBio_TotFerConstr_corn2013/maxTotFertig/'+str(FN)+'/'
-    # dir='maxBio_TotFerConstr_corn2013/maxTotFertig/maxFNbar12/'+str(FN)+'/'
-    dir='maxBio_TotFerConstr_corn2013/maxTotFertig/maxFNbar20/'+str(FN)+'/'
-    paramFile = '/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/paramFit/corn2013/params_swan_Iref_Corn2013'
-    rainBocop('/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/data/rain_corn2013')
-    ET0Bocop('/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/data/ET0_corn2013')
+    dir='/maxBio_TotFerConstr_corn2013/maxTotFertig/maxFNbar20-I30-CN5/'+str(FN)+'/'
+    paramFile = cwd+'/../paramFit/corn2013/params_swan_Iref_Corn2013'
+    rainBocop(maindir+'/maxBio_TotFerConstr_corn2013/data/rain_corn2013')
+    ET0Bocop(maindir+'/maxBio_TotFerConstr_corn2013/data/ET0_corn2013')
 
 
 
@@ -165,26 +166,19 @@ for indx,FN in enumerate(FNs):
 
     # timeBocop, Ctbocop, Stbocop, Ntbocop, Btbocop, Itbocop, CNtbocop = readBocopResultsBio(maindir+dir)
     timeBocop, Ctbocop, Stbocop, Ntbocop, Itbocop, CNtbocop = readBocopResults(maindir+dir)
+    mdl.Irig=interpolate.interp1d(timeBocop, Itbocop,kind='previous' )
+    mdl.Cn=interpolate.interp1d(timeBocop, CNtbocop,kind='previous' )
 
-    mdl.t0= timeBocop[0]
-    mdl.tf=timeBocop[-1]
-    mdl.times = timeBocop
-
-    
-
-    mdl.readParams(paramFile)
-    # mdl.ET0 = interpolate.interp1d([0, mdl.tf] , [mdl.ET0ref, mdl.ET0ref] ,kind='previous' )
-
-
-    mdl.c0=Ctbocop[0]
-    mdl.s0=Stbocop[0]
-    mdl.n0=Ntbocop[0]
-    mdl.b0=0
-
-
-    # times, Can, SoilM, Nitro, Biom = simPelakBocop(timeBocop, filter.median_filter(Itbocop, size=20), filter.median_filter(CNtbocop, size=20) , IC)
-    Can, SoilM, Nitro, Biom = simPelakBocop(timeBocop, Itbocop, CNtbocop)
-    mdl.printSimuInfo(mdl.times, Can, SoilM, Nitro, Biom)
+    # mdl.readParams(paramFile)
+    # mdl.t0= timeBocop[0]
+    # mdl.tf=timeBocop[-1]
+    # mdl.times = timeBocop
+    # mdl.c0=Ctbocop[0]
+    # mdl.s0=Stbocop[0]
+    # mdl.n0=Ntbocop[0]
+    # mdl.b0=0
+    # Can, SoilM, Nitro, Biom = simPelakBocop(timeBocop, Itbocop, CNtbocop)
+    # mdl.printSimuInfo(mdl.times, Can, SoilM, Nitro, Biom)
 
 
 
@@ -205,14 +199,14 @@ for indx,FN in enumerate(FNs):
     #### write irrig calendar
     ###############################
 
-    sys.path.append('/home/ahaddon/bin')
+    syspath.append(cwd+'/../../utils')
     import writeVals as wrt
     dirCtrl = maindir+dir
 
     ## corn2013
     tSti = np.arange(128,247)
-    wrt.writeValstoFile(dirCtrl+ "corn2013-bcp-I-Ni7.csv", np.array( [tSti, mdl.Irig(tSti-tSti[0]) ]).T   )
-    wrt.writeValstoFile(dirCtrl + "corn2013-bcp-Cn-Ni7.csv", np.array( [tSti, mdl.Cn(tSti-tSti[0]) ]).T   )
+    wrt.writeValstoFile(dirCtrl+ "corn2013-bcp-I-Ni18.csv", np.array( [tSti, mdl.Irig(tSti-tSti[0]) ]).T   )
+    wrt.writeValstoFile(dirCtrl + "corn2013-bcp-Cn-Ni18.csv", np.array( [tSti, mdl.Cn(tSti-tSti[0]) ]).T   )
 
     ## mlus
     # tSti = np.arange(138,311)

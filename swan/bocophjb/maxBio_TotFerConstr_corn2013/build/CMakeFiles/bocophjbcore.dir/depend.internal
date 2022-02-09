@@ -3396,32 +3396,32 @@ CMakeFiles/bocophjbcore.dir/core/sources/tools.cpp.o
  /home/ahaddon/Programs/bocop/BocopHJB-1.1.0-Linux/core/headers/Error.hpp
  /home/ahaddon/Programs/bocop/BocopHJB-1.1.0-Linux/core/headers/tools.hpp
  /home/ahaddon/Programs/bocop/BocopHJB-1.1.0-Linux/core/sources/tools.cpp
-CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/constraints.cpp.o
- /home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/constraints.cpp
+CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/constraints.cpp.o
+ /home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/constraints.cpp
  /home/ahaddon/Programs/bocop/BocopHJB-1.1.0-Linux/core/headers/header_checkAdmissibleControlState
  /home/ahaddon/Programs/bocop/BocopHJB-1.1.0-Linux/core/headers/header_checkAdmissibleFinalState
  /home/ahaddon/Programs/bocop/BocopHJB-1.1.0-Linux/core/headers/header_checkAdmissibleState
  /home/ahaddon/Programs/bocop/BocopHJB-1.1.0-Linux/core/headers/problemFunctions.hpp
  /home/ahaddon/Programs/bocop/BocopHJB-1.1.0-Linux/core/headers/publicTools.hpp
-CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/costFunctions.cpp.o
- /home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/costFunctions.cpp
- /home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/dependencies.hpp
+CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/costFunctions.cpp.o
+ /home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/costFunctions.cpp
+ /home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/dependencies.hpp
  /home/ahaddon/Programs/bocop/BocopHJB-1.1.0-Linux/core/headers/header_finalCost
  /home/ahaddon/Programs/bocop/BocopHJB-1.1.0-Linux/core/headers/header_runningCost
  /home/ahaddon/Programs/bocop/BocopHJB-1.1.0-Linux/core/headers/header_switchingCost
  /home/ahaddon/Programs/bocop/BocopHJB-1.1.0-Linux/core/headers/problemFunctions.hpp
  /home/ahaddon/Programs/bocop/BocopHJB-1.1.0-Linux/core/headers/publicTools.hpp
-CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/dependencies.cpp.o
- /home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/dependencies.cpp
-CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/dynamicsHJB.cpp.o
- /home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/dependencies.hpp
- /home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/dynamicsHJB.cpp
+CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/dependencies.cpp.o
+ /home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/dependencies.cpp
+CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/dynamicsHJB.cpp.o
+ /home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/dependencies.hpp
+ /home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/dynamicsHJB.cpp
  /home/ahaddon/Programs/bocop/BocopHJB-1.1.0-Linux/core/headers/header_drift
  /home/ahaddon/Programs/bocop/BocopHJB-1.1.0-Linux/core/headers/header_volatility
  /home/ahaddon/Programs/bocop/BocopHJB-1.1.0-Linux/core/headers/problemFunctions.hpp
  /home/ahaddon/Programs/bocop/BocopHJB-1.1.0-Linux/core/headers/publicTools.hpp
-CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/optionalFunctions.cpp.o
- /home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/optionalFunctions.cpp
+CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/optionalFunctions.cpp.o
+ /home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/optionalFunctions.cpp
  /home/ahaddon/Programs/bocop/BocopHJB-1.1.0-Linux/core/headers/header_stateJumpAtSwitching
  /home/ahaddon/Programs/bocop/BocopHJB-1.1.0-Linux/core/headers/header_userAdmissibleTransition
  /home/ahaddon/Programs/bocop/BocopHJB-1.1.0-Linux/core/headers/header_userControlDiscretization
@@ -3430,14 +3430,14 @@ CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/sw
  /home/ahaddon/Programs/bocop/BocopHJB-1.1.0-Linux/core/headers/header_userOutOfGridValueFunction
  /home/ahaddon/Programs/bocop/BocopHJB-1.1.0-Linux/core/headers/problemFunctions.hpp
  /home/ahaddon/Programs/bocop/BocopHJB-1.1.0-Linux/core/headers/publicTools.hpp
-CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/postProcessing.cpp.o
- /home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/postProcessing.cpp
+CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/postProcessing.cpp.o
+ /home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/postProcessing.cpp
  /home/ahaddon/Programs/bocop/BocopHJB-1.1.0-Linux/core/headers/Error.hpp
  /home/ahaddon/Programs/bocop/BocopHJB-1.1.0-Linux/core/headers/header_postProcessing
  /home/ahaddon/Programs/bocop/BocopHJB-1.1.0-Linux/core/headers/tools.hpp
-CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/preProcessing.cpp.o
- /home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/dependencies.hpp
- /home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/preProcessing.cpp
+CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/preProcessing.cpp.o
+ /home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/dependencies.hpp
+ /home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/preProcessing.cpp
  /home/ahaddon/Programs/bocop/BocopHJB-1.1.0-Linux/core/headers/Error.hpp
  /home/ahaddon/Programs/bocop/BocopHJB-1.1.0-Linux/core/headers/header_preProcessing
  /home/ahaddon/Programs/bocop/BocopHJB-1.1.0-Linux/core/headers/publicTools.hpp

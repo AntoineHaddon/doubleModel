@@ -2,27 +2,29 @@ import numpy as np
 import matplotlib.pyplot as plt
 # import scipy.interpolate as interpolate
 
-import sys
-sys.path.append('/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/model')
+
+from os import getcwd
+cwd = getcwd()
+
+from sys import path as syspath
+syspath.append(cwd+'/../../model')
 import swanModel as mdl
-# import plotPelak as pltPlk
-
-sys.path.append('/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/paramFit')
+import plotSwan as pltSwan
+syspath.append(cwd+'/..')
 import swanFitStics as swanSti
-
-sys.path.append('/home/ahaddon/Dropbox/Work/ReUse/code/stics/pyScripts')
+syspath.append(cwd+'/../../../stics/pyScripts')
 import sticsIOutils as stiIO
 
-sys.path.append('/home/ahaddon/bin')
+
+syspath.append(cwd+'/../../../utils')
 import readValsFromFile as rdvl
 
 
 
 
 
-
 ## stics files
-stiIO.dirStics = '/home/ahaddon/Dropbox/Work/ReUse/code/stics/corn/'
+stiIO.dirStics = cwd+'/../../../stics/corn/'
 sti_corn2013 = stiIO.dirStics + 'mod_smaize_reuse_2013.sti'
 tec_corn2013 = stiIO.dirStics + "maize_reuse_tec.xml"
 cli_corn2013 = stiIO.dirStics + 'sitej.2013'        
@@ -33,7 +35,7 @@ stiIO.setIniFile(usm_corn2013,"maize_ini.xml")
 
 
 ### model parameters  irrig ref, 
-paramFile = '/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/paramFit/corn2013/params_swan_Iref_Corn2013'
+paramFile = cwd+'/params_swan_Iref_Corn2013'
 mdl.readParams(paramFile)
 
 
@@ -79,7 +81,8 @@ clr=['b','r','g','tab:blue','y','tab:pink','tab:brown','tab:purple','xkcd:puke',
 ######################################################
 
 FN0 = 80
-
+Imax=10
+CNmax=5
 # FN =  np.array([0,1,2,3,4,5,6,7,8,9,10,11,12])
 # FN =  np.array([1])
 # FN = np.arange(8,15,2)
@@ -92,7 +95,7 @@ for indx in range(len(FN)):
     print('FN = ', FN[indx])
     
     #### Controls from bocop
-    dirBCP = '/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/maxTotFertig/maxFNbar20/'+str(FN[indx])+'/'
+    dirBCP = cwd+'/../../bocophjb/maxBio_TotFerConstr_corn2013/maxTotFertig/maxFNbar20-I'+str(Imax)+'-CN'+str(CNmax)+'/'+str(FN[indx])
     # ref N0
     irrigCal_corn2013 = rdvl.readVals(dirBCP+"/corn2013-bcp-I-Ni12.csv")
     fertiCal_corn2013 = rdvl.readVals(dirBCP+"/corn2013-bcp-Cn-Ni12.csv")
@@ -170,7 +173,7 @@ for indx in range(len(FN)):
     print('FN = ', FN[indx])
 
     #### Controls from bocop
-    dirBCP = '/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/maxTotFertig/maxFNbar20/'+str(FN[indx])+'/'
+    dirBCP = cwd+'/../../bocophjb/maxBio_TotFerConstr_corn2013/maxTotFertig/maxFNbar20-I'+str(Imax)+'-CN'+str(CNmax)+'/'+str(FN[indx])
     # med N0
     irrigCal_corn2013 = rdvl.readVals(dirBCP+"/corn2013-bcp-I-Ni10.csv")
     fertiCal_corn2013 = rdvl.readVals(dirBCP+"/corn2013-bcp-Cn-Ni10.csv")
@@ -243,7 +246,7 @@ for indx in range(len(FN)):
     print('FN = ', FN[indx])
 
     #### Controls from bocop
-    dirBCP = '/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/maxTotFertig/maxFNbar20/'+str(FN[indx])+'/'
+    dirBCP = cwd+'/../../bocophjb/maxBio_TotFerConstr_corn2013/maxTotFertig/maxFNbar20-I'+str(Imax)+'-CN'+str(CNmax)+'/'+str(FN[indx])
     # low N0
     irrigCal_corn2013 = rdvl.readVals(dirBCP+"/corn2013-bcp-I-Ni7.csv")
     fertiCal_corn2013 = rdvl.readVals(dirBCP+"/corn2013-bcp-Cn-Ni7.csv")

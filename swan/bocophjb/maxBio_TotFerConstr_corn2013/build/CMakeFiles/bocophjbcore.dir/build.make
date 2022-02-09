@@ -46,7 +46,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/ahaddon/Programs/bocop/BocopHJB-1.1.0-Linux
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/build
+CMAKE_BINARY_DIR = /home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/bocophjbcore.dir/depend.make
@@ -59,7 +59,7 @@ include CMakeFiles/bocophjbcore.dir/flags.make
 
 CMakeFiles/bocophjbcore.dir/core/sources/tools.cpp.o: CMakeFiles/bocophjbcore.dir/flags.make
 CMakeFiles/bocophjbcore.dir/core/sources/tools.cpp.o: /home/ahaddon/Programs/bocop/BocopHJB-1.1.0-Linux/core/sources/tools.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/bocophjbcore.dir/core/sources/tools.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/bocophjbcore.dir/core/sources/tools.cpp.o"
 	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bocophjbcore.dir/core/sources/tools.cpp.o -c /home/ahaddon/Programs/bocop/BocopHJB-1.1.0-Linux/core/sources/tools.cpp
 
 CMakeFiles/bocophjbcore.dir/core/sources/tools.cpp.i: cmake_force
@@ -83,7 +83,7 @@ CMakeFiles/bocophjbcore.dir/core/sources/tools.cpp.o.provides.build: CMakeFiles/
 
 CMakeFiles/bocophjbcore.dir/core/sources/publicTools.cpp.o: CMakeFiles/bocophjbcore.dir/flags.make
 CMakeFiles/bocophjbcore.dir/core/sources/publicTools.cpp.o: /home/ahaddon/Programs/bocop/BocopHJB-1.1.0-Linux/core/sources/publicTools.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/bocophjbcore.dir/core/sources/publicTools.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/bocophjbcore.dir/core/sources/publicTools.cpp.o"
 	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bocophjbcore.dir/core/sources/publicTools.cpp.o -c /home/ahaddon/Programs/bocop/BocopHJB-1.1.0-Linux/core/sources/publicTools.cpp
 
 CMakeFiles/bocophjbcore.dir/core/sources/publicTools.cpp.i: cmake_force
@@ -107,7 +107,7 @@ CMakeFiles/bocophjbcore.dir/core/sources/publicTools.cpp.o.provides.build: CMake
 
 CMakeFiles/bocophjbcore.dir/core/sources/Error.cpp.o: CMakeFiles/bocophjbcore.dir/flags.make
 CMakeFiles/bocophjbcore.dir/core/sources/Error.cpp.o: /home/ahaddon/Programs/bocop/BocopHJB-1.1.0-Linux/core/sources/Error.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/bocophjbcore.dir/core/sources/Error.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/bocophjbcore.dir/core/sources/Error.cpp.o"
 	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bocophjbcore.dir/core/sources/Error.cpp.o -c /home/ahaddon/Programs/bocop/BocopHJB-1.1.0-Linux/core/sources/Error.cpp
 
 CMakeFiles/bocophjbcore.dir/core/sources/Error.cpp.i: cmake_force
@@ -131,7 +131,7 @@ CMakeFiles/bocophjbcore.dir/core/sources/Error.cpp.o.provides.build: CMakeFiles/
 
 CMakeFiles/bocophjbcore.dir/core/sources/hjb/evalValueFunction.cpp.o: CMakeFiles/bocophjbcore.dir/flags.make
 CMakeFiles/bocophjbcore.dir/core/sources/hjb/evalValueFunction.cpp.o: /home/ahaddon/Programs/bocop/BocopHJB-1.1.0-Linux/core/sources/hjb/evalValueFunction.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/bocophjbcore.dir/core/sources/hjb/evalValueFunction.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/bocophjbcore.dir/core/sources/hjb/evalValueFunction.cpp.o"
 	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bocophjbcore.dir/core/sources/hjb/evalValueFunction.cpp.o -c /home/ahaddon/Programs/bocop/BocopHJB-1.1.0-Linux/core/sources/hjb/evalValueFunction.cpp
 
 CMakeFiles/bocophjbcore.dir/core/sources/hjb/evalValueFunction.cpp.i: cmake_force
@@ -155,7 +155,7 @@ CMakeFiles/bocophjbcore.dir/core/sources/hjb/evalValueFunction.cpp.o.provides.bu
 
 CMakeFiles/bocophjbcore.dir/core/sources/hjb/Grid.cpp.o: CMakeFiles/bocophjbcore.dir/flags.make
 CMakeFiles/bocophjbcore.dir/core/sources/hjb/Grid.cpp.o: /home/ahaddon/Programs/bocop/BocopHJB-1.1.0-Linux/core/sources/hjb/Grid.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/bocophjbcore.dir/core/sources/hjb/Grid.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/bocophjbcore.dir/core/sources/hjb/Grid.cpp.o"
 	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bocophjbcore.dir/core/sources/hjb/Grid.cpp.o -c /home/ahaddon/Programs/bocop/BocopHJB-1.1.0-Linux/core/sources/hjb/Grid.cpp
 
 CMakeFiles/bocophjbcore.dir/core/sources/hjb/Grid.cpp.i: cmake_force
@@ -179,7 +179,7 @@ CMakeFiles/bocophjbcore.dir/core/sources/hjb/Grid.cpp.o.provides.build: CMakeFil
 
 CMakeFiles/bocophjbcore.dir/core/sources/hjb/hjbControls.cpp.o: CMakeFiles/bocophjbcore.dir/flags.make
 CMakeFiles/bocophjbcore.dir/core/sources/hjb/hjbControls.cpp.o: /home/ahaddon/Programs/bocop/BocopHJB-1.1.0-Linux/core/sources/hjb/hjbControls.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/bocophjbcore.dir/core/sources/hjb/hjbControls.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/bocophjbcore.dir/core/sources/hjb/hjbControls.cpp.o"
 	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bocophjbcore.dir/core/sources/hjb/hjbControls.cpp.o -c /home/ahaddon/Programs/bocop/BocopHJB-1.1.0-Linux/core/sources/hjb/hjbControls.cpp
 
 CMakeFiles/bocophjbcore.dir/core/sources/hjb/hjbControls.cpp.i: cmake_force
@@ -203,7 +203,7 @@ CMakeFiles/bocophjbcore.dir/core/sources/hjb/hjbControls.cpp.o.provides.build: C
 
 CMakeFiles/bocophjbcore.dir/core/sources/hjb/HJB.cpp.o: CMakeFiles/bocophjbcore.dir/flags.make
 CMakeFiles/bocophjbcore.dir/core/sources/hjb/HJB.cpp.o: /home/ahaddon/Programs/bocop/BocopHJB-1.1.0-Linux/core/sources/hjb/HJB.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/bocophjbcore.dir/core/sources/hjb/HJB.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/bocophjbcore.dir/core/sources/hjb/HJB.cpp.o"
 	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bocophjbcore.dir/core/sources/hjb/HJB.cpp.o -c /home/ahaddon/Programs/bocop/BocopHJB-1.1.0-Linux/core/sources/hjb/HJB.cpp
 
 CMakeFiles/bocophjbcore.dir/core/sources/hjb/HJB.cpp.i: cmake_force
@@ -227,7 +227,7 @@ CMakeFiles/bocophjbcore.dir/core/sources/hjb/HJB.cpp.o.provides.build: CMakeFile
 
 CMakeFiles/bocophjbcore.dir/core/sources/hjb/simulateTrajectory.cpp.o: CMakeFiles/bocophjbcore.dir/flags.make
 CMakeFiles/bocophjbcore.dir/core/sources/hjb/simulateTrajectory.cpp.o: /home/ahaddon/Programs/bocop/BocopHJB-1.1.0-Linux/core/sources/hjb/simulateTrajectory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/bocophjbcore.dir/core/sources/hjb/simulateTrajectory.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/bocophjbcore.dir/core/sources/hjb/simulateTrajectory.cpp.o"
 	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bocophjbcore.dir/core/sources/hjb/simulateTrajectory.cpp.o -c /home/ahaddon/Programs/bocop/BocopHJB-1.1.0-Linux/core/sources/hjb/simulateTrajectory.cpp
 
 CMakeFiles/bocophjbcore.dir/core/sources/hjb/simulateTrajectory.cpp.i: cmake_force
@@ -251,7 +251,7 @@ CMakeFiles/bocophjbcore.dir/core/sources/hjb/simulateTrajectory.cpp.o.provides.b
 
 CMakeFiles/bocophjbcore.dir/core/sources/hjb/UniformGrid.cpp.o: CMakeFiles/bocophjbcore.dir/flags.make
 CMakeFiles/bocophjbcore.dir/core/sources/hjb/UniformGrid.cpp.o: /home/ahaddon/Programs/bocop/BocopHJB-1.1.0-Linux/core/sources/hjb/UniformGrid.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/bocophjbcore.dir/core/sources/hjb/UniformGrid.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/bocophjbcore.dir/core/sources/hjb/UniformGrid.cpp.o"
 	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bocophjbcore.dir/core/sources/hjb/UniformGrid.cpp.o -c /home/ahaddon/Programs/bocop/BocopHJB-1.1.0-Linux/core/sources/hjb/UniformGrid.cpp
 
 CMakeFiles/bocophjbcore.dir/core/sources/hjb/UniformGrid.cpp.i: cmake_force
@@ -275,7 +275,7 @@ CMakeFiles/bocophjbcore.dir/core/sources/hjb/UniformGrid.cpp.o.provides.build: C
 
 CMakeFiles/bocophjbcore.dir/core/sources/hjb/processLaw.cpp.o: CMakeFiles/bocophjbcore.dir/flags.make
 CMakeFiles/bocophjbcore.dir/core/sources/hjb/processLaw.cpp.o: /home/ahaddon/Programs/bocop/BocopHJB-1.1.0-Linux/core/sources/hjb/processLaw.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/bocophjbcore.dir/core/sources/hjb/processLaw.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/bocophjbcore.dir/core/sources/hjb/processLaw.cpp.o"
 	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bocophjbcore.dir/core/sources/hjb/processLaw.cpp.o -c /home/ahaddon/Programs/bocop/BocopHJB-1.1.0-Linux/core/sources/hjb/processLaw.cpp
 
 CMakeFiles/bocophjbcore.dir/core/sources/hjb/processLaw.cpp.i: cmake_force
@@ -299,7 +299,7 @@ CMakeFiles/bocophjbcore.dir/core/sources/hjb/processLaw.cpp.o.provides.build: CM
 
 CMakeFiles/bocophjbcore.dir/core/sources/hjb/admissibleTransition.cpp.o: CMakeFiles/bocophjbcore.dir/flags.make
 CMakeFiles/bocophjbcore.dir/core/sources/hjb/admissibleTransition.cpp.o: /home/ahaddon/Programs/bocop/BocopHJB-1.1.0-Linux/core/sources/hjb/admissibleTransition.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/bocophjbcore.dir/core/sources/hjb/admissibleTransition.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/bocophjbcore.dir/core/sources/hjb/admissibleTransition.cpp.o"
 	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bocophjbcore.dir/core/sources/hjb/admissibleTransition.cpp.o -c /home/ahaddon/Programs/bocop/BocopHJB-1.1.0-Linux/core/sources/hjb/admissibleTransition.cpp
 
 CMakeFiles/bocophjbcore.dir/core/sources/hjb/admissibleTransition.cpp.i: cmake_force
@@ -323,7 +323,7 @@ CMakeFiles/bocophjbcore.dir/core/sources/hjb/admissibleTransition.cpp.o.provides
 
 CMakeFiles/bocophjbcore.dir/core/sources/hjb/computeGrid.cpp.o: CMakeFiles/bocophjbcore.dir/flags.make
 CMakeFiles/bocophjbcore.dir/core/sources/hjb/computeGrid.cpp.o: /home/ahaddon/Programs/bocop/BocopHJB-1.1.0-Linux/core/sources/hjb/computeGrid.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/bocophjbcore.dir/core/sources/hjb/computeGrid.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/bocophjbcore.dir/core/sources/hjb/computeGrid.cpp.o"
 	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bocophjbcore.dir/core/sources/hjb/computeGrid.cpp.o -c /home/ahaddon/Programs/bocop/BocopHJB-1.1.0-Linux/core/sources/hjb/computeGrid.cpp
 
 CMakeFiles/bocophjbcore.dir/core/sources/hjb/computeGrid.cpp.i: cmake_force
@@ -347,7 +347,7 @@ CMakeFiles/bocophjbcore.dir/core/sources/hjb/computeGrid.cpp.o.provides.build: C
 
 CMakeFiles/bocophjbcore.dir/core/sources/IO/IO_ControlDiscretisation.cpp.o: CMakeFiles/bocophjbcore.dir/flags.make
 CMakeFiles/bocophjbcore.dir/core/sources/IO/IO_ControlDiscretisation.cpp.o: /home/ahaddon/Programs/bocop/BocopHJB-1.1.0-Linux/core/sources/IO/IO_ControlDiscretisation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/bocophjbcore.dir/core/sources/IO/IO_ControlDiscretisation.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/bocophjbcore.dir/core/sources/IO/IO_ControlDiscretisation.cpp.o"
 	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bocophjbcore.dir/core/sources/IO/IO_ControlDiscretisation.cpp.o -c /home/ahaddon/Programs/bocop/BocopHJB-1.1.0-Linux/core/sources/IO/IO_ControlDiscretisation.cpp
 
 CMakeFiles/bocophjbcore.dir/core/sources/IO/IO_ControlDiscretisation.cpp.i: cmake_force
@@ -371,7 +371,7 @@ CMakeFiles/bocophjbcore.dir/core/sources/IO/IO_ControlDiscretisation.cpp.o.provi
 
 CMakeFiles/bocophjbcore.dir/core/sources/IO/IO_InputSettings.cpp.o: CMakeFiles/bocophjbcore.dir/flags.make
 CMakeFiles/bocophjbcore.dir/core/sources/IO/IO_InputSettings.cpp.o: /home/ahaddon/Programs/bocop/BocopHJB-1.1.0-Linux/core/sources/IO/IO_InputSettings.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/bocophjbcore.dir/core/sources/IO/IO_InputSettings.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/bocophjbcore.dir/core/sources/IO/IO_InputSettings.cpp.o"
 	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bocophjbcore.dir/core/sources/IO/IO_InputSettings.cpp.o -c /home/ahaddon/Programs/bocop/BocopHJB-1.1.0-Linux/core/sources/IO/IO_InputSettings.cpp
 
 CMakeFiles/bocophjbcore.dir/core/sources/IO/IO_InputSettings.cpp.i: cmake_force
@@ -395,7 +395,7 @@ CMakeFiles/bocophjbcore.dir/core/sources/IO/IO_InputSettings.cpp.o.provides.buil
 
 CMakeFiles/bocophjbcore.dir/core/sources/IO/IO_ValueFunction.cpp.o: CMakeFiles/bocophjbcore.dir/flags.make
 CMakeFiles/bocophjbcore.dir/core/sources/IO/IO_ValueFunction.cpp.o: /home/ahaddon/Programs/bocop/BocopHJB-1.1.0-Linux/core/sources/IO/IO_ValueFunction.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/bocophjbcore.dir/core/sources/IO/IO_ValueFunction.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/bocophjbcore.dir/core/sources/IO/IO_ValueFunction.cpp.o"
 	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bocophjbcore.dir/core/sources/IO/IO_ValueFunction.cpp.o -c /home/ahaddon/Programs/bocop/BocopHJB-1.1.0-Linux/core/sources/IO/IO_ValueFunction.cpp
 
 CMakeFiles/bocophjbcore.dir/core/sources/IO/IO_ValueFunction.cpp.i: cmake_force
@@ -419,7 +419,7 @@ CMakeFiles/bocophjbcore.dir/core/sources/IO/IO_ValueFunction.cpp.o.provides.buil
 
 CMakeFiles/bocophjbcore.dir/core/sources/IO/IO_SimulatedTrajectory.cpp.o: CMakeFiles/bocophjbcore.dir/flags.make
 CMakeFiles/bocophjbcore.dir/core/sources/IO/IO_SimulatedTrajectory.cpp.o: /home/ahaddon/Programs/bocop/BocopHJB-1.1.0-Linux/core/sources/IO/IO_SimulatedTrajectory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/bocophjbcore.dir/core/sources/IO/IO_SimulatedTrajectory.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/bocophjbcore.dir/core/sources/IO/IO_SimulatedTrajectory.cpp.o"
 	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bocophjbcore.dir/core/sources/IO/IO_SimulatedTrajectory.cpp.o -c /home/ahaddon/Programs/bocop/BocopHJB-1.1.0-Linux/core/sources/IO/IO_SimulatedTrajectory.cpp
 
 CMakeFiles/bocophjbcore.dir/core/sources/IO/IO_SimulatedTrajectory.cpp.i: cmake_force
@@ -443,7 +443,7 @@ CMakeFiles/bocophjbcore.dir/core/sources/IO/IO_SimulatedTrajectory.cpp.o.provide
 
 CMakeFiles/bocophjbcore.dir/core/sources/IO/IO_ProcessLaw.cpp.o: CMakeFiles/bocophjbcore.dir/flags.make
 CMakeFiles/bocophjbcore.dir/core/sources/IO/IO_ProcessLaw.cpp.o: /home/ahaddon/Programs/bocop/BocopHJB-1.1.0-Linux/core/sources/IO/IO_ProcessLaw.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/bocophjbcore.dir/core/sources/IO/IO_ProcessLaw.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/bocophjbcore.dir/core/sources/IO/IO_ProcessLaw.cpp.o"
 	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bocophjbcore.dir/core/sources/IO/IO_ProcessLaw.cpp.o -c /home/ahaddon/Programs/bocop/BocopHJB-1.1.0-Linux/core/sources/IO/IO_ProcessLaw.cpp
 
 CMakeFiles/bocophjbcore.dir/core/sources/IO/IO_ProcessLaw.cpp.i: cmake_force
@@ -465,177 +465,177 @@ CMakeFiles/bocophjbcore.dir/core/sources/IO/IO_ProcessLaw.cpp.o.provides: CMakeF
 CMakeFiles/bocophjbcore.dir/core/sources/IO/IO_ProcessLaw.cpp.o.provides.build: CMakeFiles/bocophjbcore.dir/core/sources/IO/IO_ProcessLaw.cpp.o
 
 
-CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/dynamicsHJB.cpp.o: CMakeFiles/bocophjbcore.dir/flags.make
-CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/dynamicsHJB.cpp.o: /home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/dynamicsHJB.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/dynamicsHJB.cpp.o"
-	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/dynamicsHJB.cpp.o -c /home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/dynamicsHJB.cpp
+CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/dynamicsHJB.cpp.o: CMakeFiles/bocophjbcore.dir/flags.make
+CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/dynamicsHJB.cpp.o: /home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/dynamicsHJB.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/dynamicsHJB.cpp.o"
+	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/dynamicsHJB.cpp.o -c /home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/dynamicsHJB.cpp
 
-CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/dynamicsHJB.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/dynamicsHJB.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/dynamicsHJB.cpp > CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/dynamicsHJB.cpp.i
+CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/dynamicsHJB.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/dynamicsHJB.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/dynamicsHJB.cpp > CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/dynamicsHJB.cpp.i
 
-CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/dynamicsHJB.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/dynamicsHJB.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/dynamicsHJB.cpp -o CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/dynamicsHJB.cpp.s
+CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/dynamicsHJB.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/dynamicsHJB.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/dynamicsHJB.cpp -o CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/dynamicsHJB.cpp.s
 
-CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/dynamicsHJB.cpp.o.requires:
+CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/dynamicsHJB.cpp.o.requires:
 
-.PHONY : CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/dynamicsHJB.cpp.o.requires
+.PHONY : CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/dynamicsHJB.cpp.o.requires
 
-CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/dynamicsHJB.cpp.o.provides: CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/dynamicsHJB.cpp.o.requires
-	$(MAKE) -f CMakeFiles/bocophjbcore.dir/build.make CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/dynamicsHJB.cpp.o.provides.build
-.PHONY : CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/dynamicsHJB.cpp.o.provides
+CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/dynamicsHJB.cpp.o.provides: CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/dynamicsHJB.cpp.o.requires
+	$(MAKE) -f CMakeFiles/bocophjbcore.dir/build.make CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/dynamicsHJB.cpp.o.provides.build
+.PHONY : CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/dynamicsHJB.cpp.o.provides
 
-CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/dynamicsHJB.cpp.o.provides.build: CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/dynamicsHJB.cpp.o
-
-
-CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/costFunctions.cpp.o: CMakeFiles/bocophjbcore.dir/flags.make
-CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/costFunctions.cpp.o: /home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/costFunctions.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/costFunctions.cpp.o"
-	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/costFunctions.cpp.o -c /home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/costFunctions.cpp
-
-CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/costFunctions.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/costFunctions.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/costFunctions.cpp > CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/costFunctions.cpp.i
-
-CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/costFunctions.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/costFunctions.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/costFunctions.cpp -o CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/costFunctions.cpp.s
-
-CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/costFunctions.cpp.o.requires:
-
-.PHONY : CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/costFunctions.cpp.o.requires
-
-CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/costFunctions.cpp.o.provides: CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/costFunctions.cpp.o.requires
-	$(MAKE) -f CMakeFiles/bocophjbcore.dir/build.make CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/costFunctions.cpp.o.provides.build
-.PHONY : CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/costFunctions.cpp.o.provides
-
-CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/costFunctions.cpp.o.provides.build: CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/costFunctions.cpp.o
+CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/dynamicsHJB.cpp.o.provides.build: CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/dynamicsHJB.cpp.o
 
 
-CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/constraints.cpp.o: CMakeFiles/bocophjbcore.dir/flags.make
-CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/constraints.cpp.o: /home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/constraints.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/constraints.cpp.o"
-	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/constraints.cpp.o -c /home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/constraints.cpp
+CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/costFunctions.cpp.o: CMakeFiles/bocophjbcore.dir/flags.make
+CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/costFunctions.cpp.o: /home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/costFunctions.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/costFunctions.cpp.o"
+	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/costFunctions.cpp.o -c /home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/costFunctions.cpp
 
-CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/constraints.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/constraints.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/constraints.cpp > CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/constraints.cpp.i
+CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/costFunctions.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/costFunctions.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/costFunctions.cpp > CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/costFunctions.cpp.i
 
-CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/constraints.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/constraints.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/constraints.cpp -o CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/constraints.cpp.s
+CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/costFunctions.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/costFunctions.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/costFunctions.cpp -o CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/costFunctions.cpp.s
 
-CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/constraints.cpp.o.requires:
+CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/costFunctions.cpp.o.requires:
 
-.PHONY : CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/constraints.cpp.o.requires
+.PHONY : CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/costFunctions.cpp.o.requires
 
-CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/constraints.cpp.o.provides: CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/constraints.cpp.o.requires
-	$(MAKE) -f CMakeFiles/bocophjbcore.dir/build.make CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/constraints.cpp.o.provides.build
-.PHONY : CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/constraints.cpp.o.provides
+CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/costFunctions.cpp.o.provides: CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/costFunctions.cpp.o.requires
+	$(MAKE) -f CMakeFiles/bocophjbcore.dir/build.make CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/costFunctions.cpp.o.provides.build
+.PHONY : CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/costFunctions.cpp.o.provides
 
-CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/constraints.cpp.o.provides.build: CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/constraints.cpp.o
-
-
-CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/optionalFunctions.cpp.o: CMakeFiles/bocophjbcore.dir/flags.make
-CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/optionalFunctions.cpp.o: /home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/optionalFunctions.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/optionalFunctions.cpp.o"
-	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/optionalFunctions.cpp.o -c /home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/optionalFunctions.cpp
-
-CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/optionalFunctions.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/optionalFunctions.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/optionalFunctions.cpp > CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/optionalFunctions.cpp.i
-
-CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/optionalFunctions.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/optionalFunctions.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/optionalFunctions.cpp -o CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/optionalFunctions.cpp.s
-
-CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/optionalFunctions.cpp.o.requires:
-
-.PHONY : CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/optionalFunctions.cpp.o.requires
-
-CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/optionalFunctions.cpp.o.provides: CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/optionalFunctions.cpp.o.requires
-	$(MAKE) -f CMakeFiles/bocophjbcore.dir/build.make CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/optionalFunctions.cpp.o.provides.build
-.PHONY : CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/optionalFunctions.cpp.o.provides
-
-CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/optionalFunctions.cpp.o.provides.build: CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/optionalFunctions.cpp.o
+CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/costFunctions.cpp.o.provides.build: CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/costFunctions.cpp.o
 
 
-CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/dependencies.cpp.o: CMakeFiles/bocophjbcore.dir/flags.make
-CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/dependencies.cpp.o: /home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/dependencies.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/dependencies.cpp.o"
-	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/dependencies.cpp.o -c /home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/dependencies.cpp
+CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/constraints.cpp.o: CMakeFiles/bocophjbcore.dir/flags.make
+CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/constraints.cpp.o: /home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/constraints.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/constraints.cpp.o"
+	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/constraints.cpp.o -c /home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/constraints.cpp
 
-CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/dependencies.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/dependencies.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/dependencies.cpp > CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/dependencies.cpp.i
+CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/constraints.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/constraints.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/constraints.cpp > CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/constraints.cpp.i
 
-CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/dependencies.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/dependencies.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/dependencies.cpp -o CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/dependencies.cpp.s
+CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/constraints.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/constraints.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/constraints.cpp -o CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/constraints.cpp.s
 
-CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/dependencies.cpp.o.requires:
+CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/constraints.cpp.o.requires:
 
-.PHONY : CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/dependencies.cpp.o.requires
+.PHONY : CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/constraints.cpp.o.requires
 
-CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/dependencies.cpp.o.provides: CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/dependencies.cpp.o.requires
-	$(MAKE) -f CMakeFiles/bocophjbcore.dir/build.make CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/dependencies.cpp.o.provides.build
-.PHONY : CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/dependencies.cpp.o.provides
+CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/constraints.cpp.o.provides: CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/constraints.cpp.o.requires
+	$(MAKE) -f CMakeFiles/bocophjbcore.dir/build.make CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/constraints.cpp.o.provides.build
+.PHONY : CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/constraints.cpp.o.provides
 
-CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/dependencies.cpp.o.provides.build: CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/dependencies.cpp.o
-
-
-CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/preProcessing.cpp.o: CMakeFiles/bocophjbcore.dir/flags.make
-CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/preProcessing.cpp.o: /home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/preProcessing.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/preProcessing.cpp.o"
-	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/preProcessing.cpp.o -c /home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/preProcessing.cpp
-
-CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/preProcessing.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/preProcessing.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/preProcessing.cpp > CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/preProcessing.cpp.i
-
-CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/preProcessing.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/preProcessing.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/preProcessing.cpp -o CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/preProcessing.cpp.s
-
-CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/preProcessing.cpp.o.requires:
-
-.PHONY : CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/preProcessing.cpp.o.requires
-
-CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/preProcessing.cpp.o.provides: CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/preProcessing.cpp.o.requires
-	$(MAKE) -f CMakeFiles/bocophjbcore.dir/build.make CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/preProcessing.cpp.o.provides.build
-.PHONY : CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/preProcessing.cpp.o.provides
-
-CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/preProcessing.cpp.o.provides.build: CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/preProcessing.cpp.o
+CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/constraints.cpp.o.provides.build: CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/constraints.cpp.o
 
 
-CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/postProcessing.cpp.o: CMakeFiles/bocophjbcore.dir/flags.make
-CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/postProcessing.cpp.o: /home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/postProcessing.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/postProcessing.cpp.o"
-	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/postProcessing.cpp.o -c /home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/postProcessing.cpp
+CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/optionalFunctions.cpp.o: CMakeFiles/bocophjbcore.dir/flags.make
+CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/optionalFunctions.cpp.o: /home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/optionalFunctions.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/optionalFunctions.cpp.o"
+	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/optionalFunctions.cpp.o -c /home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/optionalFunctions.cpp
 
-CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/postProcessing.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/postProcessing.cpp.i"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/postProcessing.cpp > CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/postProcessing.cpp.i
+CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/optionalFunctions.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/optionalFunctions.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/optionalFunctions.cpp > CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/optionalFunctions.cpp.i
 
-CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/postProcessing.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/postProcessing.cpp.s"
-	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/postProcessing.cpp -o CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/postProcessing.cpp.s
+CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/optionalFunctions.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/optionalFunctions.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/optionalFunctions.cpp -o CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/optionalFunctions.cpp.s
 
-CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/postProcessing.cpp.o.requires:
+CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/optionalFunctions.cpp.o.requires:
 
-.PHONY : CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/postProcessing.cpp.o.requires
+.PHONY : CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/optionalFunctions.cpp.o.requires
 
-CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/postProcessing.cpp.o.provides: CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/postProcessing.cpp.o.requires
-	$(MAKE) -f CMakeFiles/bocophjbcore.dir/build.make CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/postProcessing.cpp.o.provides.build
-.PHONY : CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/postProcessing.cpp.o.provides
+CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/optionalFunctions.cpp.o.provides: CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/optionalFunctions.cpp.o.requires
+	$(MAKE) -f CMakeFiles/bocophjbcore.dir/build.make CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/optionalFunctions.cpp.o.provides.build
+.PHONY : CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/optionalFunctions.cpp.o.provides
 
-CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/postProcessing.cpp.o.provides.build: CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/postProcessing.cpp.o
+CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/optionalFunctions.cpp.o.provides.build: CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/optionalFunctions.cpp.o
+
+
+CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/dependencies.cpp.o: CMakeFiles/bocophjbcore.dir/flags.make
+CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/dependencies.cpp.o: /home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/dependencies.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/dependencies.cpp.o"
+	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/dependencies.cpp.o -c /home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/dependencies.cpp
+
+CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/dependencies.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/dependencies.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/dependencies.cpp > CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/dependencies.cpp.i
+
+CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/dependencies.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/dependencies.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/dependencies.cpp -o CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/dependencies.cpp.s
+
+CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/dependencies.cpp.o.requires:
+
+.PHONY : CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/dependencies.cpp.o.requires
+
+CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/dependencies.cpp.o.provides: CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/dependencies.cpp.o.requires
+	$(MAKE) -f CMakeFiles/bocophjbcore.dir/build.make CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/dependencies.cpp.o.provides.build
+.PHONY : CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/dependencies.cpp.o.provides
+
+CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/dependencies.cpp.o.provides.build: CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/dependencies.cpp.o
+
+
+CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/preProcessing.cpp.o: CMakeFiles/bocophjbcore.dir/flags.make
+CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/preProcessing.cpp.o: /home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/preProcessing.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/preProcessing.cpp.o"
+	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/preProcessing.cpp.o -c /home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/preProcessing.cpp
+
+CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/preProcessing.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/preProcessing.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/preProcessing.cpp > CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/preProcessing.cpp.i
+
+CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/preProcessing.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/preProcessing.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/preProcessing.cpp -o CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/preProcessing.cpp.s
+
+CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/preProcessing.cpp.o.requires:
+
+.PHONY : CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/preProcessing.cpp.o.requires
+
+CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/preProcessing.cpp.o.provides: CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/preProcessing.cpp.o.requires
+	$(MAKE) -f CMakeFiles/bocophjbcore.dir/build.make CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/preProcessing.cpp.o.provides.build
+.PHONY : CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/preProcessing.cpp.o.provides
+
+CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/preProcessing.cpp.o.provides.build: CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/preProcessing.cpp.o
+
+
+CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/postProcessing.cpp.o: CMakeFiles/bocophjbcore.dir/flags.make
+CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/postProcessing.cpp.o: /home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/postProcessing.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/postProcessing.cpp.o"
+	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/postProcessing.cpp.o -c /home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/postProcessing.cpp
+
+CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/postProcessing.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/postProcessing.cpp.i"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/postProcessing.cpp > CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/postProcessing.cpp.i
+
+CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/postProcessing.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/postProcessing.cpp.s"
+	g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/postProcessing.cpp -o CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/postProcessing.cpp.s
+
+CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/postProcessing.cpp.o.requires:
+
+.PHONY : CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/postProcessing.cpp.o.requires
+
+CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/postProcessing.cpp.o.provides: CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/postProcessing.cpp.o.requires
+	$(MAKE) -f CMakeFiles/bocophjbcore.dir/build.make CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/postProcessing.cpp.o.provides.build
+.PHONY : CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/postProcessing.cpp.o.provides
+
+CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/postProcessing.cpp.o.provides.build: CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/postProcessing.cpp.o
 
 
 CMakeFiles/bocophjbcore.dir/core/sources/optionalfunctions/user_noise.cpp.o: CMakeFiles/bocophjbcore.dir/flags.make
 CMakeFiles/bocophjbcore.dir/core/sources/optionalfunctions/user_noise.cpp.o: /home/ahaddon/Programs/bocop/BocopHJB-1.1.0-Linux/core/sources/optionalfunctions/user_noise.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/bocophjbcore.dir/core/sources/optionalfunctions/user_noise.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/bocophjbcore.dir/core/sources/optionalfunctions/user_noise.cpp.o"
 	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bocophjbcore.dir/core/sources/optionalfunctions/user_noise.cpp.o -c /home/ahaddon/Programs/bocop/BocopHJB-1.1.0-Linux/core/sources/optionalfunctions/user_noise.cpp
 
 CMakeFiles/bocophjbcore.dir/core/sources/optionalfunctions/user_noise.cpp.i: cmake_force
@@ -676,13 +676,13 @@ bocophjbcore_OBJECTS = \
 "CMakeFiles/bocophjbcore.dir/core/sources/IO/IO_ValueFunction.cpp.o" \
 "CMakeFiles/bocophjbcore.dir/core/sources/IO/IO_SimulatedTrajectory.cpp.o" \
 "CMakeFiles/bocophjbcore.dir/core/sources/IO/IO_ProcessLaw.cpp.o" \
-"CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/dynamicsHJB.cpp.o" \
-"CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/costFunctions.cpp.o" \
-"CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/constraints.cpp.o" \
-"CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/optionalFunctions.cpp.o" \
-"CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/dependencies.cpp.o" \
-"CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/preProcessing.cpp.o" \
-"CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/postProcessing.cpp.o" \
+"CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/dynamicsHJB.cpp.o" \
+"CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/costFunctions.cpp.o" \
+"CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/constraints.cpp.o" \
+"CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/optionalFunctions.cpp.o" \
+"CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/dependencies.cpp.o" \
+"CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/preProcessing.cpp.o" \
+"CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/postProcessing.cpp.o" \
 "CMakeFiles/bocophjbcore.dir/core/sources/optionalfunctions/user_noise.cpp.o"
 
 # External object files for target bocophjbcore
@@ -705,17 +705,17 @@ bocophjbcore_EXTERNAL_OBJECTS =
 /home/ahaddon/Programs/bocop/BocopHJB-1.1.0-Linux/core/lib/libbocophjbcore.a: CMakeFiles/bocophjbcore.dir/core/sources/IO/IO_ValueFunction.cpp.o
 /home/ahaddon/Programs/bocop/BocopHJB-1.1.0-Linux/core/lib/libbocophjbcore.a: CMakeFiles/bocophjbcore.dir/core/sources/IO/IO_SimulatedTrajectory.cpp.o
 /home/ahaddon/Programs/bocop/BocopHJB-1.1.0-Linux/core/lib/libbocophjbcore.a: CMakeFiles/bocophjbcore.dir/core/sources/IO/IO_ProcessLaw.cpp.o
-/home/ahaddon/Programs/bocop/BocopHJB-1.1.0-Linux/core/lib/libbocophjbcore.a: CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/dynamicsHJB.cpp.o
-/home/ahaddon/Programs/bocop/BocopHJB-1.1.0-Linux/core/lib/libbocophjbcore.a: CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/costFunctions.cpp.o
-/home/ahaddon/Programs/bocop/BocopHJB-1.1.0-Linux/core/lib/libbocophjbcore.a: CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/constraints.cpp.o
-/home/ahaddon/Programs/bocop/BocopHJB-1.1.0-Linux/core/lib/libbocophjbcore.a: CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/optionalFunctions.cpp.o
-/home/ahaddon/Programs/bocop/BocopHJB-1.1.0-Linux/core/lib/libbocophjbcore.a: CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/dependencies.cpp.o
-/home/ahaddon/Programs/bocop/BocopHJB-1.1.0-Linux/core/lib/libbocophjbcore.a: CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/preProcessing.cpp.o
-/home/ahaddon/Programs/bocop/BocopHJB-1.1.0-Linux/core/lib/libbocophjbcore.a: CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/postProcessing.cpp.o
+/home/ahaddon/Programs/bocop/BocopHJB-1.1.0-Linux/core/lib/libbocophjbcore.a: CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/dynamicsHJB.cpp.o
+/home/ahaddon/Programs/bocop/BocopHJB-1.1.0-Linux/core/lib/libbocophjbcore.a: CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/costFunctions.cpp.o
+/home/ahaddon/Programs/bocop/BocopHJB-1.1.0-Linux/core/lib/libbocophjbcore.a: CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/constraints.cpp.o
+/home/ahaddon/Programs/bocop/BocopHJB-1.1.0-Linux/core/lib/libbocophjbcore.a: CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/optionalFunctions.cpp.o
+/home/ahaddon/Programs/bocop/BocopHJB-1.1.0-Linux/core/lib/libbocophjbcore.a: CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/dependencies.cpp.o
+/home/ahaddon/Programs/bocop/BocopHJB-1.1.0-Linux/core/lib/libbocophjbcore.a: CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/preProcessing.cpp.o
+/home/ahaddon/Programs/bocop/BocopHJB-1.1.0-Linux/core/lib/libbocophjbcore.a: CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/postProcessing.cpp.o
 /home/ahaddon/Programs/bocop/BocopHJB-1.1.0-Linux/core/lib/libbocophjbcore.a: CMakeFiles/bocophjbcore.dir/core/sources/optionalfunctions/user_noise.cpp.o
 /home/ahaddon/Programs/bocop/BocopHJB-1.1.0-Linux/core/lib/libbocophjbcore.a: CMakeFiles/bocophjbcore.dir/build.make
 /home/ahaddon/Programs/bocop/BocopHJB-1.1.0-Linux/core/lib/libbocophjbcore.a: CMakeFiles/bocophjbcore.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Linking CXX static library /home/ahaddon/Programs/bocop/BocopHJB-1.1.0-Linux/core/lib/libbocophjbcore.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Linking CXX static library /home/ahaddon/Programs/bocop/BocopHJB-1.1.0-Linux/core/lib/libbocophjbcore.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/bocophjbcore.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/bocophjbcore.dir/link.txt --verbose=$(VERBOSE)
 
@@ -741,13 +741,13 @@ CMakeFiles/bocophjbcore.dir/requires: CMakeFiles/bocophjbcore.dir/core/sources/I
 CMakeFiles/bocophjbcore.dir/requires: CMakeFiles/bocophjbcore.dir/core/sources/IO/IO_ValueFunction.cpp.o.requires
 CMakeFiles/bocophjbcore.dir/requires: CMakeFiles/bocophjbcore.dir/core/sources/IO/IO_SimulatedTrajectory.cpp.o.requires
 CMakeFiles/bocophjbcore.dir/requires: CMakeFiles/bocophjbcore.dir/core/sources/IO/IO_ProcessLaw.cpp.o.requires
-CMakeFiles/bocophjbcore.dir/requires: CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/dynamicsHJB.cpp.o.requires
-CMakeFiles/bocophjbcore.dir/requires: CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/costFunctions.cpp.o.requires
-CMakeFiles/bocophjbcore.dir/requires: CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/constraints.cpp.o.requires
-CMakeFiles/bocophjbcore.dir/requires: CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/optionalFunctions.cpp.o.requires
-CMakeFiles/bocophjbcore.dir/requires: CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/dependencies.cpp.o.requires
-CMakeFiles/bocophjbcore.dir/requires: CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/preProcessing.cpp.o.requires
-CMakeFiles/bocophjbcore.dir/requires: CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/postProcessing.cpp.o.requires
+CMakeFiles/bocophjbcore.dir/requires: CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/dynamicsHJB.cpp.o.requires
+CMakeFiles/bocophjbcore.dir/requires: CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/costFunctions.cpp.o.requires
+CMakeFiles/bocophjbcore.dir/requires: CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/constraints.cpp.o.requires
+CMakeFiles/bocophjbcore.dir/requires: CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/optionalFunctions.cpp.o.requires
+CMakeFiles/bocophjbcore.dir/requires: CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/dependencies.cpp.o.requires
+CMakeFiles/bocophjbcore.dir/requires: CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/preProcessing.cpp.o.requires
+CMakeFiles/bocophjbcore.dir/requires: CMakeFiles/bocophjbcore.dir/home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/postProcessing.cpp.o.requires
 CMakeFiles/bocophjbcore.dir/requires: CMakeFiles/bocophjbcore.dir/core/sources/optionalfunctions/user_noise.cpp.o.requires
 
 .PHONY : CMakeFiles/bocophjbcore.dir/requires
@@ -757,6 +757,6 @@ CMakeFiles/bocophjbcore.dir/clean:
 .PHONY : CMakeFiles/bocophjbcore.dir/clean
 
 CMakeFiles/bocophjbcore.dir/depend:
-	cd /home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ahaddon/Programs/bocop/BocopHJB-1.1.0-Linux /home/ahaddon/Programs/bocop/BocopHJB-1.1.0-Linux /home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/build /home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/build /home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/build/CMakeFiles/bocophjbcore.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ahaddon/Programs/bocop/BocopHJB-1.1.0-Linux /home/ahaddon/Programs/bocop/BocopHJB-1.1.0-Linux /home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/build /home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/build /home/ahaddon/Dropbox/Work/ReUse/code/doubleModel/swan/bocophjb/maxBio_TotFerConstr_corn2013/build/CMakeFiles/bocophjbcore.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/bocophjbcore.dir/depend
 

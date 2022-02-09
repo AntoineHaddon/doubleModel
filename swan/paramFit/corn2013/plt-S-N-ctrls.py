@@ -2,37 +2,42 @@ import numpy as np
 import matplotlib.pyplot as plt
 # import scipy.interpolate as interpolate
 
-import sys
-sys.path.append('/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/model')
+from os import getcwd
+cwd = getcwd()
+
+from sys import path as syspath
+syspath.append(cwd+'/../../model')
 import swanModel as mdl
-# import plotPelak as pltPlk
-
-sys.path.append('/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/paramFit')
+import plotSwan as pltSwan
+syspath.append(cwd+'/..')
 import swanFitStics as swanSti
-
-sys.path.append('/home/ahaddon/Dropbox/Work/ReUse/code/stics/pyScripts')
+syspath.append(cwd+'/../../../stics/pyScripts')
 import sticsIOutils as stiIO
 
-sys.path.append('/home/ahaddon/bin')
+
+syspath.append(cwd+'/../../../utils')
 import readValsFromFile as rdvl
 
 
 
 
 
-
 ## stics files
-stiIO.dirStics = '/home/ahaddon/Dropbox/Work/ReUse/code/stics/corn/'
+stiIO.dirStics = cwd+'/../../../stics/corn/'
 sti_corn2013 = stiIO.dirStics + 'mod_smaize_reuse_2013.sti'
 tec_corn2013 = stiIO.dirStics + "maize_reuse_tec.xml"
 cli_corn2013 = stiIO.dirStics + 'sitej.2013'        
 # cli_corn2013 = stiIO.dirStics + 'meteo-site2-1994.2013'
 usm_corn2013 = "maize_reuse_2013"
+# set initial conditons file
+stiIO.setIniFile(usm_corn2013,"maize_ini.xml")
 
 
 ### model parameters  irrig ref, 
-paramFile = '/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/paramFit/corn2013/params_swan_Iref_Corn2013'
+paramFile = cwd+'/params_swan_Iref_Corn2013'
 mdl.readParams(paramFile)
+
+
 
 
 ##### setup plots
@@ -68,7 +73,7 @@ ax[1,0].yaxis.set_ticks(np.linspace(start, end, numYticks))
 
 ax[1,1].set(title=r'Fertilisation', ylabel=r'[g m$^{-2}$ d$^{-1}$] ')
 ax[1,1].set(xlabel="Time [d]")
-ax[1,1].set_ylim( 0 , 1)
+ax[1,1].set_ylim( 0 , 1.5)
 start, end = ax[1,1].get_ylim()
 ax[1,1].yaxis.set_ticks(np.linspace(start, end, numYticks))
 
@@ -102,9 +107,9 @@ figC,axC = plt.subplots(1,2,figsize=(12,5) )
 
 axC[0].set(title='Irrigation', ylabel=r'[mm d$^{-1}$]')
 axC[0].set(xlabel="Time [d]")
-axC[0].set_ylim( -1 , 11)
+axC[0].set_ylim( -1 , 31)
 start, end = axC[0].get_ylim()
-axC[0].yaxis.set_ticks(np.linspace(0, 10, numYticks))
+axC[0].yaxis.set_ticks(np.linspace(0, 30, numYticks))
 
 axC[1].set(title=r'N concentration', ylabel=r'[mg L$^{-1}$] ')
 axC[1].set(xlabel="Time [d]")
@@ -131,14 +136,14 @@ for aa in axC:
 ######################################################
 
 FN0= 8
-FN = 7
+FN = 8
 
 
 
 print('FN = ', FN)
     
 #### Controls from bocop
-dirBCP = '/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/maxTotFertig/maxFNbar20/'+str(FN)+'/'
+dirBCP = cwd+'/../../bocophjb/maxBio_TotFerConstr_corn2013/maxTotFertig/maxFNbar20-I10-CN3/'+str(FN)
 if FN0==8: # hi FN0
     irrigCal_corn2013 = rdvl.readVals(dirBCP+"/corn2013-bcp-I-Ni12.csv")
     fertiCal_corn2013 = rdvl.readVals(dirBCP+"/corn2013-bcp-Cn-Ni12.csv")
@@ -233,13 +238,13 @@ axC[1].plot(mdl.times, mdl.Cn(mdl.times)*1000, color='tab:orange', label="$\over
 ######################################################
 
 FN0=4
-FN =11
+FN =12
 
 
 print('FN = ', FN)
     
 #### Controls from bocop
-dirBCP = '/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/maxTotFertig/maxFNbar20/'+str(FN)+'/'
+dirBCP = cwd+'/../../bocophjb/maxBio_TotFerConstr_corn2013/maxTotFertig/maxFNbar20-I10-CN3/'+str(FN)
 if FN0==8: # hi FN0
     irrigCal_corn2013 = rdvl.readVals(dirBCP+"/corn2013-bcp-I-Ni12.csv")
     fertiCal_corn2013 = rdvl.readVals(dirBCP+"/corn2013-bcp-Cn-Ni12.csv")
@@ -336,13 +341,13 @@ axC[1].plot(mdl.times, mdl.Cn(mdl.times)*1000, color='tab:blue', label="$\overli
 ######################################################
 
 FN0=0
-FN =15
+FN =16
 
 
 print('FN = ', FN)
     
 #### Controls from bocop
-dirBCP = '/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/maxTotFertig/maxFNbar20/'+str(FN)+'/'
+dirBCP = cwd+'/../../bocophjb/maxBio_TotFerConstr_corn2013/maxTotFertig/maxFNbar20-I10-CN3/'+str(FN)
 if FN0==8: # hi FN0
     irrigCal_corn2013 = rdvl.readVals(dirBCP+"/corn2013-bcp-I-Ni12.csv")
     fertiCal_corn2013 = rdvl.readVals(dirBCP+"/corn2013-bcp-Cn-Ni12.csv")

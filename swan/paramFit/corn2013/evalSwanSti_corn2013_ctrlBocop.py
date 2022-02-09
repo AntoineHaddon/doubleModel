@@ -4,20 +4,21 @@ import matplotlib.pyplot as plt
 # import scipy.optimize as opt
 # import math as m
 
+
+from os import getcwd
+cwd = getcwd()
+
 from sys import path as syspath
-syspath.append('/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/model')
-# import pelakModel as mdl
+syspath.append(cwd+'/../../model')
 import swanModel as mdl
-
 import plotSwan as pltSwan
-syspath.append('/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/paramFit')
+syspath.append(cwd+'/..')
 import swanFitStics as swanSti
-
-
-syspath.append('/home/ahaddon/Dropbox/Work/ReUse/code/stics/pyScripts')
+syspath.append(cwd+'/../../../stics/pyScripts')
 import sticsIOutils as stiIO
 
 
+syspath.append(cwd+'/../../../utils')
 import readValsFromFile as rdvl
 
 
@@ -33,18 +34,17 @@ import readValsFromFile as rdvl
 
 
 #### from bocop
-FN=15
-# dirBCP = '/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/pelak/bocophjb/maxBio_TotFerConstr_rain/maxTotFertig/'+str(FN)+'/'
-dirBCP = '/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_corn2013/maxTotFertig/maxFNbar20/'+str(FN)+'/'
+FN=10
+dirBCP = cwd+'/../../bocophjb/maxBio_TotFerConstr_corn2013/maxTotFertig/maxFNbar20-I30-CN5/'+str(FN)+'/'
 # ref N0
-# irrigCal_corn2013 = rdvl.readVals(dirBCP+"/corn2013-bcp-I-Ni12.csv")
-# fertiCal_corn2013 = rdvl.readVals(dirBCP+"/corn2013-bcp-Cn-Ni12.csv")
+irrigCal_corn2013 = rdvl.readVals(dirBCP+"/corn2013-bcp-I-Ni12.csv")
+fertiCal_corn2013 = rdvl.readVals(dirBCP+"/corn2013-bcp-Cn-Ni12.csv")
 # med N0
 # irrigCal_corn2013 = rdvl.readVals(dirBCP+"/corn2013-bcp-I-Ni10.csv")
 # fertiCal_corn2013 = rdvl.readVals(dirBCP+"/corn2013-bcp-Cn-Ni10.csv")
 # # low N0
-irrigCal_corn2013 = rdvl.readVals(dirBCP+"/corn2013-bcp-I-Ni7.csv")
-fertiCal_corn2013 = rdvl.readVals(dirBCP+"/corn2013-bcp-Cn-Ni7.csv")
+# irrigCal_corn2013 = rdvl.readVals(dirBCP+"/corn2013-bcp-I-Ni7.csv")
+# fertiCal_corn2013 = rdvl.readVals(dirBCP+"/corn2013-bcp-Cn-Ni7.csv")
 
 
 ### for bocop and MRAP
@@ -52,11 +52,11 @@ fertiCal_corn2013 = rdvl.readVals(dirBCP+"/corn2013-bcp-Cn-Ni7.csv")
 fertiCal_corn2013[:,1] = fertiCal_corn2013[:,1]*irrigCal_corn2013[:,1] *10/0.7
 ### and add first intervention before sowing
 # ref
-# fertiCal_corn2013 = np.insert(fertiCal_corn2013, 0, [120,80.0], axis=0 )
+fertiCal_corn2013 = np.insert(fertiCal_corn2013, 0, [120,80.0], axis=0 )
 # med N0
 # fertiCal_corn2013 = np.insert(fertiCal_corn2013, 0, [120,40.0], axis=0 )
 # Low N0
-fertiCal_corn2013 = np.insert(fertiCal_corn2013, 0, [120,0.0], axis=0 )
+# fertiCal_corn2013 = np.insert(fertiCal_corn2013, 0, [120,0.0], axis=0 )
 ### remove days with 0 irrig
 irrigCal_corn2013 = irrigCal_corn2013[irrigCal_corn2013 [:,1]>0]
 fertiCal_corn2013 = fertiCal_corn2013[fertiCal_corn2013 [:,1]>0]
@@ -72,7 +72,7 @@ fertiCal_corn2013 = fertiCal_corn2013[fertiCal_corn2013 [:,1]>0]
 ####################
 
 ## stics files
-stiIO.dirStics = '/home/ahaddon/Dropbox/Work/ReUse/code/stics/corn/'
+stiIO.dirStics = cwd+'/../../../stics/corn/'
 sti_corn2013 = stiIO.dirStics + 'mod_smaize_reuse_2013.sti'
 tec_corn2013 = stiIO.dirStics + "maize_reuse_tec.xml"
 cli_corn2013 = stiIO.dirStics + 'sitej.2013'		
@@ -114,7 +114,7 @@ print('N leached (STICS) : ', np.sum(stiIO.Nleach(stiData_corn2013,tJul=tSti)), 
 #############################
 
 ### swan model, irrig ref, 
-paramFile = '/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/paramFit/corn2013/params_swan_Iref_Corn2013'
+paramFile = cwd+'/params_swan_Iref_Corn2013'
 mdl.readParams(paramFile)
 
 

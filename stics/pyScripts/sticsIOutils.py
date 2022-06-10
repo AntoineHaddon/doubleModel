@@ -18,6 +18,38 @@ dirStics = getcwd() + '/../corn/'
 JavaSticsDir = '/home/ahaddon/Programs/JavaSTICS-1.41-stics-9.1/'
 
 
+
+
+
+###############
+## rum STICS
+##############
+
+import subprocess as sproc
+
+
+
+def runUSM(usm):
+    return sproc.run(["java", "-jar", "JavaSticsCmd.exe", "--run", dirStics, usm], cwd=JavaSticsDir)
+
+
+
+if __name__ == "__main__":
+    # set irragation calendar
+    cropmgntFile_corn2013 = dirStics + "maize_reuse_tec.xml"
+    irrigCal_corn2013 = np.array([ [207,30.0], [226,30.0] ])
+    # irrigCal_corn2013 = np.array([ range(200,230) , 30*[5.0]]).T
+    writeIrrigCal(cropmgntFile_corn2013, irrigCal_corn2013)
+
+    # rum STICS simulation
+    usm_corn2013 = "maize_reuse_2013"
+    print(runUSM(usm_corn2013))
+
+
+
+
+
+
 ######################
 ## Write inputs
 #####################
@@ -220,31 +252,6 @@ def setN0(initFile,N0):
 
 
 
-
-
-###############
-## rum STICS
-##############
-
-import subprocess as sproc
-
-
-
-def runUSM(usm):
-    return sproc.run(["java", "-jar", "JavaSticsCmd.exe", "--run", dirStics, usm], cwd=JavaSticsDir)
-
-
-
-if __name__ == "__main__":
-    # set irragation calendar
-    cropmgntFile_corn2013 = dirStics + "maize_reuse_tec.xml"
-    irrigCal_corn2013 = np.array([ [207,30.0], [226,30.0] ])
-    # irrigCal_corn2013 = np.array([ range(200,230) , 30*[5.0]]).T
-    writeIrrigCal(cropmgntFile_corn2013, irrigCal_corn2013)
-
-    # rum STICS simulation
-    usm_corn2013 = "maize_reuse_2013"
-    print(runUSM(usm_corn2013))
 
 
 

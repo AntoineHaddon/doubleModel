@@ -10,3 +10,18 @@ Bocop(HJB) :  [https://www.bocop.org/](https://www.bocop.org/)
 Python libarires : numpy, pandas, matplotlib, ...
 
 
+# Running STICS
+To run STICS the path to the directory containing JavaSTICS must be given. 2 options :
+
+-1- Change the default in the sticsIOutils library :
+In file '''stics/pyScripts/sticsIOutils.py''' change the value of the variable '''JavaSticsDir''' to the path
+'''
+JavaSticsDir = '/path/to/JavaSTICS/'
+'''
+
+-2- Update variable '''JavaSticsDir''' after loading sticsIOutils library:
+In a script to run STICS, first load the sticsIOutils library, then the variable '''JavaSticsDir''' can be updated
+'''
+import sticsIOutils as stiIO
+stiIO.JavaSticsDir = '/path/to/JavaSTICS/'
+'''

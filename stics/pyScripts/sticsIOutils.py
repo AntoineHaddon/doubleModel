@@ -8,8 +8,14 @@ import readValsFromFile as rdvl
 
 from os import getcwd
 
-## global variable
+## global variables
+
+# directory with files to run STICS simulation (parameter files, initial condition, weather , etc... )
 dirStics = getcwd() + '/../corn/'
+
+# directory with STICS program files 
+# needs to be changed to the local path 
+JavaSticsDir = '/home/ahaddon/Programs/JavaSTICS-1.41-stics-9.1/'
 
 
 ######################
@@ -222,7 +228,6 @@ def setN0(initFile,N0):
 
 import subprocess as sproc
 
-JavaSticsDir = '/home/ahaddon/Programs/JavaSTICS-1.41-stics-9.1/'
 
 
 def runUSM(usm):

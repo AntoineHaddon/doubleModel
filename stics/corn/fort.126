@@ -20,171 +20,171 @@
   kres(1)    0.00000000      kr(1)    0.00000000      ftr    1.59501803      fth    1.77847874    
   Decomposition  : jour          157  couche            1  Cr    0.00000000      dCr    0.00000000      dCrest    0.00000000    
   kres(1)    0.00000000      kr(1)    0.00000000      ftr    1.67283058      fth    1.88756728    
-  Decomposition  : jour          158  couche            1  Cr    64.5537796      dCr    0.00000000      dCrest    0.00000000    
+  Decomposition  : jour          158  couche            1  Cr    65.6608276      dCr   -2.27059960      dCrest   -2.27059960    
   kres(1)    0.00000000      kr(1)    0.00000000      ftr    1.98673642      fth    2.34358978    
-  Decomposition  : jour          159  couche            1  Cr    64.5537796      dCr    0.00000000      dCrest    0.00000000    
+  Decomposition  : jour          159  couche            1  Cr    63.3902283      dCr  -0.617430329      dCrest  -0.617430329    
   kres(1)    0.00000000      kr(1)    0.00000000      ftr    1.60519731      fth    1.79265833    
-  Decomposition  : jour          160  couche            1  Cr    64.5537796      dCr    0.00000000      dCrest    0.00000000    
-  kres(1)    0.00000000      kr(1)    0.00000000      ftr    1.88259637      fth    2.18951344    
-  Decomposition  : jour          161  couche            1  Cr    64.5537796      dCr   -1.18471003      dCrest   -1.18471003    
-  kres(1)    0.00000000      kr(1)    0.00000000      ftr    2.12715364      fth    2.55562544    
-  Decomposition  : jour          162  couche            1  Cr    63.3690681      dCr   -3.99805117      dCrest   -3.99805117    
-  kres(1)    0.00000000      kr(1)    0.00000000      ftr    2.04239154      fth    2.42704630    
-  Decomposition  : jour          163  couche            1  Cr    59.3710175      dCr   -2.61451197      dCrest   -2.61451197    
-  kres(1)    0.00000000      kr(1)    0.00000000      ftr    1.42555547      fth    1.54652882    
-  Decomposition  : jour          164  couche            1  Cr    56.7565041      dCr  -0.274906129      dCrest  -0.274906129    
-  kres(1)    0.00000000      kr(1)    0.00000000      ftr    1.54099393      fth    1.70368886    
-  Decomposition  : jour          165  couche            1  Cr    56.4815979      dCr    0.00000000      dCrest    0.00000000    
-  kres(1)    0.00000000      kr(1)    0.00000000      ftr    1.74396288      fth    1.98868299    
-  Decomposition  : jour          166  couche            1  Cr    56.4815979      dCr    0.00000000      dCrest    0.00000000    
-  kres(1)    0.00000000      kr(1)    0.00000000      ftr    2.15182781      fth    2.59338713    
-  Decomposition  : jour          167  couche            1  Cr    56.4815979      dCr    0.00000000      dCrest    0.00000000    
-  kres(1)    0.00000000      kr(1)    0.00000000      ftr    1.92492867      fth    2.25181437    
-  Decomposition  : jour          168  couche            1  Cr    56.4815979      dCr    0.00000000      dCrest    0.00000000    
-  kres(1)    0.00000000      kr(1)    0.00000000      ftr    1.63874221      fth    1.83957982    
-  Decomposition  : jour          169  couche            1  Cr    56.4815979      dCr    0.00000000      dCrest    0.00000000    
-  kres(1)    0.00000000      kr(1)    0.00000000      ftr    1.76890659      fth    2.02445292    
-  Decomposition  : jour          170  couche            1  Cr    56.4815979      dCr    0.00000000      dCrest    0.00000000    
-  kres(1)    0.00000000      kr(1)    0.00000000      ftr    2.21464920      fth    2.69020176    
-  Decomposition  : jour          171  couche            1  Cr    56.4815979      dCr   -1.98141718      dCrest   -1.98141718    
-  kres(1)    0.00000000      kr(1)    0.00000000      ftr    1.30015552      fth    1.37999380    
-  Decomposition  : jour          172  couche            1  Cr    54.5001793      dCr   -1.76321709      dCrest   -1.76321709    
-  kres(1)    0.00000000      kr(1)    0.00000000      ftr    1.79445207      fth    2.06125236    
-  Decomposition  : jour          173  couche            1  Cr    52.7369614      dCr  -0.798458517      dCrest  -0.798458517    
-  kres(1)    0.00000000      kr(1)    0.00000000      ftr    1.66810775      fth    1.88089991    
-  Decomposition  : jour          174  couche            1  Cr    51.9385033      dCr    0.00000000      dCrest    0.00000000    
-  kres(1)    0.00000000      kr(1)    0.00000000      ftr    1.25079465      fth    1.31566679    
-  Decomposition  : jour          175  couche            1  Cr    51.9385033      dCr    0.00000000      dCrest    0.00000000    
-  kres(1)    0.00000000      kr(1)    0.00000000      ftr    1.68415749      fth    1.90357995    
-  Decomposition  : jour          176  couche            1  Cr    51.9385033      dCr    0.00000000      dCrest    0.00000000    
-  kres(1)    0.00000000      kr(1)    0.00000000      ftr    2.03010631      fth    2.40855837    
-  Decomposition  : jour          177  couche            1  Cr    51.9385033      dCr    0.00000000      dCrest    0.00000000    
-  kres(1)    0.00000000      kr(1)    0.00000000      ftr    2.32534933      fth    2.86313319    
-  Decomposition  : jour          178  couche            1  Cr    51.9385033      dCr   -2.59501123      dCrest   -2.59501123    
-  kres(1)    0.00000000      kr(1)    0.00000000      ftr    1.61740124      fth    1.80969441    
-  Decomposition  : jour          179  couche            1  Cr    49.3434906      dCr   -2.35620618      dCrest   -2.35620618    
-  kres(1)    0.00000000      kr(1)    0.00000000      ftr    1.54579306      fth    1.71030116    
-  Decomposition  : jour          180  couche            1  Cr    46.9872856      dCr   -1.94662094      dCrest   -1.94662094    
-  kres(1)    0.00000000      kr(1)    0.00000000      ftr    1.34112418      fth    1.43391418    
-  Decomposition  : jour          181  couche            1  Cr    45.0406647      dCr   -1.28609920      dCrest   -1.28609920    
-  kres(1)    0.00000000      kr(1)    0.00000000      ftr   0.924352527      fth   0.908619225    
-  Decomposition  : jour          182  couche            1  Cr    43.7545662      dCr   -1.27281618      dCrest   -1.27281618    
-  kres(1)    0.00000000      kr(1)    0.00000000      ftr   0.941695035      fth   0.929405034    
-  Decomposition  : jour          183  couche            1  Cr    42.4817505      dCr  -0.543737829      dCrest  -0.543737829    
-  kres(1)    0.00000000      kr(1)    0.00000000      ftr    1.06794715      fth    1.08362997    
-  Decomposition  : jour          184  couche            1  Cr    41.9380112      dCr    0.00000000      dCrest    0.00000000    
-  kres(1)    0.00000000      kr(1)    0.00000000      ftr    1.25309110      fth    1.31864369    
-  Decomposition  : jour          185  couche            1  Cr    41.9380112      dCr    0.00000000      dCrest    0.00000000    
-  kres(1)    0.00000000      kr(1)    0.00000000      ftr    1.12733591      fth    1.15789545    
-  Decomposition  : jour          186  couche            1  Cr    41.9380112      dCr    0.00000000      dCrest    0.00000000    
-  kres(1)    0.00000000      kr(1)    0.00000000      ftr    1.53348720      fth    1.69335938    
-  Decomposition  : jour          187  couche            1  Cr    41.9380112      dCr    0.00000000      dCrest    0.00000000    
-  kres(1)    0.00000000      kr(1)    0.00000000      ftr    1.87271738      fth    2.17503953    
-  Decomposition  : jour          188  couche            1  Cr    41.9380112      dCr    0.00000000      dCrest    0.00000000    
-  kres(1)    0.00000000      kr(1)    0.00000000      ftr    1.98297858      fth    2.33798218    
-  Decomposition  : jour          189  couche            1  Cr    41.9380112      dCr   -2.07036948      dCrest   -2.07036948    
-  kres(1)    0.00000000      kr(1)    0.00000000      ftr    1.59811497      fth    1.78279006    
-  Decomposition  : jour          190  couche            1  Cr    39.8676414      dCr   -1.40899050      dCrest   -1.40899050    
-  kres(1)    0.00000000      kr(1)    0.00000000      ftr    1.55277777      fth    1.71993589    
-  Decomposition  : jour          191  couche            1  Cr    38.4586525      dCr  -0.426536620      dCrest  -0.426536620    
-  kres(1)    0.00000000      kr(1)    0.00000000      ftr    1.67698145      fth    1.89343107    
-  Decomposition  : jour          192  couche            1  Cr    38.0321159      dCr    0.00000000      dCrest    0.00000000    
-  kres(1)    0.00000000      kr(1)    0.00000000      ftr    1.90377223      fth    2.22062111    
-  Decomposition  : jour          193  couche            1  Cr    38.0321159      dCr    0.00000000      dCrest    0.00000000    
-  kres(1)    0.00000000      kr(1)    0.00000000      ftr    1.98464930      fth    2.34047484    
-  Decomposition  : jour          194  couche            1  Cr    38.0321159      dCr    0.00000000      dCrest    0.00000000    
-  kres(1)    0.00000000      kr(1)    0.00000000      ftr    1.97247517      fth    2.32232904    
-  Decomposition  : jour          195  couche            1  Cr    38.0321159      dCr   -1.92950737      dCrest   -1.92950737    
-  kres(1)    0.00000000      kr(1)    0.00000000      ftr    1.64234328      fth    1.84463501    
-  Decomposition  : jour          196  couche            1  Cr    36.1026077      dCr   -1.59143031      dCrest   -1.59143031    
-  kres(1)    0.00000000      kr(1)    0.00000000      ftr    1.42697716      fth    1.54844248    
-  Decomposition  : jour          197  couche            1  Cr    34.5111771      dCr   -1.64120984      dCrest   -1.64120984    
-  kres(1)    0.00000000      kr(1)    0.00000000      ftr    1.53947377      fth    1.70159614    
-  Decomposition  : jour          198  couche            1  Cr    32.8699684      dCr   -1.46490502      dCrest   -1.46490502    
-  kres(1)    0.00000000      kr(1)    0.00000000      ftr    1.44270694      fth    1.56964862    
-  Decomposition  : jour          199  couche            1  Cr    31.4050636      dCr   -1.17593443      dCrest   -1.17593443    
-  kres(1)    0.00000000      kr(1)    0.00000000      ftr    1.21213615      fth    1.26578009    
-  Decomposition  : jour          200  couche            1  Cr    30.2291298      dCr  -0.742607415      dCrest  -0.742607415    
-  kres(1)    0.00000000      kr(1)    0.00000000      ftr   0.795246184      fth   0.757045984    
-  Decomposition  : jour          201  couche            1  Cr    29.4865227      dCr  -0.652260303      dCrest  -0.652260303    
-  kres(1)    0.00000000      kr(1)    0.00000000      ftr   0.716086268      fth   0.666988790    
-  Decomposition  : jour          202  couche            1  Cr    28.8342628      dCr  -0.440628976      dCrest  -0.440628976    
-  kres(1)    0.00000000      kr(1)    0.00000000      ftr   0.841007054      fth   0.810120225    
-  Decomposition  : jour          203  couche            1  Cr    28.3936348      dCr  -0.171674043      dCrest  -0.171674043    
-  kres(1)    0.00000000      kr(1)    0.00000000      ftr   0.669700682      fth   0.615289748    
-  Decomposition  : jour          204  couche            1  Cr    28.2219601      dCr   -4.40142713E-02  dCrest   -4.40142713E-02
-  kres(1)    0.00000000      kr(1)    0.00000000      ftr   0.759697914      fth   0.716324449    
-  Decomposition  : jour          205  couche            1  Cr    28.1779461      dCr    0.00000000      dCrest    0.00000000    
-  kres(1)    0.00000000      kr(1)    0.00000000      ftr    1.05995154      fth    1.07371402    
-  Decomposition  : jour          206  couche            1  Cr    28.1779461      dCr    0.00000000      dCrest    0.00000000    
-  kres(1)    0.00000000      kr(1)    0.00000000      ftr   0.718607664      fth   0.669822156    
-  Decomposition  : jour          207  couche            1  Cr    28.1779461      dCr    0.00000000      dCrest    0.00000000    
-  kres(1)    0.00000000      kr(1)    0.00000000      ftr    1.01486444      fth    1.01817155    
-  Decomposition  : jour          208  couche            1  Cr    28.1779461      dCr  -0.760527015      dCrest  -0.760527015    
-  kres(1)    0.00000000      kr(1)    0.00000000      ftr    1.10797369      fth    1.13356483    
-  Decomposition  : jour          209  couche            1  Cr    27.4174194      dCr  -0.799992681      dCrest  -0.799992681    
-  kres(1)    0.00000000      kr(1)    0.00000000      ftr   0.944555342      fth   0.932842553    
-  Decomposition  : jour          210  couche            1  Cr    26.6174259      dCr  -0.642914057      dCrest  -0.642914057    
-  kres(1)    0.00000000      kr(1)    0.00000000      ftr   0.781906486      fth   0.741712272    
-  Decomposition  : jour          211  couche            1  Cr    25.9745121      dCr  -0.563558698      dCrest  -0.563558698    
-  kres(1)    0.00000000      kr(1)    0.00000000      ftr   0.702359974      fth   0.651605844    
-  Decomposition  : jour          212  couche            1  Cr    25.4109535      dCr  -0.614103019      dCrest  -0.614103019    
-  kres(1)    0.00000000      kr(1)    0.00000000      ftr   0.782326877      fth   0.742194593    
-  Decomposition  : jour          213  couche            1  Cr    24.7968502      dCr  -0.733109891      dCrest  -0.733109891    
-  kres(1)    0.00000000      kr(1)    0.00000000      ftr   0.957063019      fth   0.947906077    
-  Decomposition  : jour          214  couche            1  Cr    24.0637398      dCr  -0.750659049      dCrest  -0.750659049    
-  kres(1)    0.00000000      kr(1)    0.00000000      ftr    1.00982833      fth    1.01200700    
-  Decomposition  : jour          215  couche            1  Cr    23.3130798      dCr  -0.786266923      dCrest  -0.786266923    
-  kres(1)    0.00000000      kr(1)    0.00000000      ftr    1.09178793      fth    1.11331344    
-  Decomposition  : jour          216  couche            1  Cr    22.5268135      dCr  -0.744314849      dCrest  -0.744314849    
-  kres(1)    0.00000000      kr(1)    0.00000000      ftr    1.06960857      fth    1.08569276    
-  Decomposition  : jour          217  couche            1  Cr    21.7824993      dCr  -0.819240987      dCrest  -0.819240987    
-  kres(1)    0.00000000      kr(1)    0.00000000      ftr    1.21750832      fth    1.27268624    
-  Decomposition  : jour          218  couche            1  Cr    20.9632587      dCr  -0.678163826      dCrest  -0.678163826    
-  kres(1)    0.00000000      kr(1)    0.00000000      ftr    1.04723418      fth    1.05798340    
-  Decomposition  : jour          219  couche            1  Cr    20.2850952      dCr  -0.805259466      dCrest  -0.805259466    
-  kres(1)    0.00000000      kr(1)    0.00000000      ftr    1.28506982      fth    1.36025989    
-  Decomposition  : jour          220  couche            1  Cr    19.4798355      dCr  -0.782285213      dCrest  -0.782285213    
-  kres(1)    0.00000000      kr(1)    0.00000000      ftr    1.30001330      fth    1.37980747    
-  Decomposition  : jour          221  couche            1  Cr    18.6975498      dCr  -0.860283852      dCrest  -0.860283852    
-  kres(1)    0.00000000      kr(1)    0.00000000      ftr    1.48944700      fth    1.63306248    
-  Decomposition  : jour          222  couche            1  Cr    17.8372650      dCr  -0.663192034      dCrest  -0.663192034    
-  kres(1)    0.00000000      kr(1)    0.00000000      ftr    1.20359111      fth    1.25481236    
-  Decomposition  : jour          223  couche            1  Cr    17.1740723      dCr  -0.506655097      dCrest  -0.506655097    
-  kres(1)    0.00000000      kr(1)    0.00000000      ftr   0.955008209      fth   0.945427835    
-  Decomposition  : jour          224  couche            1  Cr    16.6674175      dCr  -0.356370360      dCrest  -0.356370360    
-  kres(1)    0.00000000      kr(1)    0.00000000      ftr   0.692151606      fth   0.640211046    
-  Decomposition  : jour          225  couche            1  Cr    16.3110466      dCr  -0.455712855      dCrest  -0.455712855    
-  kres(1)    0.00000000      kr(1)    0.00000000      ftr   0.904435098      fth   0.884869397    
-  Decomposition  : jour          226  couche            1  Cr    15.8553333      dCr  -0.426664919      dCrest  -0.426664919    
-  kres(1)    0.00000000      kr(1)    0.00000000      ftr   0.871123075      fth   0.845442295    
-  Decomposition  : jour          227  couche            1  Cr    15.4286680      dCr  -0.370752454      dCrest  -0.370752454    
-  kres(1)    0.00000000      kr(1)    0.00000000      ftr   0.777899623      fth   0.737118721    
-  Decomposition  : jour          228  couche            1  Cr    15.0579157      dCr  -0.569080532      dCrest  -0.569080532    
-  kres(1)    0.00000000      kr(1)    0.00000000      ftr    1.22342360      fth    1.28030086    
-  Decomposition  : jour          229  couche            1  Cr    14.4888353      dCr  -0.571144640      dCrest  -0.571144640    
-  kres(1)    0.00000000      kr(1)    0.00000000      ftr    1.27608788      fth    1.34854138    
-  Decomposition  : jour          230  couche            1  Cr    13.9176903      dCr  -0.534812927      dCrest  -0.534812927    
-  kres(1)    0.00000000      kr(1)    0.00000000      ftr    1.24394941      fth    1.30680168    
-  Decomposition  : jour          231  couche            1  Cr    13.3828773      dCr  -0.370412886      dCrest  -0.370412886    
-  kres(1)    0.00000000      kr(1)    0.00000000      ftr   0.895992815      fth   0.874842405    
-  Decomposition  : jour          232  couche            1  Cr    13.0124645      dCr  -0.320333540      dCrest  -0.320333540    
-  kres(1)    0.00000000      kr(1)    0.00000000      ftr   0.796912789      fth   0.758965969    
-  Decomposition  : jour          233  couche            1  Cr    12.6921310      dCr  -0.222580165      dCrest  -0.222580165    
-  kres(1)    0.00000000      kr(1)    0.00000000      ftr   0.567701280      fth   0.504554331    
-  Decomposition  : jour          234  couche            1  Cr    12.4695511      dCr  -0.312974483      dCrest  -0.312974483    
-  kres(1)    0.00000000      kr(1)    0.00000000      ftr   0.812505007      fth   0.776977479    
-  Decomposition  : jour          235  couche            1  Cr    12.1565762      dCr  -0.318106890      dCrest  -0.318106890    
-  kres(1)    0.00000000      kr(1)    0.00000000      ftr   0.847090423      fth   0.817230344    
-  Decomposition  : jour          236  couche            1  Cr    11.8384695      dCr  -0.256043553      dCrest  -0.256043553    
-  kres(1)    0.00000000      kr(1)    0.00000000      ftr   0.700142205      fth   0.649126887    
-  Decomposition  : jour          237  couche            1  Cr    11.5824261      dCr  -0.261309057      dCrest  -0.261309057    
-  kres(1)    0.00000000      kr(1)    0.00000000      ftr   0.730336308      fth   0.683032632    
-  Decomposition  : jour          238  couche            1  Cr    11.3211174      dCr  -0.260703415      dCrest  -0.260703415    
-  kres(1)    0.00000000      kr(1)    0.00000000      ftr   0.745461822      fth   0.700143516    
-  Decomposition  : jour          239  couche            1  Cr    11.0604143      dCr  -0.243262380      dCrest  -0.243262380    
-  kres(1)    0.00000000      kr(1)    0.00000000      ftr   0.711986125      fth   0.662386417    
-  Decomposition  : jour          240  couche            1  Cr    10.8171520      dCr  -0.194275662      dCrest  -0.194275662    
-  kres(1)    0.00000000      kr(1)    0.00000000      ftr   0.581397831      fth   0.519179463    
-  Decomposition  : jour          241  couche            1  Cr    10.6228762      dCr  -0.162116617      dCrest  -0.162116617    
-  kres(1)    0.00000000      kr(1)    0.00000000      ftr   0.494030058      fth   0.427263737    
+  Decomposition  : jour          160  couche            1  Cr    62.7727966      dCr    0.00000000      dCrest    0.00000000    
+  kres(1)    0.00000000      kr(1)    0.00000000      ftr    2.09606218      fth    2.50825572    
+  Decomposition  : jour          161  couche            1  Cr    62.7727966      dCr  -0.961663723      dCrest  -0.961663723    
+  kres(1)    0.00000000      kr(1)    0.00000000      ftr    1.77002919      fth    2.02606678    
+  Decomposition  : jour          162  couche            1  Cr    61.8111343      dCr   -3.36170793      dCrest   -3.36170793    
+  kres(1)    0.00000000      kr(1)    0.00000000      ftr    1.75501752      fth    2.00451565    
+  Decomposition  : jour          163  couche            1  Cr    58.4494247      dCr   -2.43887663      dCrest   -2.43887663    
+  kres(1)    0.00000000      kr(1)    0.00000000      ftr    1.34647346      fth    1.44098961    
+  Decomposition  : jour          164  couche            1  Cr    56.0105476      dCr   -1.14180017      dCrest   -1.14180017    
+  kres(1)    0.00000000      kr(1)    0.00000000      ftr    1.49225783      fth    1.63689506    
+  Decomposition  : jour          165  couche            1  Cr    54.8687477      dCr    0.00000000      dCrest    0.00000000    
+  kres(1)    0.00000000      kr(1)    0.00000000      ftr    1.64429235      fth    1.84737217    
+  Decomposition  : jour          166  couche            1  Cr    54.8687477      dCr    0.00000000      dCrest    0.00000000    
+  kres(1)    0.00000000      kr(1)    0.00000000      ftr    1.94253957      fth    2.27786636    
+  Decomposition  : jour          167  couche            1  Cr    54.8687477      dCr    0.00000000      dCrest    0.00000000    
+  kres(1)    0.00000000      kr(1)    0.00000000      ftr    1.55261350      fth    1.71970856    
+  Decomposition  : jour          168  couche            1  Cr    54.8687477      dCr    0.00000000      dCrest    0.00000000    
+  kres(1)    0.00000000      kr(1)    0.00000000      ftr    1.46041322      fth    1.59360075    
+  Decomposition  : jour          169  couche            1  Cr    54.8687477      dCr    0.00000000      dCrest    0.00000000    
+  kres(1)    0.00000000      kr(1)    0.00000000      ftr    1.51098895      fth    1.66249037    
+  Decomposition  : jour          170  couche            1  Cr    54.8687477      dCr    0.00000000      dCrest    0.00000000    
+  kres(1)    0.00000000      kr(1)    0.00000000      ftr    1.91113269      fth    2.23146105    
+  Decomposition  : jour          171  couche            1  Cr    54.8687477      dCr   -1.45305502      dCrest   -1.45305502    
+  kres(1)    0.00000000      kr(1)    0.00000000      ftr   0.978371084      fth   0.973684549    
+  Decomposition  : jour          172  couche            1  Cr    53.4156914      dCr   -1.41242230      dCrest   -1.41242230    
+  kres(1)    0.00000000      kr(1)    0.00000000      ftr    1.46197522      fth    1.59571791    
+  Decomposition  : jour          173  couche            1  Cr    52.0032692      dCr  -0.638061404      dCrest  -0.638061404    
+  kres(1)    0.00000000      kr(1)    0.00000000      ftr    1.34753144      fth    1.44239020    
+  Decomposition  : jour          174  couche            1  Cr    51.3652077      dCr    0.00000000      dCrest    0.00000000    
+  kres(1)    0.00000000      kr(1)    0.00000000      ftr    1.03669775      fth    1.04498839    
+  Decomposition  : jour          175  couche            1  Cr    51.3652077      dCr    0.00000000      dCrest    0.00000000    
+  kres(1)    0.00000000      kr(1)    0.00000000      ftr    1.35697293      fth    1.45490098    
+  Decomposition  : jour          176  couche            1  Cr    51.3652077      dCr    0.00000000      dCrest    0.00000000    
+  kres(1)    0.00000000      kr(1)    0.00000000      ftr    1.56532824      fth    1.73727989    
+  Decomposition  : jour          177  couche            1  Cr    51.3652077      dCr    0.00000000      dCrest    0.00000000    
+  kres(1)    0.00000000      kr(1)    0.00000000      ftr    1.90987694      fth    2.22961044    
+  Decomposition  : jour          178  couche            1  Cr    51.3652077      dCr   -2.24882722      dCrest   -2.24882722    
+  kres(1)    0.00000000      kr(1)    0.00000000      ftr    1.41278219      fth    1.52936435    
+  Decomposition  : jour          179  couche            1  Cr    49.1163788      dCr   -1.98380554      dCrest   -1.98380554    
+  kres(1)    0.00000000      kr(1)    0.00000000      ftr    1.30334973      fth    1.38418067    
+  Decomposition  : jour          180  couche            1  Cr    47.1325722      dCr   -1.66591287      dCrest   -1.66591287    
+  kres(1)    0.00000000      kr(1)    0.00000000      ftr    1.14056313      fth    1.17458189    
+  Decomposition  : jour          181  couche            1  Cr    45.4666595      dCr   -1.10120451      dCrest   -1.10120451    
+  kres(1)    0.00000000      kr(1)    0.00000000      ftr   0.781561434      fth   0.741316438    
+  Decomposition  : jour          182  couche            1  Cr    44.3654556      dCr   -1.06868887      dCrest   -1.06868887    
+  kres(1)    0.00000000      kr(1)    0.00000000      ftr   0.777310491      fth   0.736443877    
+  Decomposition  : jour          183  couche            1  Cr    43.2967682      dCr  -0.446550071      dCrest  -0.446550071    
+  kres(1)    0.00000000      kr(1)    0.00000000      ftr   0.856300056      fth   0.828018308    
+  Decomposition  : jour          184  couche            1  Cr    42.8502197      dCr    0.00000000      dCrest    0.00000000    
+  kres(1)    0.00000000      kr(1)    0.00000000      ftr   0.970873892      fth   0.964597881    
+  Decomposition  : jour          185  couche            1  Cr    42.8502197      dCr    0.00000000      dCrest    0.00000000    
+  kres(1)    0.00000000      kr(1)    0.00000000      ftr   0.825645208      fth   0.792222321    
+  Decomposition  : jour          186  couche            1  Cr    42.8502197      dCr    0.00000000      dCrest    0.00000000    
+  kres(1)    0.00000000      kr(1)    0.00000000      ftr    1.15634000      fth    1.19455361    
+  Decomposition  : jour          187  couche            1  Cr    42.8502197      dCr    0.00000000      dCrest    0.00000000    
+  kres(1)    0.00000000      kr(1)    0.00000000      ftr    1.42972720      fth    1.55214500    
+  Decomposition  : jour          188  couche            1  Cr    42.8502197      dCr    0.00000000      dCrest    0.00000000    
+  kres(1)    0.00000000      kr(1)    0.00000000      ftr    1.54993737      fth    1.71601605    
+  Decomposition  : jour          189  couche            1  Cr    42.8502197      dCr   -1.74404836      dCrest   -1.74404836    
+  kres(1)    0.00000000      kr(1)    0.00000000      ftr    1.31338990      fth    1.39735961    
+  Decomposition  : jour          190  couche            1  Cr    41.1061707      dCr   -1.15046704      dCrest   -1.15046704    
+  kres(1)    0.00000000      kr(1)    0.00000000      ftr    1.22577059      fth    1.28332484    
+  Decomposition  : jour          191  couche            1  Cr    39.9557037      dCr  -0.354329437      dCrest  -0.354329437    
+  kres(1)    0.00000000      kr(1)    0.00000000      ftr    1.33664072      fth    1.42798996    
+  Decomposition  : jour          192  couche            1  Cr    39.6013756      dCr    0.00000000      dCrest    0.00000000    
+  kres(1)    0.00000000      kr(1)    0.00000000      ftr    1.48543084      fth    1.62759006    
+  Decomposition  : jour          193  couche            1  Cr    39.6013756      dCr    0.00000000      dCrest    0.00000000    
+  kres(1)    0.00000000      kr(1)    0.00000000      ftr    1.50119245      fth    1.64909196    
+  Decomposition  : jour          194  couche            1  Cr    39.6013756      dCr    0.00000000      dCrest    0.00000000    
+  kres(1)    0.00000000      kr(1)    0.00000000      ftr    1.51061273      fth    1.66197526    
+  Decomposition  : jour          195  couche            1  Cr    39.6013756      dCr   -1.48942482      dCrest   -1.48942482    
+  kres(1)    0.00000000      kr(1)    0.00000000      ftr    1.21365845      fth    1.26773643    
+  Decomposition  : jour          196  couche            1  Cr    38.1119499      dCr   -1.29798043      dCrest   -1.29798043    
+  kres(1)    0.00000000      kr(1)    0.00000000      ftr    1.09899366      fth    1.12231934    
+  Decomposition  : jour          197  couche            1  Cr    36.8139687      dCr   -1.45404279      dCrest   -1.45404279    
+  kres(1)    0.00000000      kr(1)    0.00000000      ftr    1.27453792      fth    1.34652114    
+  Decomposition  : jour          198  couche            1  Cr    35.3599243      dCr   -1.27705646      dCrest   -1.27705646    
+  kres(1)    0.00000000      kr(1)    0.00000000      ftr    1.16543210      fth    1.20609725    
+  Decomposition  : jour          199  couche            1  Cr    34.0828667      dCr  -0.981956363      dCrest  -0.981956363    
+  kres(1)    0.00000000      kr(1)    0.00000000      ftr   0.929703057      fth   0.915021777    
+  Decomposition  : jour          200  couche            1  Cr    33.1009102      dCr  -0.582780898      dCrest  -0.582780898    
+  kres(1)    0.00000000      kr(1)    0.00000000      ftr   0.568137646      fth   0.505019009    
+  Decomposition  : jour          201  couche            1  Cr    32.5181274      dCr  -0.507755339      dCrest  -0.507755339    
+  kres(1)    0.00000000      kr(1)    0.00000000      ftr   0.503868461      fth   0.437447667    
+  Decomposition  : jour          202  couche            1  Cr    32.0103722      dCr  -0.373998880      dCrest  -0.373998880    
+  kres(1)    0.00000000      kr(1)    0.00000000      ftr   0.638597608      fth   0.581084192    
+  Decomposition  : jour          203  couche            1  Cr    31.6363735      dCr  -0.137413204      dCrest  -0.137413204    
+  kres(1)    0.00000000      kr(1)    0.00000000      ftr   0.476024181      fth   0.408739388    
+  Decomposition  : jour          204  couche            1  Cr    31.4989605      dCr   -3.55052389E-02  dCrest   -3.55052389E-02
+  kres(1)    0.00000000      kr(1)    0.00000000      ftr   0.529933572      fth   0.464636356    
+  Decomposition  : jour          205  couche            1  Cr    31.4634552      dCr    0.00000000      dCrest    0.00000000    
+  kres(1)    0.00000000      kr(1)    0.00000000      ftr   0.769069195      fth   0.727015674    
+  Decomposition  : jour          206  couche            1  Cr    31.4634552      dCr    0.00000000      dCrest    0.00000000    
+  kres(1)    0.00000000      kr(1)    0.00000000      ftr   0.508138657      fth   0.441881359    
+  Decomposition  : jour          207  couche            1  Cr    31.4634552      dCr    0.00000000      dCrest    0.00000000    
+  kres(1)    0.00000000      kr(1)    0.00000000      ftr   0.699793875      fth   0.648737788    
+  Decomposition  : jour          208  couche            1  Cr    31.4634552      dCr  -0.608716309      dCrest  -0.608716309    
+  kres(1)    0.00000000      kr(1)    0.00000000      ftr   0.791685879      fth   0.752947330    
+  Decomposition  : jour          209  couche            1  Cr    30.8547382      dCr  -0.613808453      dCrest  -0.613808453    
+  kres(1)    0.00000000      kr(1)    0.00000000      ftr   0.641947091      fth   0.584749639    
+  Decomposition  : jour          210  couche            1  Cr    30.2409306      dCr  -0.553787649      dCrest  -0.553787649    
+  kres(1)    0.00000000      kr(1)    0.00000000      ftr   0.590930343      fth   0.529403985    
+  Decomposition  : jour          211  couche            1  Cr    29.6871433      dCr  -0.475681156      dCrest  -0.475681156    
+  kres(1)    0.00000000      kr(1)    0.00000000      ftr   0.517053783      fth   0.451163918    
+  Decomposition  : jour          212  couche            1  Cr    29.2114620      dCr  -0.497111082      dCrest  -0.497111082    
+  kres(1)    0.00000000      kr(1)    0.00000000      ftr   0.549146652      fth   0.484867185    
+  Decomposition  : jour          213  couche            1  Cr    28.7143517      dCr  -0.607787669      dCrest  -0.607787669    
+  kres(1)    0.00000000      kr(1)    0.00000000      ftr   0.683032036      fth   0.630064964    
+  Decomposition  : jour          214  couche            1  Cr    28.1065636      dCr  -0.701238394      dCrest  -0.701238394    
+  kres(1)    0.00000000      kr(1)    0.00000000      ftr   0.805093169      fth   0.768404961    
+  Decomposition  : jour          215  couche            1  Cr    27.4053249      dCr  -0.672550201      dCrest  -0.672550201    
+  kres(1)    0.00000000      kr(1)    0.00000000      ftr   0.791913867      fth   0.753209591    
+  Decomposition  : jour          216  couche            1  Cr    26.7327747      dCr  -0.642262101      dCrest  -0.642262101    
+  kres(1)    0.00000000      kr(1)    0.00000000      ftr   0.775276184      fth   0.734114289    
+  Decomposition  : jour          217  couche            1  Cr    26.0905132      dCr  -0.716076732      dCrest  -0.716076732    
+  kres(1)    0.00000000      kr(1)    0.00000000      ftr   0.885656118      fth   0.862597585    
+  Decomposition  : jour          218  couche            1  Cr    25.3744373      dCr  -0.611079216      dCrest  -0.611079216    
+  kres(1)    0.00000000      kr(1)    0.00000000      ftr   0.777122140      fth   0.736228168    
+  Decomposition  : jour          219  couche            1  Cr    24.7633591      dCr  -0.693157315      dCrest  -0.693157315    
+  kres(1)    0.00000000      kr(1)    0.00000000      ftr   0.903255224      fth   0.883466780    
+  Decomposition  : jour          220  couche            1  Cr    24.0702019      dCr  -0.689813614      dCrest  -0.689813614    
+  kres(1)    0.00000000      kr(1)    0.00000000      ftr   0.924783826      fth   0.909134984    
+  Decomposition  : jour          221  couche            1  Cr    23.3803883      dCr  -0.771410167      dCrest  -0.771410167    
+  kres(1)    0.00000000      kr(1)    0.00000000      ftr    1.06468666      fth    1.07958388    
+  Decomposition  : jour          222  couche            1  Cr    22.6089783      dCr  -0.590819538      dCrest  -0.590819538    
+  kres(1)    0.00000000      kr(1)    0.00000000      ftr   0.843261182      fth   0.812753320    
+  Decomposition  : jour          223  couche            1  Cr    22.0181580      dCr  -0.458864748      dCrest  -0.458864748    
+  kres(1)    0.00000000      kr(1)    0.00000000      ftr   0.672499418      fth   0.618386030    
+  Decomposition  : jour          224  couche            1  Cr    21.5592937      dCr  -0.315321803      dCrest  -0.315321803    
+  kres(1)    0.00000000      kr(1)    0.00000000      ftr   0.471962720      fth   0.404581606    
+  Decomposition  : jour          225  couche            1  Cr    21.2439728      dCr  -0.434201330      dCrest  -0.434201330    
+  kres(1)    0.00000000      kr(1)    0.00000000      ftr   0.659543753      fth   0.604078412    
+  Decomposition  : jour          226  couche            1  Cr    20.8097706      dCr  -0.404388279      dCrest  -0.404388279    
+  kres(1)    0.00000000      kr(1)    0.00000000      ftr   0.627074957      fth   0.568508267    
+  Decomposition  : jour          227  couche            1  Cr    20.4053822      dCr  -0.332021534      dCrest  -0.332021534    
+  kres(1)    0.00000000      kr(1)    0.00000000      ftr   0.525060952      fth   0.459530950    
+  Decomposition  : jour          228  couche            1  Cr    20.0733604      dCr  -0.532877266      dCrest  -0.532877266    
+  kres(1)    0.00000000      kr(1)    0.00000000      ftr   0.856633961      fth   0.828409970    
+  Decomposition  : jour          229  couche            1  Cr    19.5404835      dCr  -0.528843880      dCrest  -0.528843880    
+  kres(1)    0.00000000      kr(1)    0.00000000      ftr   0.873334050      fth   0.848047614    
+  Decomposition  : jour          230  couche            1  Cr    19.0116386      dCr  -0.513135314      dCrest  -0.513135314    
+  kres(1)    0.00000000      kr(1)    0.00000000      ftr   0.870964646      fth   0.845255733    
+  Decomposition  : jour          231  couche            1  Cr    18.4985027      dCr  -0.351749539      dCrest  -0.351749539    
+  kres(1)    0.00000000      kr(1)    0.00000000      ftr   0.613599718      fth   0.553868175    
+  Decomposition  : jour          232  couche            1  Cr    18.1467533      dCr  -0.302191287      dCrest  -0.302191287    
+  kres(1)    0.00000000      kr(1)    0.00000000      ftr   0.537367225      fth   0.472444862    
+  Decomposition  : jour          233  couche            1  Cr    17.8445625      dCr  -0.207586303      dCrest  -0.207586303    
+  kres(1)    0.00000000      kr(1)    0.00000000      ftr   0.375388533      fth   0.308069706    
+  Decomposition  : jour          234  couche            1  Cr    17.6369762      dCr  -0.299364060      dCrest  -0.299364060    
+  kres(1)    0.00000000      kr(1)    0.00000000      ftr   0.547726452      fth   0.483366400    
+  Decomposition  : jour          235  couche            1  Cr    17.3376122      dCr  -0.303259999      dCrest  -0.303259999    
+  kres(1)    0.00000000      kr(1)    0.00000000      ftr   0.564435124      fth   0.501078308    
+  Decomposition  : jour          236  couche            1  Cr    17.0343513      dCr  -0.248188421      dCrest  -0.248188421    
+  kres(1)    0.00000000      kr(1)    0.00000000      ftr   0.470158309      fth   0.402736843    
+  Decomposition  : jour          237  couche            1  Cr    16.7861633      dCr  -0.255293012      dCrest  -0.255293012    
+  kres(1)    0.00000000      kr(1)    0.00000000      ftr   0.490767390      fth   0.423896194    
+  Decomposition  : jour          238  couche            1  Cr    16.5308704      dCr  -0.256684214      dCrest  -0.256684214    
+  kres(1)    0.00000000      kr(1)    0.00000000      ftr   0.501062214      fth   0.434538454    
+  Decomposition  : jour          239  couche            1  Cr    16.2741871      dCr  -0.241076857      dCrest  -0.241076857    
+  kres(1)    0.00000000      kr(1)    0.00000000      ftr   0.478018194      fth   0.410783529    
+  Decomposition  : jour          240  couche            1  Cr    16.0331097      dCr  -0.186021462      dCrest  -0.186021462    
+  kres(1)    0.00000000      kr(1)    0.00000000      ftr   0.374397963      fth   0.307104319    
+  Decomposition  : jour          241  couche            1  Cr    15.8470879      dCr  -0.161762491      dCrest  -0.161762491    
+  kres(1)    0.00000000      kr(1)    0.00000000      ftr   0.329394668      fth   0.263812512    

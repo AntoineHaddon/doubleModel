@@ -71,13 +71,14 @@ mkrsty=['.','o','v','^','<','>']
 ### 1
 ######################################################
 
-FN0=80
+FN0=0
 Imax=10
 CNmax=5
 
 
 # FN =  np.array([1])
-FN = np.arange(0,21,2)
+FN = np.arange(0,21,4)
+# FN = np.arange(0,13,2)
 
 
 stiBiof, stiLeach, totalIrrig, totalNfert = np.zeros(FN.shape), np.zeros(FN.shape), np.zeros(FN.shape), np.zeros(FN.shape)
@@ -147,7 +148,8 @@ for indx in range(len(FN)):
 clSim = 'tab:orange'
 
 # ax[0].plot(FN0+FN*10, stiBiof,  color=clSim)
-ax[0].plot(FN0+totalNfert, stiBiof,  color=clSim, label='$F_{N0}$= '+str(FN0)+', $I_{max}$ = '+str(Imax)+', $C_{Nmax}$ = '+str(CNmax*10))
+# ax[0].plot(FN0+totalNfert, stiBiof,  color=clSim, label='$F_{N0}$= '+str(FN0)+', $I_{max}$ = '+str(Imax)+', $C_{Nmax}$ = '+str(CNmax/100))
+ax[0].plot(FN0+totalNfert, stiBiof,  color=clSim, label='$I_{max}$ = '+str(Imax)+'mm, $C_{Nmax}$ = '+str(CNmax/100)+' g L$^{-1}$')
 
 ax[1].plot(totalIrrig, stiBiof,  color=clSim)
 
@@ -181,9 +183,9 @@ for i in range(len(FN)):
 ### 2
 ##########################################################
 
-FN0=40
+FN0=0
 Imax=10
-CNmax=5
+CNmax=3
 
 
 
@@ -251,7 +253,8 @@ for indx in range(len(FN)):
 clSim = 'tab:blue'
 
 # ax[0].plot(FN0+FN*10, stiBiof,  color=clSim)
-ax[0].plot(FN0+totalNfert, stiBiof,  color=clSim, label='$F_{N0}$= '+str(FN0)+', $I_{max}$ = '+str(Imax)+', $C_{Nmax}$ = '+str(CNmax*10))
+# ax[0].plot(FN0+totalNfert, stiBiof,  color=clSim, label='$F_{N0}$= '+str(FN0)+', $I_{max}$ = '+str(Imax)+', $C_{Nmax}$ = '+str(CNmax/100))
+ax[0].plot(FN0+totalNfert, stiBiof,  color=clSim, label='$I_{max}$ = '+str(Imax)+'mm, $C_{Nmax}$ = '+str(CNmax/100)+' g L$^{-1}$')
 
 ax[1].plot(totalIrrig, stiBiof,  color=clSim)
 
@@ -286,7 +289,7 @@ for i in range(len(FN)):
 ##########################################################
 
 FN0=0
-Imax=10
+Imax=30
 CNmax=5
 
 
@@ -353,7 +356,8 @@ for indx in range(len(FN)):
 clSim = 'tab:gray'
 
 # ax[0].plot(FN0+FN*10, stiBiof,  color=clSim)
-ax[0].plot(FN0+totalNfert, stiBiof,  color=clSim, label='$F_{N0}$= '+str(FN0)+', $I_{max}$ = '+str(Imax)+', $C_{Nmax}$ = '+str(CNmax*10))
+# ax[0].plot(FN0+totalNfert, stiBiof,  color=clSim, label='$F_{N0}$= '+str(FN0)+', $I_{max}$ = '+str(Imax)+', $C_{Nmax}$ = '+str(CNmax/100))
+ax[0].plot(FN0+totalNfert, stiBiof,  color=clSim, label='$I_{max}$ = '+str(Imax)+'mm, $C_{Nmax}$ = '+str(CNmax/100)+' g L$^{-1}$')
 
 ax[1].plot(totalIrrig, stiBiof,  color=clSim)
 
@@ -386,12 +390,12 @@ for i in range(len(FN)):
 ### 4
 ##########################################################
 
-FN0=160
-Imax=10
-CNmax=5
+FN0=0
+Imax=30
+CNmax=3
 
 
-FN =  np.array([0])
+# FN =  np.array([0])
 # FN = np.arange(0,21,2)
 
 
@@ -458,18 +462,19 @@ for indx in range(len(FN)):
 clSim = 'tab:red'
 
 # ax[0].plot(FN0+FN*10, stiBiof,  color=clSim)
-# ax[0].plot(FN0+totalNfert, stiBiof,  color=clSim, label='$F_{N0}$= '+str(FN0)+', $I_{max}$ = '+str(Imax)+', $C_{Nmax}$ = '+str(CNmax*10))
+# ax[0].plot(FN0+totalNfert, stiBiof,  color=clSim, label='$F_{N0}$= '+str(FN0)+', $I_{max}$ = '+str(Imax)+', $C_{Nmax}$ = '+str(CNmax/100))
+ax[0].plot(FN0+totalNfert, stiBiof,  color=clSim, label='$I_{max}$ = '+str(Imax)+'mm, $C_{Nmax}$ = '+str(CNmax/100)+' g L$^{-1}$')
 
-# ax[1].plot(totalIrrig, stiBiof,  color=clSim)
+ax[1].plot(totalIrrig, stiBiof,  color=clSim)
 
-# ax[2].plot(FN0+totalNfert, stiLeach,  color=clSim)
+ax[2].plot(FN0+totalNfert, stiLeach,  color=clSim)
 
-# ax[3].plot(totalIrrig, stiLeach,  color=clSim)
+ax[3].plot(totalIrrig, stiLeach,  color=clSim)
 
 for i in range(len(FN)):
     cl = clr[i%13]
     mkrSim='1'
-    mkrSim='d'
+    # mkrSim='d'
     # ax[0].plot(FN0+FN[i]*10, stiBiof[i],  marker=mkrSim, color=cl, linestyle='')
     ax[0].plot(FN0+totalNfert[i], stiBiof[i],  marker=mkrSim, color=cl, linestyle='')
     
@@ -481,6 +486,428 @@ for i in range(len(FN)):
     ax[3].plot(totalIrrig[i], stiLeach[i], marker=mkrSim, color=cl, linestyle='')
 
 
+
+
+
+
+
+########################################################
+### 2-1
+######################################################
+
+FN0=80
+Imax=10
+CNmax=5
+
+
+# FN =  np.array([1])
+# FN = np.arange(0,21,2)
+FN = np.arange(0,13,4)
+
+
+stiBiof, stiLeach, totalIrrig, totalNfert = np.zeros(FN.shape), np.zeros(FN.shape), np.zeros(FN.shape), np.zeros(FN.shape)
+
+
+
+for indx in range(len(FN)):
+    print('FN = ', FN[indx])
+    
+    #### Controls from bocop
+    dirBCP = cwd+'/../../bocophjb/maxBio_TotFerConstr_corn2013/maxTotFertig/maxFNbar20-I'+str(Imax)+'-CN'+str(CNmax)+'/'+str(FN[indx])
+    if FN0==160: # hi FN0
+        irrigCal_corn2013 = rdvl.readVals(dirBCP+"/corn2013-bcp-I-Ni18.csv")
+        fertiCal_corn2013 = rdvl.readVals(dirBCP+"/corn2013-bcp-Cn-Ni18.csv")
+    if FN0==80: # hi FN0
+        irrigCal_corn2013 = rdvl.readVals(dirBCP+"/corn2013-bcp-I-Ni12.csv")
+        fertiCal_corn2013 = rdvl.readVals(dirBCP+"/corn2013-bcp-Cn-Ni12.csv")
+    if FN0==40: # med FN0
+        irrigCal_corn2013 = rdvl.readVals(dirBCP+"/corn2013-bcp-I-Ni10.csv")
+        fertiCal_corn2013 = rdvl.readVals(dirBCP+"/corn2013-bcp-Cn-Ni10.csv")
+    if FN0==0: # low FN0
+        irrigCal_corn2013 = rdvl.readVals(dirBCP+"/corn2013-bcp-I-Ni7.csv")
+        fertiCal_corn2013 = rdvl.readVals(dirBCP+"/corn2013-bcp-Cn-Ni7.csv")
+    ### for bocop and MRAP
+    ### conversion of fertilization calendar from concentration to mass
+    fertiCal_corn2013[:,1] = fertiCal_corn2013[:,1]*irrigCal_corn2013[:,1] *10/0.7
+    ### and add first intervention before sowing
+    fertiCal_corn2013 = np.insert(fertiCal_corn2013, 0, [120,FN0], axis=0 )
+    irrigCal_corn2013 = irrigCal_corn2013[irrigCal_corn2013 [:,1]>0]
+    fertiCal_corn2013 = fertiCal_corn2013[fertiCal_corn2013 [:,1]>0]
+
+
+    #### STICS simulation
+    # set irragation calendar
+    stiIO.writeIrrigCal(tec_corn2013, irrigCal_corn2013)
+    # set fertilizer calendar
+    stiIO.writeFertiCal(tec_corn2013, fertiCal_corn2013)
+    # rum simulation
+    stiIO.runUSM(usm_corn2013)
+    ## load data
+    stiData_corn2013 = stiIO.loadData(sti_corn2013)
+    tSti, Lsti, Ssti, Nsti, Bsti = swanSti.loadSimu_fromSow(stiData_corn2013, tec_corn2013)
+    Csti = swanSti.laiTocanopy(Lsti)
+    #Final Biomass (STICS)  
+    stiBiof[indx]= Bsti[-1]/100 # T/ha
+    # N leached (STICS) 
+    stiLeach[indx]= np.sum(stiIO.Nleach(stiData_corn2013,tJul=tSti)) #kg/ha
+
+
+    ### use SWAN model for total N added...
+    mdl.t0=tSti[0]
+    mdl.tf=tSti[-1]
+    mdl.times = tSti
+    # set climate (ET0 and rain)
+    swanSti.pelakClimatFromSTICS(tSti, cli_corn2013)
+    ## set irragation
+    swanSti.pelakIrigFromStics(tSti, stiData_corn2013)
+    ## set fertigation
+    swanSti.pelakFertiFromStics(tSti, stiData_corn2013)
+ 
+    totalIrrig[indx] = np.trapz(mdl.Irig(mdl.times), x=mdl.times)
+    totalNfert[indx] = np.trapz(mdl.Irig(mdl.times)*mdl.Cn(mdl.times), x=mdl.times)*10
+
+
+
+###### plot pareto front
+clSim = 'tab:orange'
+
+# ax[0].plot(FN0+FN*10, stiBiof,  color=clSim)
+# ax[0].plot(FN0+totalNfert, stiBiof,  ls='--', color=clSim, label='$F_{N0}$= '+str(FN0)+', $I_{max}$ = '+str(Imax)+', $C_{Nmax}$ = '+str(CNmax/100))
+ax[0].plot(FN0+totalNfert, stiBiof,  ls='--', color=clSim, label='$I_{max}$ = '+str(Imax)+'mm, $C_{Nmax}$ = '+str(CNmax/100)+' g L$^{-1}$')
+
+ax[1].plot(totalIrrig, stiBiof,  ls='--', color=clSim)
+
+ax[2].plot(FN0+totalNfert, stiLeach,  ls='--', color=clSim)
+
+ax[3].plot(totalIrrig, stiLeach,  ls='--', color=clSim)
+
+for i in range(len(FN)):
+    cl = clr[i%13]
+    mkrSim='1'
+    # ax[0].plot(FN0+FN[i]*10, stiBiof[i],  marker=mkrSim, color=cl, linestyle='')
+    ax[0].plot(FN0+totalNfert[i], stiBiof[i],  marker=mkrSim, color=cl, linestyle='')
+    
+    ax[1].plot(totalIrrig[i], stiBiof[i],  marker=mkrSim, color=cl, linestyle='')
+    
+    # ax[2].plot(stiLeach[i], stiBiof[i],  marker=mkrSim, color=cl, linestyle='')
+    ax[2].plot(FN0+totalNfert[i], stiLeach[i],  marker=mkrSim, color=cl, linestyle='')
+
+    ax[3].plot(totalIrrig[i], stiLeach[i], marker=mkrSim, color=cl, linestyle='')
+
+
+
+
+
+
+
+
+
+
+##########################################################
+### 2-2
+##########################################################
+
+FN0=80
+Imax=10
+CNmax=3
+
+
+
+
+for indx in range(len(FN)):
+    print('FN = ', FN[indx])
+    
+    #### Controls from bocop
+    dirBCP = cwd+'/../../bocophjb/maxBio_TotFerConstr_corn2013/maxTotFertig/maxFNbar20-I'+str(Imax)+'-CN'+str(CNmax)+'/'+str(FN[indx])
+    if FN0==160: # hi FN0
+        irrigCal_corn2013 = rdvl.readVals(dirBCP+"/corn2013-bcp-I-Ni18.csv")
+        fertiCal_corn2013 = rdvl.readVals(dirBCP+"/corn2013-bcp-Cn-Ni18.csv")
+    if FN0==80: # hi FN0
+        irrigCal_corn2013 = rdvl.readVals(dirBCP+"/corn2013-bcp-I-Ni12.csv")
+        fertiCal_corn2013 = rdvl.readVals(dirBCP+"/corn2013-bcp-Cn-Ni12.csv")
+    if FN0==40: # med FN0
+        irrigCal_corn2013 = rdvl.readVals(dirBCP+"/corn2013-bcp-I-Ni10.csv")
+        fertiCal_corn2013 = rdvl.readVals(dirBCP+"/corn2013-bcp-Cn-Ni10.csv")
+    if FN0==0: # low FN0
+        irrigCal_corn2013 = rdvl.readVals(dirBCP+"/corn2013-bcp-I-Ni7.csv")
+        fertiCal_corn2013 = rdvl.readVals(dirBCP+"/corn2013-bcp-Cn-Ni7.csv")
+    ### for bocop and MRAP
+    ### conversion of fertilization calendar from concentration to mass
+    fertiCal_corn2013[:,1] = fertiCal_corn2013[:,1]*irrigCal_corn2013[:,1] *10/0.7
+    ### and add first intervention before sowing
+    fertiCal_corn2013 = np.insert(fertiCal_corn2013, 0, [120,FN0], axis=0 )
+    irrigCal_corn2013 = irrigCal_corn2013[irrigCal_corn2013 [:,1]>0]
+    fertiCal_corn2013 = fertiCal_corn2013[fertiCal_corn2013 [:,1]>0]
+
+
+    #### STICS simulation
+    # set irragation calendar
+    stiIO.writeIrrigCal(tec_corn2013, irrigCal_corn2013)
+    # set fertilizer calendar
+    stiIO.writeFertiCal(tec_corn2013, fertiCal_corn2013)
+    # rum simulation
+    stiIO.runUSM(usm_corn2013)
+    ## load data
+    stiData_corn2013 = stiIO.loadData(sti_corn2013)
+    tSti, Lsti, Ssti, Nsti, Bsti = swanSti.loadSimu_fromSow(stiData_corn2013, tec_corn2013)
+    Csti = swanSti.laiTocanopy(Lsti)
+    #Final Biomass (STICS)  
+    stiBiof[indx]= Bsti[-1]/100 # T/ha
+    # N leached (STICS) 
+    stiLeach[indx]= np.sum(stiIO.Nleach(stiData_corn2013,tJul=tSti)) #kg/ha
+
+
+    ### use SWAN model for total N added...
+    mdl.t0=tSti[0]
+    mdl.tf=tSti[-1]
+    mdl.times = tSti
+    # set climate (ET0 and rain)
+    swanSti.pelakClimatFromSTICS(tSti, cli_corn2013)
+    ## set irragation
+    swanSti.pelakIrigFromStics(tSti, stiData_corn2013)
+    ## set fertigation
+    swanSti.pelakFertiFromStics(tSti, stiData_corn2013)
+ 
+    totalIrrig[indx] = np.trapz(mdl.Irig(mdl.times), x=mdl.times)
+    totalNfert[indx] = np.trapz(mdl.Irig(mdl.times)*mdl.Cn(mdl.times), x=mdl.times)*10
+
+
+
+###### plot pareto front
+clSim = 'tab:blue'
+
+# ax[0].plot(FN0+FN*10, stiBiof,  color=clSim)
+# ax[0].plot(FN0+totalNfert, stiBiof,  color=clSim, label='$F_{N0}$= '+str(FN0)+', $I_{max}$ = '+str(Imax)+', $C_{Nmax}$ = '+str(CNmax/100))
+ax[0].plot(FN0+totalNfert, stiBiof, ls='--', color=clSim, label='$I_{max}$ = '+str(Imax)+'mm, $C_{Nmax}$ = '+str(CNmax/100)+' g L$^{-1}$')
+
+ax[1].plot(totalIrrig, stiBiof, ls='--', color=clSim)
+
+ax[2].plot(FN0+totalNfert, stiLeach, ls='--', color=clSim)
+
+ax[3].plot(totalIrrig, stiLeach, ls='--', color=clSim)
+
+for i in range(len(FN)):
+    cl = clr[i%13]
+    mkrSim='x'
+    # ax[0].plot(FN0+FN[i]*10, stiBiof[i],  marker=mkrSim, color=cl, linestyle='')
+    ax[0].plot(FN0+totalNfert[i], stiBiof[i],  marker=mkrSim, color=cl, linestyle='')
+    
+    ax[1].plot(totalIrrig[i], stiBiof[i],  marker=mkrSim, color=cl, linestyle='')
+    
+    # ax[2].plot(stiLeach[i], stiBiof[i],  marker=mkrSim, color=cl, linestyle='')
+    ax[2].plot(FN0+totalNfert[i], stiLeach[i],  marker=mkrSim, color=cl, linestyle='')
+
+    ax[3].plot(totalIrrig[i], stiLeach[i], marker=mkrSim, color=cl, linestyle='')
+
+
+
+
+
+
+
+
+
+
+##########################################################
+### 2-3
+##########################################################
+
+FN0=80
+Imax=30
+CNmax=5
+
+
+for indx in range(len(FN)):
+    print('FN = ', FN[indx])
+    
+    #### Controls from bocop
+    dirBCP = cwd+'/../../bocophjb/maxBio_TotFerConstr_corn2013/maxTotFertig/maxFNbar20-I'+str(Imax)+'-CN'+str(CNmax)+'/'+str(FN[indx])
+    if FN0==160: # hi FN0
+        irrigCal_corn2013 = rdvl.readVals(dirBCP+"/corn2013-bcp-I-Ni18.csv")
+        fertiCal_corn2013 = rdvl.readVals(dirBCP+"/corn2013-bcp-Cn-Ni18.csv")
+    if FN0==80: # hi FN0
+        irrigCal_corn2013 = rdvl.readVals(dirBCP+"/corn2013-bcp-I-Ni12.csv")
+        fertiCal_corn2013 = rdvl.readVals(dirBCP+"/corn2013-bcp-Cn-Ni12.csv")
+    if FN0==40: # med FN0
+        irrigCal_corn2013 = rdvl.readVals(dirBCP+"/corn2013-bcp-I-Ni10.csv")
+        fertiCal_corn2013 = rdvl.readVals(dirBCP+"/corn2013-bcp-Cn-Ni10.csv")
+    if FN0==0: # low FN0
+        irrigCal_corn2013 = rdvl.readVals(dirBCP+"/corn2013-bcp-I-Ni7.csv")
+        fertiCal_corn2013 = rdvl.readVals(dirBCP+"/corn2013-bcp-Cn-Ni7.csv")
+    ### for bocop and MRAP
+    ### conversion of fertilization calendar from concentration to mass
+    fertiCal_corn2013[:,1] = fertiCal_corn2013[:,1]*irrigCal_corn2013[:,1] *10/0.7
+    ### and add first intervention before sowing
+    fertiCal_corn2013 = np.insert(fertiCal_corn2013, 0, [120,FN0], axis=0 )
+    irrigCal_corn2013 = irrigCal_corn2013[irrigCal_corn2013 [:,1]>0]
+    fertiCal_corn2013 = fertiCal_corn2013[fertiCal_corn2013 [:,1]>0]
+
+
+    #### STICS simulation
+    # set irragation calendar
+    stiIO.writeIrrigCal(tec_corn2013, irrigCal_corn2013)
+    # set fertilizer calendar
+    stiIO.writeFertiCal(tec_corn2013, fertiCal_corn2013)
+    # rum simulation
+    stiIO.runUSM(usm_corn2013)
+    ## load data
+    stiData_corn2013 = stiIO.loadData(sti_corn2013)
+    tSti, Lsti, Ssti, Nsti, Bsti = swanSti.loadSimu_fromSow(stiData_corn2013, tec_corn2013)
+    Csti = swanSti.laiTocanopy(Lsti)
+    #Final Biomass (STICS)  
+    stiBiof[indx]= Bsti[-1]/100 # T/ha
+    # N leached (STICS) 
+    stiLeach[indx]= np.sum(stiIO.Nleach(stiData_corn2013,tJul=tSti)) #kg/ha
+
+
+    ### use SWAN model for total N added...
+    mdl.t0=tSti[0]
+    mdl.tf=tSti[-1]
+    mdl.times = tSti
+    # set climate (ET0 and rain)
+    swanSti.pelakClimatFromSTICS(tSti, cli_corn2013)
+    ## set irragation
+    swanSti.pelakIrigFromStics(tSti, stiData_corn2013)
+    ## set fertigation
+    swanSti.pelakFertiFromStics(tSti, stiData_corn2013)
+ 
+    totalIrrig[indx] = np.trapz(mdl.Irig(mdl.times), x=mdl.times)
+    totalNfert[indx] = np.trapz(mdl.Irig(mdl.times)*mdl.Cn(mdl.times), x=mdl.times)*10
+
+
+
+###### plot pareto front
+clSim = 'tab:gray'
+
+# ax[0].plot(FN0+FN*10, stiBiof, ls='--', color=clSim)
+# ax[0].plot(FN0+totalNfert, stiBiof, ls='--', color=clSim, label='$F_{N0}$= '+str(FN0)+', $I_{max}$ = '+str(Imax)+', $C_{Nmax}$ = '+str(CNmax/100))
+ax[0].plot(FN0+totalNfert, stiBiof, ls='--', color=clSim, label='$I_{max}$ = '+str(Imax)+'mm, $C_{Nmax}$ = '+str(CNmax/100)+' g L$^{-1}$')
+
+ax[1].plot(totalIrrig, stiBiof, ls='--', color=clSim)
+
+ax[2].plot(FN0+totalNfert, stiLeach, ls='--', color=clSim)
+
+ax[3].plot(totalIrrig, stiLeach, ls='--', color=clSim)
+
+for i in range(len(FN)):
+    cl = clr[i%13]
+    mkrSim='+'
+    # ax[0].plot(FN0+FN[i]*10, stiBiof[i],  marker=mkrSim, color=cl, linestyle='')
+    ax[0].plot(FN0+totalNfert[i], stiBiof[i],  marker=mkrSim, color=cl, linestyle='')
+    
+    ax[1].plot(totalIrrig[i], stiBiof[i],  marker=mkrSim, color=cl, linestyle='')
+    
+    # ax[2].plot(stiLeach[i], stiBiof[i],  marker=mkrSim, color=cl, linestyle='')
+    ax[2].plot(FN0+totalNfert[i], stiLeach[i],  marker=mkrSim, color=cl, linestyle='')
+
+    ax[3].plot(totalIrrig[i], stiLeach[i], marker=mkrSim, color=cl, linestyle='')
+
+
+
+
+
+
+
+
+
+##########################################################
+### 2-4
+##########################################################
+
+FN0=80
+Imax=30
+CNmax=3
+
+
+# FN =  np.array([0])
+# FN = np.arange(0,21,2)
+
+
+for indx in range(len(FN)):
+    print('FN = ', FN[indx])
+    
+    #### Controls from bocop
+    dirBCP = cwd+'/../../bocophjb/maxBio_TotFerConstr_corn2013/maxTotFertig/maxFNbar20-I'+str(Imax)+'-CN'+str(CNmax)+'/'+str(FN[indx])
+    if FN0==160: # hi FN0
+        irrigCal_corn2013 = rdvl.readVals(dirBCP+"/corn2013-bcp-I-Ni18.csv")
+        fertiCal_corn2013 = rdvl.readVals(dirBCP+"/corn2013-bcp-Cn-Ni18.csv")
+    if FN0==80: # hi FN0
+        irrigCal_corn2013 = rdvl.readVals(dirBCP+"/corn2013-bcp-I-Ni12.csv")
+        fertiCal_corn2013 = rdvl.readVals(dirBCP+"/corn2013-bcp-Cn-Ni12.csv")
+    if FN0==40: # med FN0
+        irrigCal_corn2013 = rdvl.readVals(dirBCP+"/corn2013-bcp-I-Ni10.csv")
+        fertiCal_corn2013 = rdvl.readVals(dirBCP+"/corn2013-bcp-Cn-Ni10.csv")
+    if FN0==0: # low FN0
+        irrigCal_corn2013 = rdvl.readVals(dirBCP+"/corn2013-bcp-I-Ni7.csv")
+        fertiCal_corn2013 = rdvl.readVals(dirBCP+"/corn2013-bcp-Cn-Ni7.csv")
+    ### for bocop and MRAP
+    ### conversion of fertilization calendar from concentration to mass
+    fertiCal_corn2013[:,1] = fertiCal_corn2013[:,1]*irrigCal_corn2013[:,1] *10/0.7
+    ### and add first intervention before sowing
+    fertiCal_corn2013 = np.insert(fertiCal_corn2013, 0, [120,FN0], axis=0 )
+    irrigCal_corn2013 = irrigCal_corn2013[irrigCal_corn2013 [:,1]>0]
+    fertiCal_corn2013 = fertiCal_corn2013[fertiCal_corn2013 [:,1]>0]
+
+
+    #### STICS simulation
+    # set irragation calendar
+    stiIO.writeIrrigCal(tec_corn2013, irrigCal_corn2013)
+    # set fertilizer calendar
+    stiIO.writeFertiCal(tec_corn2013, fertiCal_corn2013)
+    # rum simulation
+    stiIO.runUSM(usm_corn2013)
+    ## load data
+    stiData_corn2013 = stiIO.loadData(sti_corn2013)
+    tSti, Lsti, Ssti, Nsti, Bsti = swanSti.loadSimu_fromSow(stiData_corn2013, tec_corn2013)
+    Csti = swanSti.laiTocanopy(Lsti)
+    #Final Biomass (STICS)  
+    stiBiof[indx]= Bsti[-1]/100 # T/ha
+    # N leached (STICS) 
+    stiLeach[indx]= np.sum(stiIO.Nleach(stiData_corn2013,tJul=tSti)) #kg/ha
+
+
+    ### use SWAN model for total N added...
+    mdl.t0=tSti[0]
+    mdl.tf=tSti[-1]
+    mdl.times = tSti
+    # set climate (ET0 and rain)
+    swanSti.pelakClimatFromSTICS(tSti, cli_corn2013)
+    ## set irragation
+    swanSti.pelakIrigFromStics(tSti, stiData_corn2013)
+    ## set fertigation
+    swanSti.pelakFertiFromStics(tSti, stiData_corn2013)
+ 
+    totalIrrig[indx] = np.trapz(mdl.Irig(mdl.times), x=mdl.times)
+    totalNfert[indx] = np.trapz(mdl.Irig(mdl.times)*mdl.Cn(mdl.times), x=mdl.times)*10
+
+
+
+###### plot pareto front
+clSim = 'tab:red'
+
+# ax[0].plot(FN0+FN*10, stiBiof, ls='--', color=clSim)
+# ax[0].plot(FN0+totalNfert, stiBiof, ls='--', color=clSim, label='$F_{N0}$= '+str(FN0)+', $I_{max}$ = '+str(Imax)+', $C_{Nmax}$ = '+str(CNmax/100))
+ax[0].plot(FN0+totalNfert, stiBiof, ls='--', color=clSim, label='$I_{max}$ = '+str(Imax)+'mm, $C_{Nmax}$ = '+str(CNmax/100)+' g L$^{-1}$')
+
+ax[1].plot(totalIrrig, stiBiof, ls='--', color=clSim)
+
+ax[2].plot(FN0+totalNfert, stiLeach, ls='--', color=clSim)
+
+ax[3].plot(totalIrrig, stiLeach, ls='--', color=clSim)
+
+for i in range(len(FN)):
+    cl = clr[i%13]
+    mkrSim='1'
+    # mkrSim='d'
+    # ax[0].plot(FN0+FN[i]*10, stiBiof[i],  marker=mkrSim, color=cl, linestyle='')
+    ax[0].plot(FN0+totalNfert[i], stiBiof[i],  marker=mkrSim, color=cl, linestyle='')
+    
+    ax[1].plot(totalIrrig[i], stiBiof[i],  marker=mkrSim, color=cl, linestyle='')
+    
+    # ax[2].plot(stiLeach[i], stiBiof[i],  marker=mkrSim, color=cl, linestyle='')
+    ax[2].plot(FN0+totalNfert[i], stiLeach[i],  marker=mkrSim, color=cl, linestyle='')
+
+    ax[3].plot(totalIrrig[i], stiLeach[i], marker=mkrSim, color=cl, linestyle='')
 
 
 
@@ -565,24 +992,24 @@ for i in range(len(FN)):
 
 ########## finish pareto front plot
 
-from matplotlib.lines import Line2D
-legend_elements = [ 
-                    Line2D([0], [0], color='b', marker='d', ls='', label= 'F$_{N0}$=160 kg ha$^{-1}$'),
-                    Line2D([0], [0], color='tab:orange', label='F$_{N0}$=80 kg ha$^{-1}$'), 
-                    Line2D([0], [0], color='tab:blue', label= 'F$_{N0}$=40 kg ha$^{-1}$'),
-                    Line2D([0], [0], color='tab:gray', label= 'F$_{N0}$=0 kg ha$^{-1}$')   
-                    ]
+# from matplotlib.lines import Line2D
+# legend_elements = [ 
+#                     Line2D([0], [0], color='b', marker='d', ls='', label= 'F$_{N0}$=160 kg ha$^{-1}$'),
+#                     Line2D([0], [0], color='tab:orange', label='F$_{N0}$=80 kg ha$^{-1}$'), 
+#                     Line2D([0], [0], color='tab:blue', label= 'F$_{N0}$=40 kg ha$^{-1}$'),
+#                     Line2D([0], [0], color='tab:gray', label= 'F$_{N0}$=0 kg ha$^{-1}$')   
+#                     ]
 
-fig.legend(handles=legend_elements,loc='lower center', ncol=2)
-# fig.subplots_adjust(bottom=0.75)   
-fig.tight_layout(rect=[0,0.1,1,1])
-
-
-
-
-# handles, labels = ax[0].get_legend_handles_labels()
-# fig.legend(handles, labels,loc='lower center', ncol=2)
+# fig.legend(handles=legend_elements,loc='lower center', ncol=2)
+# # fig.subplots_adjust(bottom=0.75)   
 # fig.tight_layout(rect=[0,0.1,1,1])
+
+
+
+
+handles, labels = ax[0].get_legend_handles_labels()
+fig.legend(handles[:4], labels[:4],loc='lower center', ncol=2)
+fig.tight_layout(rect=[0,0.1,1,1])
 
 
 

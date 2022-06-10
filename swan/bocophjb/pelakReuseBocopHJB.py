@@ -151,7 +151,7 @@ for indx,FN in enumerate(FNs):
     # ET0Bocop('/home/ahaddon/Dropbox/Work/ReUse/code/plantSoilDyn/swan/bocophjb/maxBio_TotFerConstr_mlus/data/ET0_mlus96')
 
     ### corn2013
-    dir='/maxBio_TotFerConstr_corn2013/maxTotFertig/maxFNbar20-I30-CN5/'+str(FN)+'/'
+    dir='/maxBio_TotFerConstr_corn2013/maxTotFertig/maxFNbar20-I10-CN3/'+str(FN)+'/'
     paramFile = cwd+'/../paramFit/corn2013/params_swan_Iref_Corn2013'
     rainBocop(maindir+'/maxBio_TotFerConstr_corn2013/data/rain_corn2013')
     ET0Bocop(maindir+'/maxBio_TotFerConstr_corn2013/data/ET0_corn2013')
@@ -205,8 +205,8 @@ for indx,FN in enumerate(FNs):
 
     ## corn2013
     tSti = np.arange(128,247)
-    wrt.writeValstoFile(dirCtrl+ "corn2013-bcp-I-Ni18.csv", np.array( [tSti, mdl.Irig(tSti-tSti[0]) ]).T   )
-    wrt.writeValstoFile(dirCtrl + "corn2013-bcp-Cn-Ni18.csv", np.array( [tSti, mdl.Cn(tSti-tSti[0]) ]).T   )
+    wrt.writeValstoFile(dirCtrl+ "corn2013-bcp-I-Ni12.csv", np.array( [tSti, mdl.Irig(tSti-tSti[0]) ]).T   )
+    wrt.writeValstoFile(dirCtrl + "corn2013-bcp-Cn-Ni12.csv", np.array( [tSti, mdl.Cn(tSti-tSti[0]) ]).T   )
 
     ## mlus
     # tSti = np.arange(138,311)

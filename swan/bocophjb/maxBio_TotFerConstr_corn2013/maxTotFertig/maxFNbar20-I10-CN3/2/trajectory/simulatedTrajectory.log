@@ -82,8 +82,8 @@ simulatedTrajectory.noise none
 simulatedTrajectory.starting.mode -1
 simulatedTrajectory.starting.state.0 0.0082
 simulatedTrajectory.starting.state.1 0.379
-simulatedTrajectory.starting.state.2  18.428
-simulatedTrajectory.starting.state.3  18
+simulatedTrajectory.starting.state.2  12.824
+simulatedTrajectory.starting.state.3  17.999
 
 # ProcessLaw:
 # Computation: true; false
@@ -98,14 +98,14 @@ processLaw.initial.path processLaw/initialDistribution/
 *** TRAJECTORY SIMULATION *** 
 ***************************** 
 
-Objective value (from value function): -195.008 and simulated: -2024.88
-(running cost: -2024.88, switching cost: 0 and final cost: 0)
+Objective value (from value function): -153.257 and simulated: -1601.35
+(running cost: -1601.35, switching cost: 0 and final cost: 0)
 
 grad(V)(x0,t0) estimations
-Centered: -598.115
-Downwind: -1434.82
+Centered: -341.447
+Downwind: -682.486
 Upwind  : 0
 
-Time spent to simulate optimal trajectory: 1.89387 s
-Time spent to save the trajectory: 0.000452744 s
+Time spent to simulate optimal trajectory: 1.85974 s
+Time spent to save the trajectory: 0.000556554 s
 

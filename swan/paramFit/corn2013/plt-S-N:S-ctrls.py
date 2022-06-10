@@ -67,9 +67,9 @@ ax[0,1].yaxis.set_ticks(np.linspace(start, end, numYticks))
 
 ax[1,0].set(title='Irrigation', ylabel=r'[mm d$^{-1}$]')
 ax[1,0].set(xlabel="Time [d]")
-ax[1,0].set_ylim( 0 , 30)
+ax[1,0].set_ylim( 0 , 31)
 start, end = ax[1,0].get_ylim()
-ax[1,0].yaxis.set_ticks(np.linspace(start, end, numYticks))
+ax[1,0].yaxis.set_ticks(np.linspace(start, 30, numYticks))
 
 # ax[1,1].set(title='Fertilisation', ylabel='[g m$^{-2}$ d$^{-1}$]')
 # ax[1,1].set_ylim( 0 , 1.5)
@@ -81,9 +81,9 @@ ax[1,1].yaxis.set_ticks(np.linspace(start, end, numYticks))
 
 ax[2,0].set(title='Water Leakage', ylabel=r'[mm d$^{-1}$]')
 ax[2,0].set(xlabel="Time - day of year")
-ax[2,0].set_ylim( 0 , 30)
+ax[2,0].set_ylim( 0 , 50)
 start, end = ax[2,0].get_ylim()
-ax[2,0].yaxis.set_ticks(np.linspace(start, 30, numYticks))
+ax[2,0].yaxis.set_ticks(np.linspace(start, end, numYticks))
 
 ax[2,1].set(title=r'Leachate N Concentration', ylabel=r'[g L$^{-1}$]')
 ax[2,1].set(xlabel="Time - day of year")
@@ -119,7 +119,7 @@ for a in ax:
 FN0= 0
 FN = 16
 Imax=10
-CNmax=3
+CNmax=5
 
 
 print('FN = ', FN)
@@ -194,7 +194,7 @@ ax[0,1].plot(tSti, Nsti/(Ssti*mdl.Z), color='tab:orange')
 
 ax[1,0].plot(tSti, mdl.Irig(tSti), color='tab:orange')
 # ax[1,1].plot(tSti, mdl.Irig(tSti)*mdl.Cn(tSti), color='tab:orange')
-ax[1,1].plot(tSti, mdl.Cn(tSti), color='tab:orange', label=r"$\overline{F} =$ "+str(FN*10)+" kg ha$^{-1}$, F$_{N0}$ = "+str(FN0*10)+" kg ha$^{-1}$")
+ax[1,1].plot(tSti, mdl.Cn(tSti), color='tab:orange', label=r"$\overline{F} =$ "+str(FN*10)+" kg ha$^{-1}$, F$_{N0}$ = "+str(FN0*10)+" kg ha$^{-1}$"+", I$_{max}$ = "+str(Imax)+" mm d$^{-1}$, $C_{N max}$ = "+str(CNmax/100)+" g L$^{-1}$")
 
 # if FN0>0:
 #     ax[1,1].bar(fertiCal_corn2013[0,0], fertiCal_corn2013[0,1], color='tab:orange' )
@@ -224,7 +224,7 @@ ax[2,1].plot(tSti, CNleach,  color='tab:orange')
 
 FN0= 0
 FN = 16
-Imax=30
+Imax=10
 CNmax=3
 
 print('FN = ', FN)
@@ -300,7 +300,7 @@ ax[0,1].plot(tSti, Nsti/(Ssti*mdl.Z), color='tab:blue')
 
 ax[1,0].plot(tSti, mdl.Irig(tSti), color='tab:blue')
 # ax[1,1].plot(tSti, mdl.Irig(tSti)*mdl.Cn(tSti), color='tab:blue')
-ax[1,1].plot(tSti, mdl.Cn(tSti), color='tab:blue', label=r"$\overline{F} =$ "+str(FN*10)+" kg ha$^{-1}$, F$_{N0}$ = "+str(FN0*10)+" kg ha$^{-1}$")
+ax[1,1].plot(tSti, mdl.Cn(tSti), color='tab:blue', label=r"$\overline{F} =$ "+str(FN*10)+" kg ha$^{-1}$, F$_{N0}$ = "+str(FN0*10)+" kg ha$^{-1}$"+", I$_{max}$ = "+str(Imax)+" mm d$^{-1}$, $C_{N max}$ = "+str(CNmax/100)+" g L$^{-1}$")
 
 # if FN0>0:
 #     ax[1,1].bar(fertiCal_corn2013[0,0], fertiCal_corn2013[0,1], color='tab:blue' )
@@ -327,10 +327,10 @@ ax[2,1].plot(tSti, CNleach,  color='tab:blue')
 ### 3
 ######################################################
 
-FN0= 0
-FN = 16
-Imax=30
-CNmax=5
+FN0= 8
+FN = 8
+Imax=10
+CNmax=3
 
 print('FN = ', FN)
     
@@ -405,7 +405,7 @@ ax[0,1].plot(tSti, Nsti/(Ssti*mdl.Z), color='tab:gray')
 
 ax[1,0].plot(tSti, mdl.Irig(tSti), color='tab:gray')
 # ax[1,1].plot(tSti, mdl.Irig(tSti)*mdl.Cn(tSti), color='tab:gray')
-ax[1,1].plot(tSti, mdl.Cn(tSti), color='tab:gray', label=r"$\overline{F} =$ "+str(FN*10)+" kg ha$^{-1}$, F$_{N0}$ = "+str(FN0*10)+" kg ha$^{-1}$")
+ax[1,1].plot(tSti, mdl.Cn(tSti), color='tab:gray', label=r"$\overline{F} =$ "+str(FN*10)+" kg ha$^{-1}$, F$_{N0}$ = "+str(FN0*10)+" kg ha$^{-1}$"+", I$_{max}$ = "+str(Imax)+" mm d$^{-1}$, $C_{N max}$ = "+str(CNmax/100)+" g L$^{-1}$")
 
 # if FN0>0:
 #     ax[1,1].bar(fertiCal_corn2013[0,0], fertiCal_corn2013[0,1], color='tab:gray' )
@@ -489,7 +489,8 @@ ax[0,1].plot([tSti[0], tSti[-1]], [mdl.etaC, mdl.etaC], 'r--', label=r'$\eta_{c}
 ax[1,0].plot(tSti, stiIO.readClimate('ET0',cli_corn2013)[ int(tSti[0])-1:int(tSti[-1]) ], color='tab:brown', label='ET$_0$' )
 ax[2,0].bar(tSti, stiIO.readClimate('rain',cli_corn2013)[ int(tSti[0])-1:int(tSti[-1]) ], color='k', label='Rain' )
 
-
+Cncrit = 11.29 /1000
+ax[2,1].plot([tSti[0], tSti[-1]], [Cncrit, Cncrit], 'r--', label=r'$C_{Ncrit}$')
 
 
 
@@ -500,6 +501,7 @@ ax[0,1].legend()
 ax[1,0].legend()
 leg=ax[2,0].legend()
 leg.legendHandles[-1].set(height=1.5,y=3)
+ax[2,1].legend()
 
 
 # from matplotlib.lines import Line2D

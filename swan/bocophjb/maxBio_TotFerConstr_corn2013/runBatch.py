@@ -42,8 +42,8 @@ maxtime=10000
 
 
 maxFNbar = 20
-maxI=30
-maxCN=5
+maxI=10
+maxCN=3
 setDir('maxTotFertig/maxFNbar'+str(maxFNbar)+'-I'+str(maxI)+'-CN'+str(maxCN))
 
 # FN(T)=<maxFNbar
@@ -92,17 +92,17 @@ for FNbar in maxTotFertig:
     # FN(t) = FN(0)+ \int_0^t I*Cn dt
     # constraint on total fertig : \int_0^Tf I*Cn dt<=FNbar -> FN(Tf) - FN(0)=<FNbar
     # imposed with FN(0) = maxFNbar - FNbar and FN(T)=<maxFNbar
-    bcpUtls.setInDef('simulatedTrajectory.starting.state.3', '', str(maxFNbar-FNbar) )
+    bcpUtls.setInDef('simulatedTrajectory.starting.state.3', '', str(maxFNbar-FNbar-0.001) )
     if FNbar == 0:
-        bcpUtls.setInDef('simulatedTrajectory.starting.state.3', '', str(maxFNbar-0.00001) )
+        bcpUtls.setInDef('simulatedTrajectory.starting.state.3', '', str(maxFNbar-0.001) )
     if FNbar == maxFNbar:
-        bcpUtls.setInDef('simulatedTrajectory.starting.state.3', '', str(0.00001) )
+        bcpUtls.setInDef('simulatedTrajectory.starting.state.3', '', str(0.001) )
 
     #N0
-    # bcpUtls.setInDef('simulatedTrajectory.starting.state.2', '', str(12.824) )
+    bcpUtls.setInDef('simulatedTrajectory.starting.state.2', '', str(12.824) )
     # bcpUtls.setInDef('simulatedTrajectory.starting.state.2', '', str(10.022) )
     # bcpUtls.setInDef('simulatedTrajectory.starting.state.2', '', str(7.221) )
-    bcpUtls.setInDef('simulatedTrajectory.starting.state.2', '', str(18.428) )
+    # bcpUtls.setInDef('simulatedTrajectory.starting.state.2', '', str(18.428) )
 
 
     bcpUtls.buildProblem(0,0,0)

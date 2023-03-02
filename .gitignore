@@ -1,0 +1,21 @@
+# Specify filepatterns you want git to ignore.
+*sublime*
+
+stics/viability
+stics/usmMais
+stics/lusignan9697
+stics/lettuceMurviel
+stics/landes
+stics/corn*
+stics/bj
+
+#bocop
+**/build
+**/data
+**/init
+**/__pycache__
+**/controlDisc
+**/maxTotFertig
+
+**/fig*
+**/meteo-gaillac

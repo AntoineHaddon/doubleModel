@@ -1,13 +1,13 @@
 # Double Modélisation 
-Méthode pour résoudre un problème de controle optimal d'irrigation et de fertilisation pour le modèle complexe STICS en utilisant un modèle réduit SWAN (Soil WAter Nitrogen)
+Method to solve an optimal control probleme, applied here to crop irrigation and fertilisation, with complex model STICS and simple model SWAN (Soil WAter Nitrogen)
 voir article
 
-# Dépendance
+# Dependencies
 STICS : [https://www6.paca.inrae.fr/stics/](https://www6.paca.inrae.fr/stics/)
 
 Bocop(HJB) :  [https://www.bocop.org/](https://www.bocop.org/)
 
-Python libarires : numpy, pandas, matplotlib, ...
+Python libarires : numpy, pandas, matplotlib.
 
 
 # Running STICS

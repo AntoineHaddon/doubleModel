@@ -1,6 +1,7 @@
-# Double Modélisation 
-Method to solve an optimal control probleme, applied here to crop irrigation and fertilisation, with complex model STICS and simple model SWAN (Soil WAter Nitrogen)
-voir article
+# Double Modelling Method 
+Method to solve an optimal control probleme, applied here to crop irrigation and fertilisation, with complex model STICS and simple model SWAN (Soil WAter Nitrogen).
+
+See article
 
 # Dependencies
 STICS : [https://www6.paca.inrae.fr/stics/](https://www6.paca.inrae.fr/stics/)
